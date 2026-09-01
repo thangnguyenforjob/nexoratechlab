@@ -330,6 +330,235 @@ export const articles: Article[] = [
       },
     ],
   },
+  {
+    slug: "samsung-galaxy-s26-ultra-review",
+    title: "Samsung Galaxy S26 Ultra Review: A Smarter Camera and a Screen You Can Actually Hide",
+    dek: "Samsung's third-generation Galaxy AI phone adds a 200MP main camera with a wider aperture, a 5x telephoto, and a new Privacy Display — in a body that's thinner than last year's.",
+    excerpt:
+      "The Galaxy S26 Ultra pairs a 200MP main camera and 5x telephoto with a new Privacy Display mode, starting at $1,299 for 256GB.",
+    category: "Reviews",
+    topic: "Phones",
+    author: "Lan Pham",
+    date: "2026-08-18",
+    readTime: "7 min read",
+    gradient: ["#7c3aed", "#4f46e5"],
+    emoji: "📱",
+    image: {
+      src: "https://img.global.news.samsung.com/global/wp-content/uploads/2026/02/26034330/Samsung-Mobile-Galaxy-Unpacked-2026-Galaxy-S26-Series-A-First-Look_main1.jpg",
+      alt: "Samsung Galaxy S26 Ultra shown at Galaxy Unpacked 2026",
+      credit: "Samsung Newsroom",
+      creditUrl:
+        "https://news.samsung.com/global/galaxy-unpacked-2026-a-first-look-at-the-galaxy-s26-series-samsungs-most-intuitive-ai-phone-yet",
+    },
+    rating: 8.9,
+    pros: [
+      "200MP main camera now pairs with a wider aperture for genuinely better low light",
+      "50MP telephoto pushes to 5x optical, 10x optical-quality zoom",
+      "New Privacy Display can be toggled with a double-press of the side button",
+      "0.3mm thinner and lighter than the S25 Ultra despite the bigger camera hardware",
+    ],
+    cons: [
+      "Samsung still hasn't published battery capacity or charging wattage at launch",
+      "Third-party AI integrations (Gemini, Perplexity) add complexity to an already crowded AI menu",
+      "Starting price climbs to $1,299, with the 1TB model at $1,799",
+    ],
+    sources: [
+      {
+        title: "Galaxy Unpacked 2026: A First Look at the Galaxy S26 Series — Samsung Newsroom",
+        url: "https://news.samsung.com/global/galaxy-unpacked-2026-a-first-look-at-the-galaxy-s26-series-samsungs-most-intuitive-ai-phone-yet",
+      },
+      {
+        title: "Samsung confirms the Galaxy S26 Ultra price starts at $1,299 — SamMobile",
+        url: "https://www.sammobile.com/news/samsung-galaxy-s26-ultra-price/",
+      },
+    ],
+    content: [
+      {
+        body: [
+          "Samsung unveiled the Galaxy S26 series at Galaxy Unpacked on February 25, 2026, in San Francisco, with the S26 Ultra going up for preorder that same day and shipping March 11. It's the third phone generation built around Samsung's Galaxy AI platform, and the changes this year lean less on flashy new gimmicks and more on refining the camera and display hardware that actually gets used every day.",
+        ],
+      },
+      {
+        heading: "Design",
+        body: [
+          "The S26 Ultra is 0.3mm thinner than its predecessor and weighs 214 grams, a small but noticeable difference when you're holding a phone with this much camera hardware packed into it. Samsung is offering it in Cobalt Violet, Black, Sky Blue, and White, keeping the familiar flat-edged Ultra design language with a rounded curvature refinement across the lineup.",
+          "The headline design addition is Privacy Display, a screen mode that limits how much can be seen from a side angle without needing a separate physical screen protector. It can be assigned to a double-press of the side button, so switching it on when you sit down on a train or in an open office is a one-handed gesture rather than a trip through settings.",
+        ],
+      },
+      {
+        heading: "Camera",
+        body: [
+          "The rear camera system is built around a 200-megapixel wide-angle main sensor with a wider aperture than last year's model, aimed squarely at improving low-light performance rather than chasing more megapixels. The telephoto moves to a 50MP sensor with 5x true optical zoom and what Samsung calls 10x optical-quality zoom through in-sensor cropping and processing.",
+          "Samsung has also extended its AI image signal processor to the front camera for the first time, and paired it with an updated Nightography mode for after-dark shooting. On the software side, Photo Assist adds AI-driven object removal and object insertion, while Creative Studio generates text-to-image stickers directly on-device.",
+        ],
+      },
+      {
+        heading: "Galaxy AI",
+        body: [
+          "The AI feature set is the most crowded it's ever been on a Galaxy phone. Now Nudge surfaces context-aware suggestions based on what you're doing, Circle to Search expands to handle multi-element searches rather than a single circled object, and Samsung has wired in three separate assistants — its own Bixby, Google's Gemini, and Perplexity — rather than picking one. Whether that's a genuine convenience or just more menus to dig through will depend a lot on how much AI assistance you actually want baked into a phone.",
+        ],
+      },
+      {
+        heading: "Price and verdict",
+        body: [
+          "US pricing starts at $1,299 for 256GB, $1,499 for 512GB, and $1,799 for the 1TB model — in line with where the Ultra line has sat for the past couple of generations. Samsung didn't detail battery capacity or charging speeds in its initial announcement, which is a notable gap for a phone this expensive, and we'll update this review once those specifics are confirmed.",
+          "On the specs Samsung has confirmed, the S26 Ultra reads as an incremental but genuinely useful upgrade: a camera system built around real low-light improvements rather than headline megapixel counts, and a display feature — Privacy Display — that solves an everyday annoyance rather than a hypothetical one.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "samsung-galaxy-z-fold8-ultra-hands-on",
+    title: "Galaxy Z Fold8 Ultra Hands-On: Samsung's Thinnest Foldable Yet, at a $2,099.99 Starting Price",
+    dek: "A 4.1mm unfolded thickness, an 8-inch main display, and Snapdragon's 8 Elite Gen 5 chip — Samsung's new flagship foldable pushes the format further, for a price to match.",
+    excerpt:
+      "The Galaxy Z Fold8 Ultra is 4.1mm thick unfolded, runs Snapdragon 8 Elite Gen 5, and starts at $2,099.99, with preorders open through September 7.",
+    category: "Reviews",
+    topic: "Phones",
+    author: "Lan Pham",
+    date: "2026-08-27",
+    readTime: "6 min read",
+    gradient: ["#1e1b4b", "#6d28d9"],
+    emoji: "📖",
+    image: {
+      src: "https://img.global.news.samsung.com/global/wp-content/uploads/2026/07/22220302/Samsung-Mobile-Galaxy-Unpacked-July-2026-Galaxy-Z-Fold8-Ultra-Galaxy-Z-Fold8-Galaxy-Z-Flip8-A-First-Look_main1.jpg",
+      alt: "Samsung Galaxy Z Fold8 Ultra shown unfolded at Galaxy Unpacked July 2026",
+      credit: "Samsung Newsroom",
+      creditUrl:
+        "https://news.samsung.com/global/galaxy-unpacked-july-2026-a-first-look-at-galaxy-z-fold8-ultra-galaxy-z-fold8-and-galaxy-z-flip8",
+    },
+    pros: [
+      "4.1mm unfolded thickness and 215g weight are genuinely pocketable for an 8-inch tablet-phone",
+      "Snapdragon 8 Elite Gen 5 for Galaxy is the fastest chip Samsung has put in a foldable",
+      "New Flex Titanium hinge is built specifically to reduce the visible display crease",
+      "1TB configuration gets 16GB of RAM for heavier multitasking",
+    ],
+    cons: [
+      "Starts at $2,099.99 — roughly $800 more than the standard Galaxy S26 Ultra",
+      "The exclusive Green Shadow color is locked to Samsung.com and Samsung Experience Stores",
+      "Preorder window runs only through September 7, a tighter timeline than past Fold launches",
+    ],
+    sources: [
+      {
+        title:
+          "Galaxy Unpacked July 2026: A First Look at Galaxy Z Fold8 Ultra, Galaxy Z Fold8, and Galaxy Z Flip8 — Samsung Newsroom",
+        url: "https://news.samsung.com/global/galaxy-unpacked-july-2026-a-first-look-at-galaxy-z-fold8-ultra-galaxy-z-fold8-and-galaxy-z-flip8",
+      },
+      {
+        title: "Explore Galaxy Z Fold8 Ultra Design & Features — Samsung",
+        url: "https://www.samsung.com/us/smartphones/galaxy-z-fold8-ultra/",
+      },
+    ],
+    content: [
+      {
+        body: [
+          "Samsung used a July 2026 Galaxy Unpacked event to introduce a three-phone foldable lineup: the standard Galaxy Z Fold8, a new step-up Galaxy Z Fold8 Ultra, and the Galaxy Z Flip8. The Ultra is the one worth paying attention to if you want Samsung's most advanced foldable hardware, and after spending time with it, the thinness is what stands out first.",
+        ],
+      },
+      {
+        heading: "Thinner, and it shows",
+        body: [
+          "Unfolded, the Z Fold8 Ultra measures just 4.1mm thick and weighs 215 grams — figures that make it feel closer to a slightly thick slab phone than the small-tablet bulk earlier Fold generations carried. Samsung credits a new Flex Titanium hinge design for both the reduced thickness and a shallower visible crease down the middle of the 8-inch main display, a complaint that's followed the Fold line since its first generation.",
+        ],
+      },
+      {
+        heading: "Performance and software",
+        body: [
+          "Inside is Qualcomm's Snapdragon 8 Elite Gen 5 for Galaxy, paired with 12GB of RAM on the 256GB and 512GB configurations and 16GB on the 1TB model — the extra memory on the top tier is clearly aimed at users who actually run multiple apps side by side on that big inner screen. Software-wise, Samsung has built in Gemini Notebook for AI-assisted note-taking and research, along with an updated Now Nudge multitasking layer designed around the Fold's unfolded aspect ratio rather than treating it as an afterthought.",
+        ],
+      },
+      {
+        heading: "Battery and colors",
+        body: [
+          "The Z Fold8 Ultra carries a 5,000mAh battery, a meaningful capacity for a foldable this thin. Samsung is offering it in Violet Shadow, Graphite, and Cream broadly, with a fourth color, Green Shadow, sold exclusively through Samsung's own website and Experience Stores.",
+        ],
+      },
+      {
+        heading: "Price and verdict",
+        body: [
+          "Pricing starts at $2,099.99 (or $87.51 a month on Samsung's installment plan) before any trade-in credit, with 256GB and 512GB configurations at 12GB of RAM and a 1TB option bumping to 16GB. Preorders are open now through September 7, 2026.",
+          "That price puts real distance between the Fold8 Ultra and Samsung's own S26 Ultra, and it's a hard sell as anyone's only phone unless the bigger unfolded screen is something you'll use daily rather than occasionally. But as a statement of how thin and light a book-style foldable can get without giving up flagship-tier silicon, it's the most convincing Fold Samsung has shipped. We'll follow up with a full, long-term review after more time with the hinge and battery life under normal daily use.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "macbook-pro-m5-pro-max-review",
+    title: "MacBook Pro M5 Pro/M5 Max Review: More Memory Bandwidth Than Most Creative Pros Will Ever Need",
+    dek: "Apple's M5 Pro and M5 Max bring faster Neural Accelerators, up to 128GB of unified memory, and Thunderbolt 5 — in the same familiar 14-inch and 16-inch chassis.",
+    excerpt:
+      "The M5 Pro and M5 Max MacBook Pro add Neural Accelerators for AI workloads, up to 128GB of memory, and Wi-Fi 7, starting at $2,199.",
+    category: "Reviews",
+    topic: "Laptops",
+    author: "Minh Tran",
+    date: "2026-08-10",
+    readTime: "7 min read",
+    gradient: ["#3f3f46", "#09090b"],
+    emoji: "💻",
+    image: {
+      src: "https://www.apple.com/newsroom/images/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/article/Apple-MacBook-Pro-M5-Pro-and-M5-Max-Capture-One-260303_big.jpg.large.jpg",
+      alt: "MacBook Pro with M5 Pro and M5 Max running Capture One",
+      credit: "Apple Newsroom",
+      creditUrl:
+        "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/",
+    },
+    rating: 9.1,
+    pros: [
+      "M5 Max scales to 128GB of unified memory at 614GBps bandwidth — genuinely useful for large local AI models",
+      "Neural Accelerators built into every GPU core speed up on-device AI workloads",
+      "Thunderbolt 5, Wi-Fi 7, and Bluetooth 6 bring connectivity fully up to date",
+      "Apple claims up to 24 hours of battery life on the 16-inch M5 Pro",
+    ],
+    cons: [
+      "M5 Max models start at $3,599 — a steep jump from the M5 Pro tier",
+      "Display technology (Liquid Retina XDR, 120Hz ProMotion) is unchanged from the previous generation",
+      "8TB max storage and 128GB max memory are locked to the priciest M5 Max configurations",
+    ],
+    sources: [
+      {
+        title: "Apple introduces MacBook Pro with all-new M5 Pro and M5 Max — Apple Newsroom",
+        url: "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/",
+      },
+      {
+        title: "MacBook Pro M5 Pro & Max 2026 complete guide — Macworld",
+        url: "https://www.macworld.com/article/2942089/macbook-pro-m5-pro-max-release-specs-price.html",
+      },
+    ],
+    content: [
+      {
+        body: [
+          "Apple opened preorders for the M5 Pro and M5 Max MacBook Pro on March 4, 2026, with units shipping a week later on March 11. Both chips arrive in the same 14-inch and 16-inch chassis Apple has used for several generations now, which means this update is entirely about what's inside rather than a redesign — and what's inside is a genuinely large memory and AI-performance jump.",
+        ],
+      },
+      {
+        heading: "Chips: M5 Pro vs. M5 Max",
+        body: [
+          "The M5 Pro tops out at an 18-core CPU (6 efficiency cores plus 12 performance cores) and a 20-core GPU, with up to 64GB of unified memory at 307GBps of bandwidth. The M5 Max keeps the same 18-core CPU but pushes the GPU up to 40 cores and doubles the memory bandwidth to 614GBps, with configurations scaling to a genuinely huge 128GB of unified memory.",
+          "The headline architectural change on both chips is Neural Accelerators built directly into every GPU core, alongside a 16-core Neural Engine — hardware Apple is positioning specifically for running AI models locally on the machine rather than leaning on the cloud. For anyone running local LLMs or AI-assisted creative tools, the 128GB memory ceiling on the M5 Max is the more meaningful spec than raw CPU speed.",
+        ],
+      },
+      {
+        heading: "Storage, display, and connectivity",
+        body: [
+          "Storage starts at 1TB on the M5 Pro and 2TB on the M5 Max, scaling up to 8TB, with SSD speeds Apple says reach up to 14.5GB/s — roughly double the previous generation's peak. The Liquid Retina XDR display carries over unchanged, still hitting 1600 nits of peak HDR brightness at 120Hz with ProMotion, and still offering the nano-texture glass option for people who work near bright windows.",
+          "Connectivity gets a real refresh: three Thunderbolt 5 ports, an HDMI port now rated for 8K output, an SDXC card slot, and MagSafe 3 charging, alongside Wi-Fi 7 and Bluetooth 6 delivered through Apple's own N1 wireless chip.",
+        ],
+      },
+      {
+        heading: "Battery life",
+        body: [
+          "Apple's own figures put the 14-inch M5 Pro at up to 22 hours of battery life and the 16-inch M5 Pro at up to 24 hours, with M5 Max configurations landing between 20 and 24 hours depending on size and workload. Those are manufacturer claims rather than our own measured runtime, but they're in line with what the M-series chips have consistently delivered in real-world use.",
+        ],
+      },
+      {
+        heading: "Price and verdict",
+        body: [
+          "Pricing starts at $2,199 for the 14-inch M5 Pro ($2,049 for education buyers) and climbs to $2,699 for the 16-inch M5 Pro. Stepping up to M5 Max starts at $3,599 for the 14-inch model and $3,899 for the 16-inch, with education pricing $300 lower across the board.",
+          "For most people editing photos, cutting video, or writing code, the M5 Pro tier is still the sensible buy — the jump to M5 Max only pays off if you're running memory-hungry local AI models or GPU-bound rendering work that can actually use 40 GPU cores and 128GB of memory. Either way, this is an unglamorous but genuinely substantial update: more memory, faster storage, modern wireless, and AI hardware built for workloads that are only going to get more common.",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getAllArticles(): Article[] {
