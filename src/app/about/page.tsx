@@ -20,12 +20,26 @@ export default function AboutPage() {
       </p>
       <h2 className="font-display mt-8 text-xl font-bold">Contact</h2>
       <p className="mt-3 leading-relaxed text-muted">
-        Have a tip or correction? Reach the editorial team at{" "}
+        We welcome tips, corrections, and story ideas from readers,
+        manufacturers, and fellow journalists alike. If you&apos;ve spotted an
+        error in one of our reviews, have an embargoed product to brief us
+        on, or think we&apos;ve missed a laptop, phone, or pair of
+        headphones worth testing, we want to hear about it.
+      </p>
+      <p className="mt-3 leading-relaxed text-muted">
+        For press inquiries, review units, advertising, and partnership
+        proposals, please include as much detail as possible — product
+        specs, timelines, and any relevant links — so our editorial team
+        can get back to you quickly. We read every message and typically
+        respond within two to three business days.
+      </p>
+      <p className="mt-3 leading-relaxed text-muted">
+        Reach the editorial team at{" "}
         <a
-          href="mailto:editors@nexoratech.online"
+          href="mailto:admin@nexoratechlab.online"
           className="text-brand hover:underline"
         >
-          editors@nexoratech.online
+          admin@nexoratechlab.online
         </a>
         .
       </p>
