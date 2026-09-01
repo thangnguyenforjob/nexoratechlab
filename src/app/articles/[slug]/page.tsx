@@ -5,6 +5,7 @@ import {
   getRelatedArticles,
 } from "@/data/articles";
 import ArticleImage from "@/components/ArticleImage";
+import ArticleGallery from "@/components/ArticleGallery";
 import CategoryPill from "@/components/CategoryPill";
 import RatingBadge from "@/components/RatingBadge";
 import ProsCons from "@/components/ProsCons";
@@ -85,6 +86,8 @@ export default async function ArticlePage({
         showCredit
         priority
       />
+
+      <ArticleGallery article={article} />
 
       {article.rating !== undefined && (
         <div className="mt-6">
