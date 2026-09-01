@@ -34,7 +34,11 @@ export default function Footer() {
         <div className="col-span-2 md:col-span-1">
           <Link href="/" className="flex items-center">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/logo.png" alt="Nexoralab" className="h-8 w-auto" />
+            <img
+              src="/logo.png"
+              alt="Nexora Tech Lab"
+              className="h-12 w-auto invert"
+            />
           </Link>
           <p className="mt-3 max-w-xs text-sm text-white/60">
             Independent tech reviews, buying guides, and news — tested by
