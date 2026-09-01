@@ -15,7 +15,9 @@ export default function ArticleImage({
   emojiClassName = "text-5xl",
   showCredit = false,
 }: ArticleImageProps) {
-  if (!article.image) {
+  const heroImage = article.images?.[0];
+
+  if (!heroImage) {
     return (
       <PlaceholderImage
         gradient={article.gradient}
@@ -30,14 +32,14 @@ export default function ArticleImage({
     <div className={`relative overflow-hidden bg-surface ${className}`}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src={article.image.src}
-        alt={article.image.alt}
+        src={heroImage.src}
+        alt={heroImage.alt}
         loading="lazy"
         className="h-full w-full object-cover"
       />
       {showCredit && (
         <span className="absolute bottom-1.5 right-1.5 rounded bg-black/60 px-1.5 py-0.5 text-[10px] font-medium text-white">
-          Ảnh: {article.image.credit}
+          Photo: {heroImage.credit}
         </span>
       )}
     </div>
