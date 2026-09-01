@@ -25,7 +25,7 @@ export interface Article {
   readTime: string;
   gradient: [string, string];
   emoji: string;
-  image?: ArticleImage;
+  images?: ArticleImage[]; // at least 2 real images per article, first is used as the hero/card image
   rating?: number; // out of 10, reviews only
   pros?: string[];
   cons?: string[];
