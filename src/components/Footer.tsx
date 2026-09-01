@@ -32,13 +32,9 @@ export default function Footer() {
     <footer className="border-t border-border bg-foreground text-white">
       <div className="mx-auto grid max-w-7xl grid-cols-2 gap-8 px-4 py-12 sm:px-6 md:grid-cols-4 lg:px-8">
         <div className="col-span-2 md:col-span-1">
-          <Link href="/" className="flex items-center gap-2">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-brand text-base font-black text-white">
-              N
-            </span>
-            <span className="font-display text-lg font-black tracking-tight">
-              Nexora<span className="text-brand">tech</span>
-            </span>
+          <Link href="/" className="flex items-center">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logo.png" alt="Nexoralab" className="h-8 w-auto" />
           </Link>
           <p className="mt-3 max-w-xs text-sm text-white/60">
             Independent tech reviews, buying guides, and news — tested by
