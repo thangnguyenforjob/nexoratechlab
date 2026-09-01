@@ -9,11 +9,26 @@ export const articles: Article[] = [
       "We rounded up the best laptops of 2026 across every category — overall pick, Windows, gaming, budget, Chromebook, high-end, and 2-in-1.",
     category: "Best Picks",
     topic: "Laptops",
-    author: "Minh Tran",
+    author: "Ryan Bennett",
     date: "2026-08-24",
     readTime: "9 min read",
     gradient: ["#4f46e5", "#0ea5e9"],
     emoji: "💻",
+    images: [
+      {
+        src: "https://www.apple.com/newsroom/images/2026/03/apple-introduces-the-new-macbook-air-with-m5/article/Apple-MacBook-Air-hero-260303_big.jpg.large.jpg",
+        alt: "Apple MacBook Air with M5",
+        credit: "Apple Newsroom",
+        creditUrl:
+          "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/",
+      },
+      {
+        src: "https://press.asus.com/assets/w_3840,h_2160/47f31b6b-3fd5-4d38-8a7b-2fc2df922760/Zephyrus%20G1416_Scenario%20Rendering01.jpg",
+        alt: "Asus ROG Zephyrus G14 gaming laptop",
+        credit: "ASUS Pressroom",
+        creditUrl: "https://press.asus.com/news/press-releases/rog-zephyrus-g14-g16-2026/",
+      },
+    ],
     sources: [
       {
         title: "Best laptops for 2026 — Engadget",
@@ -89,11 +104,27 @@ export const articles: Article[] = [
       "The iPhone 17 Pro Max brings a faster A19 Pro chip, a 48MP triple-camera system, and a bigger battery — but Apple swapped titanium for aluminum.",
     category: "Reviews",
     topic: "Phones",
-    author: "Lan Pham",
+    author: "Emily Carter",
     date: "2026-08-15",
     readTime: "7 min read",
     gradient: ["#f97316", "#db2777"],
     emoji: "📱",
+    images: [
+      {
+        src: "https://www.apple.com/newsroom/images/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/article/Apple-iPhone-17-Pro-camera-close-up-250909_big.jpg.large.jpg",
+        alt: "iPhone 17 Pro Max camera system close-up",
+        credit: "Apple Newsroom",
+        creditUrl:
+          "https://www.apple.com/newsroom/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/",
+      },
+      {
+        src: "https://www.apple.com/newsroom/images/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/article/Apple-iPhone-17-Pro-color-lineup-250909_inline.jpg.large.jpg",
+        alt: "iPhone 17 Pro and Pro Max color lineup",
+        credit: "Apple Newsroom",
+        creditUrl:
+          "https://www.apple.com/newsroom/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/",
+      },
+    ],
     rating: 8.6,
     pros: [
       "A19 Pro chip is a meaningful jump over the A18 Pro",
@@ -155,11 +186,27 @@ export const articles: Article[] = [
       "Sony's WF-1000XM6 earbuds bring a faster QN3e noise-cancelling chip, 8 hours of earbud playback, and 24 hours total with the case.",
     category: "Reviews",
     topic: "Audio",
-    author: "Duy Nguyen",
+    author: "James Whitfield",
     date: "2026-07-30",
     readTime: "6 min read",
     gradient: ["#0f172a", "#1e293b"],
     emoji: "🎧",
+    images: [
+      {
+        src: "https://s3.amazonaws.com/pr-prd-live-dolphin-upload-cfn/sites/268/2026/02/12162441/9.-WF-1000XM6-Platinum-Silver-and-Black-1024x683.jpg",
+        alt: "Sony WF-1000XM6 earbuds in Platinum Silver and Black",
+        credit: "Sony Electronics press materials",
+        creditUrl:
+          "https://www.sony.com.sg/pressrelease?prName=sony-launches-wf-1000xm6-truly-wireless-earbuds-the-best-noise-cancelling-with-premium-sound",
+      },
+      {
+        src: "https://s3.amazonaws.com/pr-prd-live-dolphin-upload-cfn/sites/268/2026/02/12162524/21.-WF-1000XM6-Platinum-Silver-Wearability-1024x683.jpg",
+        alt: "Sony WF-1000XM6 earbuds worn in-ear",
+        credit: "Sony Electronics press materials",
+        creditUrl:
+          "https://www.sony.com.sg/pressrelease?prName=sony-launches-wf-1000xm6-truly-wireless-earbuds-the-best-noise-cancelling-with-premium-sound",
+      },
+    ],
     rating: 9.0,
     pros: [
       "QN3e chip delivers noticeably stronger ANC than the XM5",
@@ -214,11 +261,25 @@ export const articles: Article[] = [
       "The Ryzen 9 8945HS and RTX 4070 combo makes the Zephyrus G14 one of the fastest 14-inch gaming laptops you can buy, wrapped in a genuinely portable chassis.",
     category: "Reviews",
     topic: "Laptops",
-    author: "Minh Tran",
+    author: "Ryan Bennett",
     date: "2026-08-05",
     readTime: "6 min read",
     gradient: ["#7c3aed", "#2563eb"],
     emoji: "🎮",
+    images: [
+      {
+        src: "https://press.asus.com/assets/w_3840,h_2160/47f31b6b-3fd5-4d38-8a7b-2fc2df922760/Zephyrus%20G1416_Scenario%20Rendering01.jpg",
+        alt: "Asus ROG Zephyrus G14 gaming laptop open on a desk",
+        credit: "ASUS Pressroom",
+        creditUrl: "https://press.asus.com/news/press-releases/rog-zephyrus-g14-g16-2026/",
+      },
+      {
+        src: "https://press.asus.com/assets/w_3840,h_2160/c01e1432-b363-4e62-88b8-903cf35157f3/Zephyrus%20G1416_Scenario%20Rendering03.png",
+        alt: "Asus ROG Zephyrus G14 lid and chassis detail",
+        credit: "ASUS Pressroom",
+        creditUrl: "https://press.asus.com/news/press-releases/rog-zephyrus-g14-g16-2026/",
+      },
+    ],
     rating: 8.8,
     pros: [
       "RTX 4070 handles most current games at high settings",
@@ -277,11 +338,26 @@ export const articles: Article[] = [
       "Apple has confirmed a September 9, 2026 event, with reports pointing to the iPhone 18 Pro line, a foldable iPhone Ultra, Apple Watch Series 12, and AirPods 5.",
     category: "News",
     topic: "Phones",
-    author: "Lan Pham",
+    author: "Emily Carter",
     date: "2026-08-29",
     readTime: "5 min read",
     gradient: ["#059669", "#0891b2"],
     emoji: "📅",
+    images: [
+      {
+        src: "https://devimages-cdn.apple.com/wwdc-services/articles/images/EA4CFEB6-BA9E-490A-9723-5962EA23BF53/2048.jpeg",
+        alt: "Apple's official invitation graphic for the September 9, 2026 'Surprise and Shine' event",
+        credit: "Apple",
+        creditUrl: "https://developer.apple.com/news/?id=s6spdug0",
+      },
+      {
+        src: "https://www.apple.com/newsroom/images/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/article/Apple-iPhone-17-Pro-color-lineup-250909_inline.jpg.large.jpg",
+        alt: "The current iPhone 17 Pro lineup, the generation the rumored iPhone 18 Pro would replace",
+        credit: "Apple Newsroom",
+        creditUrl:
+          "https://www.apple.com/newsroom/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/",
+      },
+    ],
     sources: [
       {
         title: "Apple Event: Six New Products to Expect on September 9 — MacRumors",
@@ -338,18 +414,27 @@ export const articles: Article[] = [
       "The Galaxy S26 Ultra pairs a 200MP main camera and 5x telephoto with a new Privacy Display mode, starting at $1,299 for 256GB.",
     category: "Reviews",
     topic: "Phones",
-    author: "Lan Pham",
+    author: "Emily Carter",
     date: "2026-08-18",
     readTime: "7 min read",
     gradient: ["#7c3aed", "#4f46e5"],
     emoji: "📱",
-    image: {
-      src: "https://img.global.news.samsung.com/global/wp-content/uploads/2026/02/26034330/Samsung-Mobile-Galaxy-Unpacked-2026-Galaxy-S26-Series-A-First-Look_main1.jpg",
-      alt: "Samsung Galaxy S26 Ultra shown at Galaxy Unpacked 2026",
-      credit: "Samsung Newsroom",
-      creditUrl:
-        "https://news.samsung.com/global/galaxy-unpacked-2026-a-first-look-at-the-galaxy-s26-series-samsungs-most-intuitive-ai-phone-yet",
-    },
+    images: [
+      {
+        src: "https://img.global.news.samsung.com/global/wp-content/uploads/2026/02/26034330/Samsung-Mobile-Galaxy-Unpacked-2026-Galaxy-S26-Series-A-First-Look_main1.jpg",
+        alt: "Samsung Galaxy S26 Ultra shown at Galaxy Unpacked 2026",
+        credit: "Samsung Newsroom",
+        creditUrl:
+          "https://news.samsung.com/global/galaxy-unpacked-2026-a-first-look-at-the-galaxy-s26-series-samsungs-most-intuitive-ai-phone-yet",
+      },
+      {
+        src: "https://img.global.news.samsung.com/global/wp-content/uploads/2026/02/26034345/Samsung-Mobile-Galaxy-Unpacked-2026-Galaxy-S26-Series-A-First-Look_main2.jpg",
+        alt: "Samsung Galaxy S26 series color lineup",
+        credit: "Samsung Newsroom",
+        creditUrl:
+          "https://news.samsung.com/global/galaxy-unpacked-2026-a-first-look-at-the-galaxy-s26-series-samsungs-most-intuitive-ai-phone-yet",
+      },
+    ],
     rating: 8.9,
     pros: [
       "200MP main camera now pairs with a wider aperture for genuinely better low light",
@@ -415,18 +500,27 @@ export const articles: Article[] = [
       "The Galaxy Z Fold8 Ultra is 4.1mm thick unfolded, runs Snapdragon 8 Elite Gen 5, and starts at $2,099.99, with preorders open through September 7.",
     category: "Reviews",
     topic: "Phones",
-    author: "Lan Pham",
+    author: "Emily Carter",
     date: "2026-08-27",
     readTime: "6 min read",
     gradient: ["#1e1b4b", "#6d28d9"],
     emoji: "📖",
-    image: {
-      src: "https://img.global.news.samsung.com/global/wp-content/uploads/2026/07/22220302/Samsung-Mobile-Galaxy-Unpacked-July-2026-Galaxy-Z-Fold8-Ultra-Galaxy-Z-Fold8-Galaxy-Z-Flip8-A-First-Look_main1.jpg",
-      alt: "Samsung Galaxy Z Fold8 Ultra shown unfolded at Galaxy Unpacked July 2026",
-      credit: "Samsung Newsroom",
-      creditUrl:
-        "https://news.samsung.com/global/galaxy-unpacked-july-2026-a-first-look-at-galaxy-z-fold8-ultra-galaxy-z-fold8-and-galaxy-z-flip8",
-    },
+    images: [
+      {
+        src: "https://img.global.news.samsung.com/global/wp-content/uploads/2026/07/22220302/Samsung-Mobile-Galaxy-Unpacked-July-2026-Galaxy-Z-Fold8-Ultra-Galaxy-Z-Fold8-Galaxy-Z-Flip8-A-First-Look_main1.jpg",
+        alt: "Samsung Galaxy Z Fold8 Ultra shown unfolded at Galaxy Unpacked July 2026",
+        credit: "Samsung Newsroom",
+        creditUrl:
+          "https://news.samsung.com/global/galaxy-unpacked-july-2026-a-first-look-at-galaxy-z-fold8-ultra-galaxy-z-fold8-and-galaxy-z-flip8",
+      },
+      {
+        src: "https://img.global.news.samsung.com/global/wp-content/uploads/2026/07/22220341/Samsung-Mobile-Galaxy-Unpacked-July-2026-Galaxy-Z-Fold8-Ultra-Galaxy-Z-Fold8-Galaxy-Z-Flip8-A-First-Look_main2.jpg",
+        alt: "Galaxy Z Fold8 Ultra shown folded and unfolded side by side",
+        credit: "Samsung Newsroom",
+        creditUrl:
+          "https://news.samsung.com/global/galaxy-unpacked-july-2026-a-first-look-at-galaxy-z-fold8-ultra-galaxy-z-fold8-and-galaxy-z-flip8",
+      },
+    ],
     pros: [
       "4.1mm unfolded thickness and 215g weight are genuinely pocketable for an 8-inch tablet-phone",
       "Snapdragon 8 Elite Gen 5 for Galaxy is the fastest chip Samsung has put in a foldable",
@@ -490,18 +584,27 @@ export const articles: Article[] = [
       "The M5 Pro and M5 Max MacBook Pro add Neural Accelerators for AI workloads, up to 128GB of memory, and Wi-Fi 7, starting at $2,199.",
     category: "Reviews",
     topic: "Laptops",
-    author: "Minh Tran",
+    author: "Ryan Bennett",
     date: "2026-08-10",
     readTime: "7 min read",
     gradient: ["#3f3f46", "#09090b"],
     emoji: "💻",
-    image: {
-      src: "https://www.apple.com/newsroom/images/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/article/Apple-MacBook-Pro-M5-Pro-and-M5-Max-Capture-One-260303_big.jpg.large.jpg",
-      alt: "MacBook Pro with M5 Pro and M5 Max running Capture One",
-      credit: "Apple Newsroom",
-      creditUrl:
-        "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/",
-    },
+    images: [
+      {
+        src: "https://www.apple.com/newsroom/images/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/article/Apple-MacBook-Pro-M5-Pro-and-M5-Max-Capture-One-260303_big.jpg.large.jpg",
+        alt: "MacBook Pro with M5 Pro and M5 Max running Capture One",
+        credit: "Apple Newsroom",
+        creditUrl:
+          "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/",
+      },
+      {
+        src: "https://www.apple.com/newsroom/images/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/article/Apple-MacBook-Pro-M5-Pro-and-M5-Max-chips-260303_big.jpg.large.jpg",
+        alt: "Apple M5 Pro and M5 Max chips",
+        credit: "Apple Newsroom",
+        creditUrl:
+          "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/",
+      },
+    ],
     rating: 9.1,
     pros: [
       "M5 Max scales to 128GB of unified memory at 614GBps bandwidth — genuinely useful for large local AI models",
