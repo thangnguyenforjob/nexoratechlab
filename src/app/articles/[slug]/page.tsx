@@ -4,7 +4,7 @@ import {
   getArticleBySlug,
   getRelatedArticles,
 } from "@/data/articles";
-import PlaceholderImage from "@/components/PlaceholderImage";
+import ArticleImage from "@/components/ArticleImage";
 import CategoryPill from "@/components/CategoryPill";
 import RatingBadge from "@/components/RatingBadge";
 import ProsCons from "@/components/ProsCons";
@@ -78,11 +78,12 @@ export default async function ArticlePage({
         <span>{article.readTime}</span>
       </div>
 
-      <PlaceholderImage
-        gradient={article.gradient}
-        emoji={article.emoji}
+      <ArticleImage
+        article={article}
         className="mt-6 aspect-[16/9] rounded-2xl"
         emojiClassName="text-8xl"
+        showCredit
+        priority
       />
 
       {article.rating !== undefined && (
