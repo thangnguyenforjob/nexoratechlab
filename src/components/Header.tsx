@@ -12,9 +12,6 @@ const nav = [
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-white/95 backdrop-blur">
-      <div className="border-b border-border bg-foreground py-1.5 text-center text-xs text-white/70">
-        Independent reviews. We may earn a commission when you buy through links on our site.
-      </div>
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-4 py-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2 shrink-0">
           <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-brand text-lg font-black text-white">
