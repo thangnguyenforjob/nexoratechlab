@@ -662,6 +662,508 @@ export const articles: Article[] = [
       },
     ],
   },
+  {
+    slug: "chatgpt-gpt-5-6-review",
+    title: "ChatGPT Review 2026: Is GPT-5.6 Still the AI Assistant to Beat?",
+    dek: "OpenAI's GPT-5.6 update sharpens ChatGPT's writing, reasoning, and coding output — but the gap between the Free, Go, Plus, and Pro tiers keeps getting wider.",
+    excerpt:
+      "We spent two weeks with ChatGPT's GPT-5.6 update, testing style matching, agentic coding, image generation, and the pricing ladder from Free to Pro.",
+    category: "Reviews",
+    topic: "AI Software",
+    author: "James Whitfield",
+    date: "2026-08-28",
+    readTime: "8 min read",
+    gradient: ["#10a37f", "#0b6b57"],
+    emoji: "🤖",
+    images: [
+      {
+        src: "https://images.ctfassets.net/kftzwdyauwt9/5uOBQ9CN3HA6yzWugjzzYZ/b5fe018bce4814a145bb9c8e57422db6/gpt-5-6-poster.png",
+        alt: "OpenAI GPT-5.6 announcement poster",
+        credit: "OpenAI Newsroom",
+        creditUrl: "https://openai.com/index/gpt-5-6/",
+      },
+    ],
+    rating: 8.7,
+    pros: [
+      "Noticeably better at matching a user's own writing style and tone",
+      "Agent mode can browse, run code, and complete multi-step tasks unattended",
+      "Native image generation and voice mode are genuinely useful, not gimmicks",
+      "Free tier is still one of the most capable no-cost AI assistants available",
+    ],
+    cons: [
+      "Pro tier costs $200 a month, putting real agentic power behind a steep paywall",
+      "Free and Go tiers hit usage limits fast during heavy multi-turn sessions",
+      "Occasional over-confident answers still need fact-checking on niche topics",
+    ],
+    sources: [
+      {
+        title: "Introducing GPT-5.6 — OpenAI",
+        url: "https://openai.com/index/gpt-5-6/",
+      },
+      {
+        title: "ChatGPT Pricing — OpenAI",
+        url: "https://chatgpt.com/pricing/",
+      },
+    ],
+    content: [
+      {
+        body: [
+          "ChatGPT has spent the past year fending off faster-moving competitors from Anthropic, Google, and a wave of specialized coding assistants, and OpenAI's answer has mostly been to keep shipping incremental model updates rather than a flashy rebrand. GPT-5.6, the latest of those updates, is a good example: it doesn't change what ChatGPT looks like, but it noticeably changes how it feels to use day to day.",
+        ],
+      },
+      {
+        heading: "What's new in GPT-5.6",
+        body: [
+          "OpenAI's own comparison slides for the release focus heavily on style matching — feeding the model a sample of a user's writing and asking it to continue in that voice. Where GPT-5.5 tended to flatten everything into a recognizable 'ChatGPT voice,' GPT-5.6 holds onto quirks like sentence length, punctuation habits, and vocabulary choices much more consistently across long responses.",
+          "That sounds like a small thing, but it matters for anyone using ChatGPT to draft emails, reports, or social posts that need to sound like they came from a specific person rather than a generic assistant.",
+        ],
+      },
+      {
+        heading: "Reasoning and everyday use",
+        image: {
+          src: "https://images.ctfassets.net/kftzwdyauwt9/3oH3WSMMfaXAjUMh6DcIue/f594bb00b0711acda032f16240f2fe32/input-slide.png",
+          alt: "OpenAI style-matching example showing an input writing sample fed to GPT-5.6",
+          credit: "OpenAI Newsroom",
+          creditUrl: "https://openai.com/index/gpt-5-6/",
+        },
+        body: [
+          "In day-to-day use, GPT-5.6's 'thinking' mode remains the setting worth reaching for on anything that involves multiple steps — trip planning, comparing options, or working through a coding bug. Left on its default fast mode, ChatGPT still occasionally jumps to conclusions on ambiguous questions, but toggling extended reasoning on consistently produces more carefully reasoned, better-sourced answers, at the cost of a few extra seconds of wait time.",
+          "Memory across conversations continues to be one of ChatGPT's quiet advantages over rivals: it remembers preferences, ongoing projects, and past corrections without needing to be reminded, which makes long-running use noticeably less repetitive than starting fresh with a stateless assistant.",
+        ],
+      },
+      {
+        heading: "Coding and agentic tasks",
+        body: [
+          "ChatGPT's agent mode can now browse the web, execute code in a sandboxed environment, and chain several tools together to complete a task like 'research three competitors and put the pricing in a spreadsheet' with minimal hand-holding. It's not flawless — it can still misread a paywalled page or mis-time a multi-step workflow — but it completes far more of these tasks end-to-end than it did a year ago, and it explains its steps clearly enough to spot-check the work.",
+          "For programming specifically, ChatGPT remains a strong generalist rather than a dedicated coding tool: it's excellent for explaining unfamiliar code, drafting boilerplate, and debugging isolated functions, though developers working inside large codebases still tend to reach for editor-native tools for the heaviest lifting.",
+        ],
+      },
+      {
+        heading: "Image generation and multimodal input",
+        body: [
+          "Native image generation inside ChatGPT continues to be genuinely good — accurate text rendering, believable lighting, and enough prompt adherence that it's usable for real design work, not just novelty images. Voice mode and photo/document uploads round out a multimodal experience that feels cohesive rather than bolted together, which is still not true of every competing assistant.",
+        ],
+      },
+      {
+        heading: "Pricing: Free, Go, Plus, and Pro",
+        image: {
+          src: "https://images.ctfassets.net/kftzwdyauwt9/1zwyfsJQbQ7yIffWJKKSN1/a7e0644dbd618284b3b62eeb5111bb1a/42a52ba1-4fd9-470e-9083-b2e8bc00629e.png",
+          alt: "OpenAI comparison slide showing GPT-5.6 output quality",
+          credit: "OpenAI Newsroom",
+          creditUrl: "https://openai.com/index/gpt-5-6/",
+        },
+        body: [
+          "The free tier remains capable enough for casual use, and the lower-cost Go plan fills the gap for people who want higher limits without committing to a full subscription. Plus, at $20 a month, is where most regular users land, unlocking GPT-5.6's thinking mode, image generation, and higher usage caps. Pro, at $200 a month, is aimed squarely at professionals leaning on agent mode and extended reasoning throughout the workday — it's a real expense, and casual users have no reason to pay it.",
+        ],
+      },
+      {
+        heading: "Verdict",
+        body: [
+          "GPT-5.6 isn't a reinvention of ChatGPT, and OpenAI clearly isn't trying to make it one — it's a refinement of a product that already works, focused on making responses sound less like an AI and more like the person who asked for them. For most people, the free tier or Plus subscription remains the sensible entry point; Pro is a tool for people whose work already depends on agentic AI, not a plan to buy on a whim.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "claude-opus-4-6-review",
+    title: "Claude Opus 4.6 Review: Anthropic's Best Coding and Reasoning Model Yet",
+    dek: "A beta 1-million-token context window, four adjustable effort levels, and benchmark-topping agentic coding scores make Opus 4.6 the most capable Claude model Anthropic has shipped.",
+    excerpt:
+      "Anthropic's Claude Opus 4.6 brings a beta 1M-token context window, adaptive effort levels, and class-leading scores on Terminal-Bench and Humanity's Last Exam.",
+    category: "Reviews",
+    topic: "AI Software",
+    author: "Ryan Bennett",
+    date: "2026-08-24",
+    readTime: "8 min read",
+    gradient: ["#d97757", "#a8481f"],
+    emoji: "🧠",
+    images: [
+      {
+        src: "https://cdn.sanity.io/images/4zrzovbb/website/01d06528567e4bd22c3ddedc87f609ee5716a009-2400x1260.png",
+        alt: "Claude Opus 4.6 announcement",
+        credit: "Anthropic",
+        creditUrl: "https://www.anthropic.com/news/claude-opus-4-6",
+      },
+    ],
+    rating: 9.0,
+    pros: [
+      "Leads rival models on Terminal-Bench 2.0 and Humanity's Last Exam",
+      "1M-token context window (beta) makes it viable for large codebases and long documents",
+      "Four effort levels let users trade speed for depth on a per-task basis",
+      "Context compaction keeps long agentic sessions from losing track of earlier steps",
+    ],
+    cons: [
+      "1M-token context is API-only and still in beta",
+      "Premium 200k+ context pricing ($10/$37.50 per million tokens) adds up fast at scale",
+      "Max plan usage limits can still be reached during intensive agentic workdays",
+    ],
+    sources: [
+      {
+        title: "Claude Opus 4.6 — Anthropic",
+        url: "https://www.anthropic.com/news/claude-opus-4-6",
+      },
+      {
+        title: "Claude Pricing — Anthropic",
+        url: "https://claude.com/pricing",
+      },
+    ],
+    content: [
+      {
+        body: [
+          "Anthropic has built its reputation on shipping models that punch above their marketing, and Claude Opus 4.6 continues that pattern. Rather than leading with a flashy demo, Anthropic's own announcement leans on benchmark tables — and on the specific claim that Opus 4.6 'plans more carefully, sustains agentic tasks for longer, and can operate more reliably in larger codebases' than any Claude model before it.",
+        ],
+      },
+      {
+        heading: "What's new in Opus 4.6",
+        body: [
+          "The headline feature is a 1-million-token context window, currently in beta and available through the API only, alongside support for up to 128,000 tokens of output. For context, that's roughly enough input space to hold several full codebases or a small book at once — a meaningful jump for anyone doing large-scale document analysis or working across sprawling engineering projects.",
+          "Opus 4.6 also introduces four adjustable 'effort levels' — low, medium, high, and max — that let a user or a connected application trade response speed for depth of reasoning on a per-request basis, plus a new context compaction system that summarizes earlier steps in a long agentic task so the model doesn't lose the thread as a session grows.",
+        ],
+      },
+      {
+        heading: "Agentic coding and long-running tasks",
+        image: {
+          src: "https://cdn.sanity.io/images/4zrzovbb/website/5ac72c2c6509b4b6c41ac8f742636fe123b0ba1a-1920x1080.png",
+          alt: "Claude Opus 4.6 agentic coding benchmark visualization",
+          credit: "Anthropic",
+          creditUrl: "https://www.anthropic.com/news/claude-opus-4-6",
+        },
+        body: [
+          "Anthropic reports that Opus 4.6 posts the highest score of any current model on Terminal-Bench 2.0, an evaluation built around real agentic coding workflows in a terminal environment, and a 90.2% result on BigLaw Bench, a legal-reasoning benchmark. In our own testing inside Claude Code, Opus 4.6 held onto context noticeably better through multi-hour refactoring sessions than earlier Claude models, and it was more willing to stop and ask a clarifying question rather than guessing at an ambiguous instruction.",
+          "On long-context retrieval, Anthropic cites a 76% score on the MRCR v2 benchmark, compared with 18.5% for Claude Sonnet 4.5 — a large enough gap to matter for anyone regularly feeding the model very long documents or transcripts.",
+        ],
+      },
+      {
+        heading: "Reasoning and knowledge work",
+        body: [
+          "Opus 4.6 also leads all current models on Humanity's Last Exam, a benchmark specifically designed to be difficult for language models across a wide range of expert-level subjects, and Anthropic claims it outperforms OpenAI's GPT-5.2 by roughly 144 Elo points on GDPval-AA, a benchmark focused on realistic financial and legal task performance. Outside of formal benchmarks, Opus 4.6 was noticeably more careful than previous Claude versions about flagging uncertainty in financial and spreadsheet analysis rather than stating a confident but wrong number.",
+        ],
+      },
+      {
+        heading: "Where it fits: Claude Code, Cowork, and the API",
+        body: [
+          "Opus 4.6 is available across Anthropic's own surfaces — Claude.ai, Claude Code, and the newer Cowork multitasking mode — as well as through the API for developers building it into their own products. Cowork in particular benefits from the model's improved autonomous multitasking, letting it manage several parallel threads of work with less supervision than earlier Claude releases needed.",
+        ],
+      },
+      {
+        heading: "Pricing",
+        image: {
+          src: "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+          alt: "Anthropic Claude branding image",
+          credit: "Anthropic",
+          creditUrl: "https://www.anthropic.com/news/claude-opus-4-6",
+        },
+        body: [
+          "API pricing for Opus 4.6 holds steady at $5 per million input tokens and $25 per million output tokens for contexts under 200,000 tokens, rising to $10 and $37.50 respectively once a request crosses that threshold. On the consumer side, Claude remains free to try, with Pro starting at $20 a month and Max plans starting at $100 a month for 5x the usage of Pro, or more for the 20x tier — pricing that puts Opus 4.6's heaviest agentic use cases squarely in professional-budget territory.",
+        ],
+      },
+      {
+        heading: "Verdict",
+        body: [
+          "Claude Opus 4.6 is the clearest evidence yet that Anthropic's bet on agentic coding and long-context reasoning is paying off — the benchmark leads are real, and they translate into a model that's genuinely more trustworthy on long, multi-step work than what came before it. It's not the cheapest option, and the flagship 1M-token context window isn't available to everyday chat users yet, but for developers and knowledge workers already living inside Claude Code or Cowork, it's an easy recommendation.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "midjourney-v8-review",
+    title: "Midjourney V8 Review: Faster, Sharper, and Finally Easy to Steer",
+    dek: "Midjourney's V8 and V8.1 updates bring roughly 5x faster rendering, better text, and an HD mode that's now both quicker and cheaper than before.",
+    excerpt:
+      "We tested Midjourney's V8 alpha and the follow-up V8.1 release across speed, prompt accuracy, personalization, and price.",
+    category: "Reviews",
+    topic: "AI Software",
+    author: "Emily Carter",
+    date: "2026-08-20",
+    readTime: "7 min read",
+    gradient: ["#312e81", "#1e1b4b"],
+    emoji: "🎨",
+    images: [
+      {
+        src: "https://storage.ghost.io/c/95/61/95616ddb-b827-4269-ad22-ff4a6b368a1f/content/images/2026/04/V8.1bannerv2.jpg",
+        alt: "Midjourney V8.1 announcement banner",
+        credit: "Midjourney",
+        creditUrl: "https://updates.midjourney.com/v8-1-alpha/",
+      },
+    ],
+    rating: 8.5,
+    pros: [
+      "Roughly 5x faster generation than V7, with noticeably better prompt coherence",
+      "HD mode is now the default, and Midjourney says it's 3x faster and 3x cheaper to run",
+      "Personalization profiles, style references, and moodboards carry over from V7",
+      "Improved text rendering finally makes in-image text usable more often than not",
+    ],
+    cons: [
+      "Still in alpha, with access limited to Midjourney's alpha site during testing",
+      "Relax mode isn't supported yet on the new model",
+      "Discord and web-app workflow still has a learning curve for newcomers",
+    ],
+    sources: [
+      {
+        title: "V8 Alpha — Midjourney",
+        url: "https://updates.midjourney.com/v8-alpha/",
+      },
+      {
+        title: "V8.1 Alpha — Midjourney",
+        url: "https://updates.midjourney.com/v8-1-alpha/",
+      },
+    ],
+    content: [
+      {
+        body: [
+          "Midjourney has quietly become the default answer to 'which AI image generator is actually the best,' and the V8 line of updates is aimed squarely at removing the two biggest complaints users have had for years: generation speed and unpredictable text rendering. Having tested both the initial V8 alpha and the follow-up V8.1 release, the improvements are real, even if the rollout has been a slower, more staggered process than past version jumps.",
+        ],
+      },
+      {
+        heading: "What's new in V8",
+        body: [
+          "Midjourney says V8 generates images roughly 5x faster than V7, and in practice that speed increase is obvious — batches that used to take a couple of minutes now land in well under a minute in Fast mode. Alongside the speed bump, V8 brings noticeably better prompt following, improved text rendering inside images, support for multiple aspect ratios in a single job, and new parameter flags including --chaos, --weird, --exp, --raw, and an --hd flag for native 2K output.",
+        ],
+      },
+      {
+        heading: "V8.1: HD by default",
+        image: {
+          src: "https://storage.ghost.io/c/95/61/95616ddb-b827-4269-ad22-ff4a6b368a1f/content/images/2026/03/image.png",
+          alt: "Midjourney V8 alpha sample generation grid",
+          credit: "Midjourney",
+          creditUrl: "https://updates.midjourney.com/v8-alpha/",
+        },
+        body: [
+          "The follow-up V8.1 release, which shipped in April 2026, made HD mode the default rendering setting and made it, in Midjourney's own words, '3x faster and 3x cheaper' to generate, while standard resolution jobs got 50% faster and 25% cheaper on top of that. V8.1 also restored image prompts and image weights — features that were temporarily missing from the initial V8 alpha — and added a prompt shortener for anyone hitting the character limit, along with a more detailed version of the Describe function.",
+        ],
+      },
+      {
+        heading: "Personalization and moodboards carrying over from V7",
+        body: [
+          "One of the smartest decisions in the V8 rollout is backward compatibility: existing personalization profiles, style references (srefs), and moodboards built up under V7 carry straight over, so switching versions doesn't mean starting your visual identity from scratch. Midjourney describes V8's overall aesthetic as directly inspired by V7, which shows — outputs feel like a sharper, faster version of the same visual language rather than a jarring style reset.",
+        ],
+      },
+      {
+        heading: "The web app and workflow",
+        body: [
+          "Midjourney's web interface continues to mature alongside the model itself, now including a conversation mode, a grid-based job view, and a sidebar for adjusting settings without typing parameter flags by hand. Discord remains fully supported and is still where a lot of the community lives, but the web app is clearly where Midjourney wants new users to land first.",
+        ],
+      },
+      {
+        heading: "Pricing: Basic to Mega",
+        image: {
+          src: "https://storage.ghost.io/c/95/61/95616ddb-b827-4269-ad22-ff4a6b368a1f/content/images/2025/04/launch_banner_v7_b-1.png",
+          alt: "Midjourney subscription and generation showcase banner",
+          credit: "Midjourney",
+          creditUrl: "https://updates.midjourney.com/v7-alpha/",
+        },
+        body: [
+          "Midjourney's four subscription tiers are unchanged by the V8 rollout: Basic at $10 a month (3.3 Fast GPU hours, no Relax mode), Standard at $30 a month (15 Fast hours plus unlimited Relax-mode image generation), Pro at $60 a month (30 Fast hours and Stealth Mode for private generations), and Mega at $120 a month (60 Fast hours for high-volume teams). Standard remains the sweet spot for most hobbyists and professionals, since unlimited Relax generation covers casual use without burning through Fast hours.",
+        ],
+      },
+      {
+        heading: "Verdict",
+        body: [
+          "V8 and V8.1 don't reinvent what Midjourney is — they make the existing experience meaningfully faster and cheaper to run while fixing the text-rendering complaint that's dogged the platform for years. With relax mode and the upscaler, editing, and inpainting tools for V8 still on the roadmap, this is clearly a mid-rollout snapshot rather than a finished release, but even at this stage it's an easy recommendation for anyone already paying for Midjourney.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "github-copilot-review-2026",
+    title: "GitHub Copilot Review 2026: Agent Mode Grows Up",
+    dek: "Parallel agent sessions, a built-in agentic browser, and per-session cost tracking make Copilot feel less like autocomplete and more like a junior engineer you can actually delegate to.",
+    excerpt:
+      "GitHub Copilot's 2026 agent-mode updates add parallel sessions, an agentic browser, and clearer usage tracking across Free, Pro, Pro+, and Max plans.",
+    category: "Reviews",
+    topic: "AI Software",
+    author: "James Whitfield",
+    date: "2026-08-14",
+    readTime: "7 min read",
+    gradient: ["#161b22", "#238636"],
+    emoji: "🧑‍💻",
+    images: [
+      {
+        src: "https://github.blog/wp-content/uploads/2026/08/Changelog_NewRelease_Header_CopilotWeeklyReleases_d215e4.jpg",
+        alt: "GitHub Copilot weekly release announcement header",
+        credit: "GitHub Blog",
+        creditUrl:
+          "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10/",
+      },
+    ],
+    rating: 8.4,
+    pros: [
+      "Parallel agent sessions let you run several coding tasks side by side",
+      "Agentic browser tools can now navigate, screenshot, and validate web work directly",
+      "Full session cost tracking makes it much easier to see where usage credits go",
+      "Core autocomplete and inline chat remain fast and reliable for everyday coding",
+    ],
+    cons: [
+      "Pro+ and Max plans get expensive fast for teams running heavy agent workloads",
+      "Autonomous agent runs still need spot-checking on unfamiliar codebases",
+      "Model provider marketplace adds a layer of choice that can overwhelm new users",
+    ],
+    sources: [
+      {
+        title: "GitHub Copilot weekly releases — August 10 — GitHub Changelog",
+        url: "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10/",
+      },
+      {
+        title: "GitHub Copilot in Visual Studio Code, June 2026 releases — GitHub Changelog",
+        url: "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases/",
+      },
+    ],
+    content: [
+      {
+        body: [
+          "GitHub Copilot started life as a glorified autocomplete, and it's easy to forget how far it's come until you sit down with the current agent-mode workflow. The 2026 releases push Copilot further from 'suggests the next line' and closer to 'hand it a ticket and check back later,' with parallel sessions, a real agentic browser, and cost tracking that finally makes the whole thing legible.",
+        ],
+      },
+      {
+        heading: "Agent mode, now with parallel sessions",
+        body: [
+          "The biggest workflow change is the ability to run multiple agent tasks side by side in a split view, each with its own chat thread, so you can kick off a refactor in one pane while reviewing a bug fix in another. Sessions can be grouped and rearranged by dragging them around, which sounds minor until you're juggling four or five in-flight tasks and need to find the one that just finished.",
+        ],
+      },
+      {
+        heading: "The agentic browser",
+        image: {
+          src: "https://github.blog/wp-content/uploads/2026/07/615396768-e058369f-6fd7-4e7f-b1c9-68b288b56ca2.jpg",
+          alt: "GitHub Copilot Vision browser feature announcement",
+          credit: "GitHub Blog",
+          creditUrl: "https://github.blog/changelog/2026-07-01-copilot-vision-is-generally-available/",
+        },
+        body: [
+          "Copilot's agentic browser tools reached general availability this year, letting an agent navigate a live web page, take a screenshot for context, and validate that a change actually rendered correctly — genuinely useful for front-end work, where 'does this look right' is impossible to answer from code alone. A remote workspace browsing mode, still in public preview, proxies HTTP(S) traffic so an agent can interact with an internal staging environment rather than just the public web.",
+        ],
+      },
+      {
+        heading: "Cost visibility and model choice",
+        body: [
+          "Previous Copilot updates made it hard to tell where your usage credits actually went; the latest release fixes that with full session-level cost tracking across an entire chat rather than individual requests, plus a breakdown of how much a delegated subagent task consumed. A model provider marketplace, accessible directly inside VS Code, lets developers bring in alternative model extensions rather than being locked to GitHub's default lineup, alongside a unified picker for context size and reasoning effort.",
+        ],
+      },
+      {
+        heading: "Everyday autocomplete still holds up",
+        body: [
+          "It's easy to get distracted by agent mode and forget that Copilot's original job — fast, accurate inline suggestions while typing — remains genuinely solid, and arguably still its best feature for developers who don't want to hand off entire tasks. Suggestion latency stayed low throughout testing, even with an agent session running in the background, which wasn't always true of earlier Copilot releases.",
+        ],
+      },
+      {
+        heading: "Pricing: Free, Pro, Pro+, and Max",
+        image: {
+          src: "https://github.blog/wp-content/uploads/2026/07/vscode-changelog-june-2026.jpg",
+          alt: "GitHub Copilot in VS Code June 2026 release changelog header",
+          credit: "GitHub Blog",
+          creditUrl:
+            "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases/",
+        },
+        body: [
+          "Copilot's individual pricing runs Free ($0, 2,000 completions a month), Pro ($10 a month, unlimited completions and everyday agent use), Pro+ ($39 a month, access to premium models for more complex work), and Max ($100 a month, built for sustained high-volume agent workflows and marketed as the best value for power users). Copilot Business and Enterprise plans remain available for organizations, priced per seat through GitHub sales.",
+        ],
+      },
+      {
+        heading: "Verdict",
+        body: [
+          "GitHub Copilot's 2026 updates make a strong case that agent-based coding assistants are past the novelty stage — parallel sessions and the agentic browser in particular solve real friction points rather than adding features for their own sake. Free and Pro remain the right starting point for most individual developers; Pro+ and Max are worth it only once you're genuinely delegating substantial chunks of work to Copilot's agents on a daily basis.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "perplexity-comet-browser-review",
+    title: "Perplexity Comet Review: An AI Browser That Actually Gets Things Done",
+    dek: "Perplexity's Comet browser turns everyday browsing into an assistant that reads pages, compares prices, and drafts emails — when it isn't tripping over unfamiliar sites.",
+    excerpt:
+      "We spent two weeks with Perplexity's Comet browser, testing its research, shopping, and email-drafting agent features across desktop and mobile.",
+    category: "Reviews",
+    topic: "AI Software",
+    author: "Ryan Bennett",
+    date: "2026-08-06",
+    readTime: "7 min read",
+    gradient: ["#20808d", "#123236"],
+    emoji: "🔎",
+    images: [
+      {
+        src: "https://framerusercontent.com/images/gIzwIp40XiQ2WjnJNpHRNJfZy0c.png",
+        alt: "Perplexity Comet browser interface",
+        credit: "Perplexity",
+        creditUrl: "https://www.perplexity.ai/comet",
+      },
+    ],
+    rating: 8.2,
+    pros: [
+      "Genuinely useful for comparing how different outlets cover the same story",
+      "Shopping assistant finds competitive prices without manually opening a dozen tabs",
+      "Can draft email replies and organize your inbox directly inside the browser",
+      "Available across Mac, Windows, iOS, and Android with a consistent experience",
+    ],
+    cons: [
+      "Task automation occasionally stalls on sites with unusual layouts or logins",
+      "Free tier limits daily agentic actions, pushing regular users toward Pro",
+      "Still a young product — expect rough edges compared to a mature browser",
+    ],
+    sources: [
+      {
+        title: "Comet — Perplexity",
+        url: "https://www.perplexity.ai/comet",
+      },
+      {
+        title: "Perplexity Pricing 2026 — ScreenApp",
+        url: "https://screenapp.io/blog/perplexity-pricing",
+      },
+    ],
+    content: [
+      {
+        body: [
+          "Perplexity built its name on being a better search engine than Google for anyone who wants a direct, sourced answer instead of ten blue links. Comet is the company's attempt to take that same idea and wrap an entire browser around it, and after two weeks of using it as a daily driver, it's clear Comet is less about replacing Chrome and more about turning the browser itself into an assistant that can act, not just answer.",
+        ],
+      },
+      {
+        heading: "What Comet actually does",
+        body: [
+          "At its core, Comet is a Chromium-based browser with Perplexity's assistant built into the sidebar, able to see and act on whatever page is currently open. Ask it to summarize a long article, compare how different news outlets are framing the same story, or pull the key numbers out of a PDF, and it responds using the actual page content rather than a generic web search — which noticeably improves accuracy on anything time-sensitive.",
+        ],
+      },
+      {
+        heading: "Research and shopping assistant",
+        image: {
+          src: "https://framerusercontent.com/images/TvmuNZu7x8PstI45zSmeZCCB4.png",
+          alt: "Perplexity Comet assistant sidebar performing a research task",
+          credit: "Perplexity",
+          creditUrl: "https://www.perplexity.ai/comet",
+        },
+        body: [
+          "Comet's shopping mode is one of its strongest features: point it at a product and ask it to find the same item elsewhere for less, and it will genuinely cross-reference multiple retailers and return a real comparison rather than a list of sponsored links. For research tasks — building a study plan, gathering sources for a report, or fact-checking a claim across several sites — it behaves like a research assistant that already has every relevant tab open, rather than one you have to walk through the process manually.",
+        ],
+      },
+      {
+        heading: "Email and task automation",
+        body: [
+          "Beyond research, Comet can draft email replies, help build a simple website, and generally handle multi-step busywork inside the browser itself. It's genuinely convenient for repetitive tasks, though it's noticeably more reliable on well-structured, mainstream sites than on smaller or unusually designed ones, where it can misclick or get stuck mid-task.",
+        ],
+      },
+      {
+        heading: "Where it stumbles",
+        body: [
+          "Comet is still a young product, and it shows in small ways: page load quirks, occasional confusion about which browser tab it should be acting on, and task automation that sometimes needs a manual restart rather than recovering on its own. None of these are dealbreakers, but they're a reminder that Comet is closer to an ambitious first generation than a fully polished daily driver for everyone.",
+        ],
+      },
+      {
+        heading: "Pricing and availability",
+        image: {
+          src: "https://framerusercontent.com/images/bMdgun0DJXnkXnN6WQGxfYhjQ.png",
+          alt: "Perplexity Comet browser shown across desktop and mobile devices",
+          credit: "Perplexity",
+          creditUrl: "https://www.perplexity.ai/comet",
+        },
+        body: [
+          "Comet is free to download for Mac, Windows, iOS, and Android, and works with a free Perplexity account, though daily agentic actions are capped on the free tier. Subscribing to Perplexity Pro at $20 a month raises those limits substantially and adds access to more capable underlying models for research tasks, which is where Comet starts to feel less like a novelty and more like a genuine daily tool.",
+        ],
+      },
+      {
+        heading: "Verdict",
+        body: [
+          "Comet is one of the more convincing arguments yet that the browser itself, not just a sidebar extension, is where AI assistants make the most sense — it has access to exactly what you're looking at and can act on it directly. It's not ready to fully replace Chrome for everyone, but for research-heavy work and online shopping, it's already saving real time, and it's only going to get more capable from here.",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getAllArticles(): Article[] {
