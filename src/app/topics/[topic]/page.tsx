@@ -7,6 +7,7 @@ const TOPIC_MAP: Record<string, string> = {
   laptops: "Laptops",
   phones: "Phones",
   audio: "Audio",
+  "ai-software": "AI Software",
 };
 
 export function generateStaticParams() {
