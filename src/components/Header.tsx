@@ -17,8 +17,8 @@ export default function Header() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/logo.png"
-            alt="Nexoralab"
-            className="h-9 w-auto sm:h-10"
+            alt="Nexora Tech Lab"
+            className="h-14 w-auto sm:h-16"
           />
         </Link>
 
