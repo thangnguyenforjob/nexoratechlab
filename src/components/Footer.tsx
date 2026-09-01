@@ -66,7 +66,7 @@ export default function Footer() {
         ))}
       </div>
       <div className="border-t border-white/10 px-4 py-5 text-center text-xs text-white/50 sm:px-6 lg:px-8">
-        © {new Date().getFullYear()} Nexoratech.online. All rights reserved.
+        © {new Date().getFullYear()} Nexoratechlab.online. All rights reserved.
       </div>
     </footer>
   );
