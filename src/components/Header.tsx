@@ -13,13 +13,13 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-white/95 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-4 py-4 sm:px-6 lg:px-8">
-        <Link href="/" className="flex items-center gap-2 shrink-0">
-          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-brand text-lg font-black text-white">
-            N
-          </span>
-          <span className="font-display text-xl font-black tracking-tight">
-            Nexora<span className="text-brand">tech</span>
-          </span>
+        <Link href="/" className="flex shrink-0 items-center">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/logo.png"
+            alt="Nexoralab"
+            className="h-9 w-auto sm:h-10"
+          />
         </Link>
 
         <nav className="hidden flex-1 items-center justify-center gap-7 md:flex">
