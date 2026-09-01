@@ -6,6 +6,13 @@ export interface Section {
   body: string[];
 }
 
+export interface ArticleImage {
+  src: string;
+  alt: string;
+  credit: string;
+  creditUrl?: string;
+}
+
 export interface Article {
   slug: string;
   title: string;
@@ -15,11 +22,12 @@ export interface Article {
   topic: Topic;
   author: string;
   date: string; // ISO
-readTime: string;
+  readTime: string;
   gradient: [string, string];
   emoji: string;
+  image?: ArticleImage;
   rating?: number; // out of 10, reviews only
-pros?: string[];
+  pros?: string[];
   cons?: string[];
   sources: { title: string; url: string }[];
   content: Section[];
