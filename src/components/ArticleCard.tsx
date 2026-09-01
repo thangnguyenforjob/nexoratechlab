@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Article } from "@/lib/types";
-import PlaceholderImage from "./PlaceholderImage";
+import ArticleImage from "./ArticleImage";
 import CategoryPill from "./CategoryPill";
 
 function formatDate(date: string) {
@@ -17,11 +17,11 @@ export function HeroCard({ article }: { article: Article }) {
       href={`/articles/${article.slug}`}
       className="group grid overflow-hidden rounded-2xl border border-border bg-white shadow-sm transition-shadow hover:shadow-lg md:grid-cols-2"
     >
-      <PlaceholderImage
-        gradient={article.gradient}
-        emoji={article.emoji}
+      <ArticleImage
+        article={article}
         className="aspect-[16/10] md:aspect-auto"
         emojiClassName="text-7xl"
+        showCredit
       />
       <div className="flex flex-col justify-center gap-3 p-6 sm:p-8">
         <CategoryPill category={article.category} />
@@ -47,11 +47,11 @@ export function ArticleCard({ article }: { article: Article }) {
       href={`/articles/${article.slug}`}
       className="group flex flex-col overflow-hidden rounded-xl border border-border bg-white shadow-sm transition-shadow hover:shadow-md"
     >
-      <PlaceholderImage
-        gradient={article.gradient}
-        emoji={article.emoji}
+      <ArticleImage
+        article={article}
         className="aspect-[16/10]"
         emojiClassName="text-5xl"
+        showCredit
       />
       <div className="flex flex-1 flex-col gap-2 p-4">
         <CategoryPill category={article.category} />
@@ -80,9 +80,8 @@ export function ListRow({ article, index }: { article: Article; index?: number }
           {index}
         </span>
       )}
-      <PlaceholderImage
-        gradient={article.gradient}
-        emoji={article.emoji}
+      <ArticleImage
+        article={article}
         className="h-16 w-20 shrink-0 rounded-lg"
         emojiClassName="text-2xl"
       />
