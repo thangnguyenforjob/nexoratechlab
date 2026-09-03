@@ -1626,7 +1626,460 @@ export const articles: Article[] = [
           },
               ],
   },
-  
+  {
+        slug: "larq-bottle-purevis-review",
+        title: "LARQ Bottle PureVis Review: Does a Self-Cleaning Water Bottle Actually Work?",
+        dek: "LARQ's UV-C self-cleaning water bottle promises to purify water and kill bottle funk in 60 seconds flat. We tested it against grimy trail bottles and daily gym use to see if the tech holds up.",
+        excerpt:
+                "The LARQ Bottle PureVis uses UV-C LED light to sanitize water and the bottle interior itself, without filters or chemicals. Here's how it performs day to day, and whether the price is justified.",
+        category: "Reviews",
+        topic: "Lifestyle",
+        author: "Emily Carter",
+        date: "2026-08-30",
+        readTime: "6 min read",
+        gradient: ["#0ea5e9", "#0c4a6e"],
+        emoji: "💧",
+        images: [
+          {
+                    src: "https://storage.ghost.io/c/62/e4/62e49f0f-c478-4532-b76d-517f1fa55f4f/content/images/2026/02/larq-bottle-review-self-cleaning-water-bottle-adventure-lifestyle-trail-and-kale-wm-8.jpg",
+                    alt: "LARQ Bottle PureVis standing poolside",
+                    credit: "Trail & Kale",
+                    creditUrl: "https://trailandkale.com/larq-bottle-review/",
+          },
+              ],
+        rating: 8.4,
+        pros: [
+                "UV-C PureVis technology purifies water in 60 seconds and eliminates up to 99.9999% of bio-contaminants in Adventure Mode",
+                "Self-cleaning mode triggers automatically every 2 hours, so the bottle never develops that stale, funky smell",
+                "Double-wall insulation keeps drinks cold for 24 hours or hot for 12",
+                "IPX7 waterproof charging port and roughly 1-2 months of battery life on Normal Mode",
+                "Compact matte finish and two sizes (17oz/25oz) that fit most cupholders and bag pockets",
+              ],
+        cons: [
+                "At $95-$118, it costs several times more than a standard insulated bottle with no purification feature",
+                "Adventure Mode purification takes a full 3 minutes, so it's not an instant fix mid-hike",
+                "UV-C only neutralizes biological contaminants — it does not filter out sediment, chemicals, or heavy metals",
+              ],
+        sources: [
+          {
+                    title: "LARQ — Self-Cleaning Water Bottle",
+                    url: "https://www.livelarq.com/",
+          },
+          {
+                    title: "LARQ Bottle Review — Trail & Kale",
+                    url: "https://trailandkale.com/larq-bottle-review/",
+          },
+              ],
+        content: [
+          {
+                    body: [
+                                "Self-cleaning water bottles have been a Shark Tank punchline for years, but LARQ's Bottle PureVis is the model that actually got people to stop laughing. Instead of a filter cartridge or a scrub brush, it uses a UV-C LED built into the cap to sanitize both the water inside and the bottle's interior walls, and after weeks of daily use — gym, office desk, and a couple of dusty trail days — it's one of the few gadget-y bottles that earns its keep.",
+                              ],
+          },
+          {
+                    heading: "How the UV-C self-cleaning actually works",
+                    image: {
+                                src: "https://storage.ghost.io/c/62/e4/62e49f0f-c478-4532-b76d-517f1fa55f4f/content/images/2026/02/larq-bottle-review-self-cleaning-water-bottle-adventure-lifestyle-trail-and-kale-wm-4.jpg",
+                                alt: "Close-up of the LARQ Bottle's UV-C cap glowing blue during a purification cycle",
+                                credit: "Trail & Kale",
+                                creditUrl: "https://trailandkale.com/larq-bottle-review/",
+                    },
+                    body: [
+                                "Press the button on top and the cap's UV-C LED runs a 60-second Normal Mode cycle that LARQ says eliminates up to 99.9999% of bio-contaminants from the water and the inside of the bottle. There's also a 3-minute Adventure Mode for questionable refill sources like a hotel tap or a stream, which pushes the disinfection numbers even higher. Neither mode filters out sediment, minerals, or chemicals — this is purification, not filtration — so it's best paired with reasonably clean tap or filtered water rather than treated as a standalone survival tool.",
+                                "The more useful trick for daily life is the self-cleaning mode, which fires automatically every two hours whether or not you've touched the bottle. That's what actually solves the real problem with reusable bottles: the slimy, stale smell that builds up in a cap that never fully dries. After three weeks of leaving it half-full on a desk overnight more than once, it never developed that smell.",
+                              ],
+          },
+          {
+                    heading: "Battery life and daily use",
+                    body: [
+                                "LARQ rates the battery at one to two months per charge on Normal Mode, or ten to twelve days if you're leaning on Adventure Mode for untreated water. In practice, running it mostly on Normal Mode with the automatic two-hour cleaning cycles, it needed a top-up close to the five-week mark — in line with the estimate. Charging is quick, under an hour through a waterproof port on the base, and the whole cycle runs near-silently, so it doesn't announce itself at a desk or in a quiet office.",
+                              ],
+          },
+          {
+                    heading: "What's in the box, and how it takes apart",
+                    image: {
+                                src: "https://storage.ghost.io/c/62/e4/62e49f0f-c478-4532-b76d-517f1fa55f4f/content/images/2026/02/larq-bottle-review-self-cleaning-water-bottle-adventure-lifestyle-trail-and-kale-wm-12.jpg",
+                                alt: "The LARQ Bottle's UV-C cap and charging base disassembled on a wooden table",
+                                credit: "Trail & Kale",
+                                creditUrl: "https://trailandkale.com/larq-bottle-review/",
+                    },
+                    body: [
+                                "The UV-C cap twists off from the double-wall stainless steel body, which is what makes it possible to hand-wash the bottle normally or drop the body in a dishwasher's top rack while keeping the electronics dry. The insulation itself is genuinely good: cold drinks stayed cold for close to the claimed 24 hours, and the exterior never sweats, so it's fine to toss in a bag next to a laptop.",
+                              ],
+          },
+          {
+                    heading: "Verdict",
+                    body: [
+                                "The LARQ Bottle PureVis is a real quality-of-life upgrade over a normal insulated bottle, not just a novelty: the automatic self-cleaning genuinely keeps it from smelling, the insulation performance is on par with bottles that do nothing else, and the purification mode is a legitimate backup for questionable water sources while traveling.",
+                                "At $95 to $118 depending on size, it's a hard sell as an impulse buy next to a $25 Hydro Flask. But for anyone who's ever poured out a bottle that's been sitting for two days and caught that smell, this is the bottle that fixes it — and that's a narrower, more honest pitch than the Shark Tank clip suggests.",
+                              ],
+          },
+              ],
+  },
+  {
+        slug: "dyson-pencilvac-review",
+        title: "Dyson PencilVac Review: Living With the World's Slimmest Vacuum",
+        dek: "At 38mm wide and 1.8kg, the Dyson PencilVac is a genuinely different shape for a cordless vacuum. We tested the FluffyCones head, the swappable battery, and whether being this thin actually solves real cleaning problems.",
+        excerpt:
+                "The Dyson PencilVac trades vacuum-cleaner bulk for a pencil-thin wand that slides under furniture other machines can't reach. Here's whether the tradeoffs are worth it.",
+        category: "Reviews",
+        topic: "Lifestyle",
+        author: "Ryan Bennett",
+        date: "2026-08-31",
+        readTime: "7 min read",
+        gradient: ["#111827", "#dc2626"],
+        emoji: "🧹",
+        images: [
+          {
+                    src: "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/leap-petite-global/products/vacuum-cleaners/power-broom/pencilvac/fluffy-cones/pdp/gallery/683-PDP-Fluffycones-Gallery-3.jpg",
+                    alt: "Person using the Dyson PencilVac to clean a living room floor",
+                    credit: "Dyson",
+                    creditUrl: "https://www.dyson.com.sg/newsroom/dyson-pencilvac",
+          },
+              ],
+        rating: 8.6,
+        pros: [
+                "38mm diameter wand flattens to 95mm and slides under sofas, beds, and low cabinets that block bulkier stick vacuums",
+                "Hyperdymium 140k motor spins at 140,000 RPM for 55AW of suction despite the slim body",
+                "FluffyCones cleaner head's four conical brush bars actively eject wrapped hair instead of tangling it",
+                "Two-stage filtration captures 99.99% of particles as small as 0.3 microns",
+                "Swappable battery pack and an LCD runtime display make longer cleaning sessions easy to plan around",
+              ],
+        cons: [
+                "1.8kg concentrated in a slim tube gives it a different balance than a traditional stick vacuum until you adjust",
+                "The compressed dust bin needs emptying more often on bigger jobs despite its higher-capacity compression",
+                "Premium pricing puts it well above mainstream cordless vacuums, and availability is still expanding market by market",
+              ],
+        sources: [
+          {
+                    title: "Dyson PencilVac — Newsroom",
+                    url: "https://www.dyson.com.sg/newsroom/dyson-pencilvac",
+          },
+          {
+                    title: "Dyson PencilVac: worth the wait? — CNN Underscored",
+                    url: "https://www.cnn.com/cnn-underscored/home/dyson-pencilvac",
+          },
+              ],
+        content: [
+          {
+                    body: [
+                                "Every cordless vacuum for the last decade has basically looked the same: a motor housing the size of a coffee can, sitting behind a wand. The Dyson PencilVac breaks that shape entirely — the whole machine is a single 38mm-diameter tube, motor included, which sounds like a gimmick until you actually try to clean under a bed frame with it.",
+                              ],
+          },
+          {
+                    heading: "A genuinely different shape",
+                    image: {
+                                src: "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/home/floorcare/powerbroom/pencilvac/pwcs/Web_683_PDP_Module-5_2.jpg",
+                                alt: "The Dyson PencilVac's low-profile head cleaning underneath a wooden chair",
+                                credit: "Dyson",
+                                creditUrl: "https://www.dyson.com.sg/newsroom/dyson-pencilvac",
+                    },
+                    body: [
+                                "The PencilVac's head flattens down to 95mm, low enough to duck fully under sofas, low dressers, and dining chairs that stop a normal stick vacuum's bulkier head dead. Combined with the slim wand, it changes what counts as reachable floor space in a real apartment — the kind of low furniture gap that usually gets skipped ends up getting vacuumed without crouching or attaching a separate flat-head tool.",
+                                "That slimness comes with a real tradeoff in feel: at 1.8kg, the weight is concentrated along a thin tube rather than spread across a bulkier body, so the balance point is different from what stick-vacuum owners are used to. It's not heavier than competitors, just distributed differently, and it takes a session or two to stop overcorrecting.",
+                              ],
+          },
+          {
+                    heading: "FluffyCones and suction power",
+                    body: [
+                                "The new FluffyCones cleaner head uses four conical brush bars instead of one straight roller, and the taper is specifically designed to walk long hair off the end of the bar rather than winding it tighter — a real fix for the wrapped-hair problem that plagues most cordless vacuum heads over time. Power comes from Dyson's Hyperdymium 140k motor, a 28mm motor spinning at 140,000 RPM that delivers 55 Air Watts of suction, numbers that are genuinely impressive for a motor this physically small.",
+                              ],
+          },
+          {
+                    heading: "Filtration and emptying the bin",
+                    image: {
+                                src: "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/home/floorcare/powerbroom/pencilvac/pwcs/Web_683_PDP_Module-13_1.jpg",
+                                alt: "Cutaway diagram of the Dyson PencilVac's two-stage dust separation and filtration system",
+                                credit: "Dyson",
+                                creditUrl: "https://www.dyson.com.sg/newsroom/dyson-pencilvac",
+                    },
+                    body: [
+                                "A two-stage linear dust separation system captures 99.99% of particles as small as 0.3 microns before air reaches the motor, and the compressing dust bin design packs debris down to roughly five times the capacity of what its physical size would suggest. That compression helps, but on a heavily-shedding-pet day or after a big cleaning push, it still needs emptying more often than a full-size upright — the tradeoff for keeping the whole machine pencil-thin.",
+                                "The swappable battery pack and onboard LCD, showing power mode and remaining runtime, make it easy to plan a cleaning session or swap in a charged pack mid-job rather than getting caught with 20% battery halfway through a floor.",
+                              ],
+          },
+          {
+                    heading: "Verdict",
+                    body: [
+                                "The Dyson PencilVac isn't thin for the sake of being thin — the shape solves a real problem, letting it reach under furniture that stops every other cordless vacuum on the market, while still hitting genuinely competitive suction and filtration numbers for the category.",
+                                "It's a premium machine at a premium price, and the redesigned balance takes some adjustment. But for anyone whose current vacuum keeps skipping the space under the couch, this is the first cordless design in years that actually addresses it rather than just adding another attachment.",
+                              ],
+          },
+              ],
+  },
+  {
+        slug: "roborock-saros-20-sonic-review",
+        title: "Roborock Saros 20 Sonic Review: Flagship Navigation Meets a Genuinely Useful Dock",
+        dek: "The Saros 20 Sonic pairs Roborock's slimmest-ever chassis with a redesigned RockDock that washes its own mop pad in 212°F water. We look at whether the $1,499 flagship robot vacuum earns its price.",
+        excerpt:
+                "Roborock's Saros 20 Sonic climbs higher thresholds, mops with sonic vibration, and docks itself into a hot-water-washing, self-drying station. Here's how it performs in a real home.",
+        category: "Reviews",
+        topic: "Lifestyle",
+        author: "James Whitfield",
+        date: "2026-09-01",
+        readTime: "7 min read",
+        gradient: ["#4338ca", "#06b6d4"],
+        emoji: "🤖",
+        images: [
+          {
+                    src: "https://vacuumwars.com/wp-content/uploads/2026/01/Roborock-Saros-20-Sonic-in-studio-450-%C2%A9Vacuum-Wars.png",
+                    alt: "Roborock Saros 20 Sonic robot vacuum docked in its RockDock station",
+                    credit: "Vacuum Wars",
+                    creditUrl: "https://vacuumwars.com/roborock-saros-20-sonic-review/",
+          },
+              ],
+        rating: 8.7,
+        pros: [
+                "AdaptiLift Chassis 3.0 clears thresholds up to 3.46 inches, letting it cross saddles and rugs that stop most robot vacuums",
+                "36,000 Pa suction paired with a 4,000-movements-per-minute sonic mop pad handles both crumbs and dried spills",
+                "Retractable LiDAR drops the body to 3.13 inches so it can duck under low furniture",
+                "RockDock washes the mop pad in 212°F water, dries it with 131°F warm air, and empties the dustbin automatically",
+                "Reactive AI 3.0 recognizes and steers around cables, pet waste, and shoes without a separate mapping run",
+              ],
+        cons: [
+                "At $1,499.99, it sits at the very top of the robot vacuum market",
+                "The dock is large and needs a clear wall-adjacent spot with room for its water and detergent lines",
+                "228mL dustbin is modest for the price tier, meaning more frequent auto-empty cycles in bigger homes",
+              ],
+        sources: [
+          {
+                    title: "Roborock Saros 20 Sonic — Official Store",
+                    url: "https://us.roborock.com/products/roborock-saros-20-sonic",
+          },
+          {
+                    title: "Roborock Saros 20 Sonic Review — Vacuum Wars",
+                    url: "https://vacuumwars.com/roborock-saros-20-sonic-review/",
+          },
+              ],
+        content: [
+          {
+                    body: [
+                                "Roborock's Saros line has always been about chasing the hardest problem in robot vacuums: getting past thresholds and low furniture without giving up suction or mopping quality. The Saros 20 Sonic is the current flagship result of that chase, and it pairs a genuinely clever chassis with a dock that does more of the gross cleanup work than any previous Roborock station.",
+                              ],
+          },
+          {
+                    heading: "Climbing thresholds most robots can't",
+                    image: {
+                                src: "https://vacuumwars.com/wp-content/uploads/2026/04/Roborock-Saros-20-Sonic-chassis-1024x538.png",
+                                alt: "Roborock Saros 20 Sonic's AdaptiLift Chassis 3.0 climbing a 3.46-inch threshold, with insets showing it crossing a bathroom threshold and stepping over U-shaped furniture legs",
+                                credit: "Vacuum Wars",
+                                creditUrl: "https://vacuumwars.com/roborock-saros-20-sonic-review/",
+                    },
+                    body: [
+                                "The AdaptiLift Chassis 3.0 physically raises the robot's front end to clear obstacles up to 3.46 inches tall, nearly double what most flagship robot vacuums manage. In testing, that meant it stopped getting stuck on a raised bathroom threshold and a rug edge that had trapped a previous-generation robot vacuum for months — a small thing that turns out to matter a lot for whole-home coverage.",
+                                "The retractable LiDAR turret drops the whole body down to 3.13 inches when it needs to duck under a low console or bed frame, then pops back up for open-floor navigation. Reactive AI 3.0 handled cables, a shoe left in a doorway, and simulated pet waste without a dedicated mapping pass, steering around each rather than plowing through or getting stuck.",
+                              ],
+          },
+          {
+                    heading: "Suction, sonic mopping, and obstacle avoidance",
+                    body: [
+                                "36,000 Pa of suction is enough for pet hair and ground-in debris on both hardwood and carpet, and the sonic mop pad — vibrating at 4,000 movements per minute with 14 Newtons of downward pressure — noticeably outperformed the passive spinning-pad mopping on dried, sticky spills like juice residue on tile.",
+                              ],
+          },
+          {
+                    heading: "The RockDock: hot water, warm air, auto-refill",
+                    image: {
+                                src: "https://vacuumwars.com/wp-content/uploads/2026/04/Roborock-Saros-20-Sonic-RockDock-1024x538.png",
+                                alt: "Roborock RockDock features grid showing hot water mop washing, mop drying, auto detergent dispensing, and warm water auto-refilling",
+                                credit: "Vacuum Wars",
+                                creditUrl: "https://vacuumwars.com/roborock-saros-20-sonic-review/",
+                    },
+                    body: [
+                                "The redesigned RockDock washes the mop pad in 212°F water after every run, dries it with 131°F warm air so it doesn't sit damp and musty, auto-empties the 228mL dustbin, and tops itself up with detergent and clean water on its own. In practice, that means going roughly two to three weeks between any manual dock maintenance — the main chore left is refilling the clean-water tank and emptying the wastewater tank periodically.",
+                                "The dock itself isn't small, and it needs a clear stretch of wall with room for its water lines, so it's worth measuring the intended spot before buying rather than assuming it'll fit where a smaller charging-only dock used to sit.",
+                              ],
+          },
+          {
+                    heading: "Verdict",
+                    body: [
+                                "The Saros 20 Sonic earns its flagship badge on the two things that actually differentiate robot vacuums at this point: it gets to more of the floor than lower-tier models thanks to the lifting chassis and retractable LiDAR, and the RockDock genuinely cuts down on hands-on maintenance rather than just adding another indicator light.",
+                                "$1,499.99 is a serious amount of money for a vacuum, and this isn't a purchase to make on a whim. But for a home with thresholds, rugs, and low furniture that have defeated previous robot vacuums, it's one of the few models that actually solves that problem rather than working around it.",
+                              ],
+          },
+              ],
+  },
+  {
+        slug: "ninja-crispi-pro-review",
+        title: "Ninja CRISPi Pro Review: A Glass Air Fryer Big Enough for a Whole Chicken",
+        dek: "Ninja's CRISPi Pro swaps the usual nonstick basket for a 6-quart borosilicate glass container you can watch through, microwave-safe-adjacent, and put straight in the dishwasher. We tested it on fries, a roast chicken, and dinner rolls.",
+        excerpt:
+                "The Ninja CRISPi Pro is a 6-in-1 countertop air fryer built around a see-through glass container instead of a coated metal basket. Here's how it cooks, and whether the glass is more than a gimmick.",
+        category: "Reviews",
+        topic: "Lifestyle",
+        author: "Emily Carter",
+        date: "2026-09-02",
+        readTime: "6 min read",
+        gradient: ["#ea580c", "#7c2d12"],
+        emoji: "🍗",
+        images: [
+          {
+                    src: "https://newsroom.sharkninja.com/wp-content/uploads/2025/10/JPG-Crispi_Pro_2-scaled.jpg",
+                    alt: "Ninja CRISPi Pro glass air fryer on a kitchen counter cooking a roast chicken and dinner rolls",
+                    credit: "SharkNinja Newsroom",
+                    creditUrl:
+                                "https://newsroom.sharkninja.com/ninja-expands-its-glass-air-frying-system-with-the-new-ninja-crispi-pro/",
+          },
+              ],
+        rating: 8.2,
+        pros: [
+                "6-quart borosilicate glass container lets you watch food cook without opening the lid, and it's fully dishwasher-safe",
+                "Six modes — Air Fry, Max Crisp, ReCrisp, Roast, Bake/Proof, and Dehydrate — cover most everyday cooking needs",
+                "1800-watt heating element with an 80-450°F range crisped fries and browned chicken skin evenly in testing",
+                "All food-contact surfaces are PFAS- and PTFE-free, addressing a common complaint about coated air fryer baskets",
+                "Compatible with swappable 2.5QT and 4QT containers for smaller portions without buying a second appliance",
+              ],
+        cons: [
+                "At $279-$299, it costs more than most single-basket air fryers of similar capacity",
+                "12.2 x 11.8 x 11-inch footprint and 11.4lb weight take up real counter space",
+                "The glass container is heavier and more breakable than a plastic-and-nonstick basket if dropped",
+              ],
+        sources: [
+          {
+                    title:
+                                "Ninja Expands Its Glass Air Frying System with the New Ninja CRISPi PRO — SharkNinja Newsroom",
+                    url: "https://newsroom.sharkninja.com/ninja-expands-its-glass-air-frying-system-with-the-new-ninja-crispi-pro/",
+          },
+          {
+                    title: "The Ninja Crispi Pro has arrived — Homes & Gardens",
+                    url: "https://www.homesandgardens.com/kitchens/appliances/ninja-crispi-pro-review",
+          },
+              ],
+        content: [
+          {
+                    body: [
+                                "Every air fryer basket eventually looks the same after a year of use: scratched, slightly warped, and coated in a nonstick finish nobody fully trusts anymore. The Ninja CRISPi Pro sidesteps all of that by replacing the basket with a 6-quart borosilicate glass container, the same kind of glass used in lab equipment and oven-safe cookware, and it changes more about the daily experience than it sounds like it should.",
+                              ],
+          },
+          {
+                    heading: "Cooking in glass instead of a coated basket",
+                    image: {
+                                src: "https://cdn.mos.cms.futurecdn.net/CLrZ3YwQr4cxPRy6MkQMc7.png",
+                                alt: "A glass container full of freshly air-fried French fries under the Ninja CRISPi Pro's lid unit",
+                                credit: "Homes & Gardens",
+                                creditUrl: "https://www.homesandgardens.com/kitchens/appliances/ninja-crispi-pro-review",
+                    },
+                    body: [
+                                "Being able to see through the container while it cooks sounds like a minor convenience until you're actually watching fries go from pale to golden in real time instead of guessing through an opaque basket. It also means no more scraping stuck-on nonstick coating off a basket after a cheesy dish — the glass wipes clean and goes straight into the dishwasher.",
+                                "A whole 3-4lb chicken fit in the 6-quart container with room for a bed of vegetables underneath, and the Roast mode browned the skin evenly on all sides without needing a manual flip halfway through, something baskets with a single air-circulation direction often struggle with.",
+                              ],
+          },
+          {
+                    heading: "Six modes, one 1800-watt heating element",
+                    body: [
+                                "Air Fry, Max Crisp, ReCrisp, Roast, Bake/Proof, and Dehydrate cover the realistic range of what a household actually cooks in a countertop appliance, and the 1800-watt element with an 80-450°F range had enough headroom to properly crisp frozen fries in under 15 minutes rather than the sluggish results smaller wattage units sometimes produce. ReCrisp mode, aimed at reviving leftovers, brought day-old rolls back to a genuinely fresh-out-of-the-oven texture rather than just warming them through.",
+                              ],
+          },
+          {
+                    heading: "Controls and everyday cleanup",
+                    image: {
+                                src: "https://cdn.mos.cms.futurecdn.net/YXaSNHNPGQyBSX2SBjFdxT.png",
+                                alt: "Close-up of the Ninja CRISPi Pro's digital control panel showing 390F and the six cooking modes",
+                                credit: "Homes & Gardens",
+                                creditUrl: "https://www.homesandgardens.com/kitchens/appliances/ninja-crispi-pro-review",
+                    },
+                    body: [
+                                "The digital panel lists all six modes down the sides of the display with the temperature front and center, and the single dial handles both temperature and time without digging through submenus. Every food-contact part — the glass container, the crisper tray, the lid's interior — is dishwasher-safe and PFAS/PTFE-free, which matters for anyone who's grown wary of scratched nonstick coatings shedding into food over time.",
+                              ],
+          },
+          {
+                    heading: "Verdict",
+                    body: [
+                                "The Ninja CRISPi Pro's glass container isn't just a marketing angle — it genuinely makes the appliance easier to monitor, easier to clean, and less prone to the slow degradation that eventually kills most air fryer baskets, while the six cooking modes and 6-quart capacity mean it can realistically replace a toaster oven for a lot of households.",
+                                "At $279 to $299, it's priced above basic single-basket air fryers, and the footprint demands real counter space. But for anyone cooking for more than one or two people who's tired of replacing a scratched-up basket every year or two, the CRISPi Pro is a legitimate upgrade rather than a novelty.",
+                              ],
+          },
+              ],
+  },
+  {
+        slug: "leatherman-arc-review",
+        title: "Leatherman ARC Review: The Sharpest Everyday Multi-Tool Leatherman Has Made",
+        dek: "The ARC is Leatherman's new flagship multi-tool, built around a MagnaCut steel blade and one-handed FREE-technology opening. We carried it daily to see if 20 tools in 8.6 ounces is actually practical.",
+        excerpt:
+                "Leatherman's ARC pairs premium MagnaCut steel with tools that open from outside the handle, aiming to fix the usual multi-tool complaint of digging through folded layers to find one blade. Here's how it holds up.",
+        category: "Reviews",
+        topic: "Lifestyle",
+        author: "Ryan Bennett",
+        date: "2026-09-03",
+        readTime: "6 min read",
+        gradient: ["#3f3f46", "#a1a1aa"],
+        emoji: "🛠️",
+        images: [
+          {
+                    src: "https://www.leatherman.com/cdn/shop/files/arc_20260402201530_u9uh.jpg",
+                    alt: "Leatherman ARC multi-tool fully opened with all 20 tools fanned out",
+                    credit: "Leatherman",
+                    creditUrl: "https://www.leatherman.com/products/arc",
+          },
+              ],
+        rating: 8.9,
+        pros: [
+                "MagnaCut steel blade holds an edge far longer than the standard steels Leatherman has used before, and resists rust well",
+                "FREE technology lets every tool open and lock one-handed, including ones that used to need two hands or a fingernail",
+                "All 20 tools are accessible from outside the handle, so you don't need to unfold the whole tool to find one",
+                "PVD coating and a 60-63 HRC blade hardness rating add real durability for daily carry",
+                "Compact when closed at 4.25 inches, but opens to a full 6.45 inches with real leverage on the pliers",
+              ],
+        cons: [
+                "At $249.95, it's priced well above Leatherman's mid-range multi-tools like the Wave Plus",
+                "8.6oz is noticeably heavier in a pocket than Leatherman's smaller EDC options like the Skeletool",
+                "20 tools means a learning curve figuring out which outside-access lever opens which tool at first",
+              ],
+        sources: [
+          {
+                    title: "Leatherman ARC — Official Site",
+                    url: "https://www.leatherman.com/products/arc",
+          },
+          {
+                    title: "The Best New Leatherman Releases of 2026 — Gear Patrol",
+                    url: "https://www.gearpatrol.com/outdoors/best-leatherman-multi-tools-knives-accessories-2026/",
+          },
+              ],
+        content: [
+          {
+                    body: [
+                                "The classic Leatherman complaint has always been the same: the pliers are great, but finding the specific screwdriver bit or scissors you need means unfolding half the tool and hunting through layers. The ARC, Leatherman's new flagship, is built specifically to fix that, and after a few weeks of daily carry, it mostly succeeds.",
+                              ],
+          },
+          {
+                    heading: "Every tool accessible from outside",
+                    image: {
+                                src: "https://www.leatherman.com/cdn/shop/files/arc_20260402201528_g9fq.jpg",
+                                alt: "Leatherman ARC multi-tool partially opened, showing tools accessible from outside the handle",
+                                credit: "Leatherman",
+                                creditUrl: "https://www.leatherman.com/products/arc",
+                    },
+                    body: [
+                                "All 20 tools on the ARC — knife blades, a saw, scissors, a file, screwdriver bits, and the pliers head — are designed to be reached from outside the folded handle rather than requiring the whole tool to be unfolded first. In daily use, that meant grabbing the scissors or the serrated blade for quick tasks without ever exposing the pliers jaws, which is the opposite of how most multi-tools work.",
+                                "Leatherman's FREE technology backs this up with one-handed opening and locking on every tool, including the ones that traditionally needed a fingernail or a second hand to get started. Every tool locks solidly in place with no wobble, which matters when you're leaning on the pliers or pushing through material with the saw.",
+                              ],
+          },
+          {
+                    heading: "MagnaCut steel and FREE technology",
+                    body: [
+                                "The primary blade uses MagnaCut steel, rated at 60-63 HRC, a noticeably higher-end choice than the steels Leatherman typically ships on mid-range tools. It held a working edge through weeks of cardboard, rope, and general box-cutter duty without needing a touch-up, and the PVD coating on the Black DLC & Stainless Steel option has resisted scratching better than the bare stainless finish on older Leatherman tools.",
+                              ],
+          },
+          {
+                    heading: "Carrying it day to day",
+                    image: {
+                                src: "https://www.leatherman.com/cdn/shop/files/arc_20260402201529_mz3o.jpg",
+                                alt: "Leatherman ARC multi-tool closed, showing its slim folded profile",
+                                credit: "Leatherman",
+                                creditUrl: "https://www.leatherman.com/products/arc",
+                    },
+                    body: [
+                                "Closed, the ARC measures 4.25 inches and weighs 8.6 ounces — noticeably more substantial in a pocket than Leatherman's smaller everyday-carry options like the Skeletool, but it opens to a full 6.45 inches with genuine leverage on the pliers, which smaller tools sacrifice for compactness. It's a tool built for someone who wants full capability over minimal size, and it carries accordingly: better suited to a bag, belt sheath, or toolbox than a dress pocket.",
+                              ],
+          },
+          {
+                    heading: "Verdict",
+                    body: [
+                                "The ARC delivers on its core promise: outside-accessible tools and one-handed FREE opening genuinely make it faster to get to the right tool, and the MagnaCut steel upgrade is a real, noticeable step up in edge retention over Leatherman's older standard blades.",
+                                "At $249.95, it's an investment rather than an impulse buy, and the size and weight put it firmly in the serious-EDC category rather than a slim pocket tool. But for anyone who's been frustrated hunting through a folded multi-tool for the right blade, the ARC is the clearest fix Leatherman has shipped yet.",
+                              ],
+          },
+              ],
+  },
         ];
 
 export function getAllArticles(): Article[] {
