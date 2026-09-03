@@ -2173,8 +2173,8 @@ export const articles: Article[] = [
           },
               ],
         cta: {
-                label: "Browse Mannco.store →",
-                url: "https://mannco.store/?ref=oda2mdb",
+                        label: "Browse Mannco.store",
+          url: "https://mannco.store/?ref=oda2mdb",
         },
   },
         ];
