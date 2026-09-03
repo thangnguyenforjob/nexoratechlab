@@ -8,6 +8,7 @@ const nav = [
   { label: "Phones", href: "/topics/phones" },
   { label: "Audio", href: "/topics/audio" },
   { label: "AI Software", href: "/topics/ai-software" },
+  { label: "Lifestyle", href: "/topics/lifestyle" },
 ];
 
 export default function Header() {
