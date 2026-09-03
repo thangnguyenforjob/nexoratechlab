@@ -1164,7 +1164,367 @@ export const articles: Article[] = [
       },
     ],
   },
-];
+  {
+        slug: "google-pixel-11-series-launch",
+        title: "Google Pixel 11 Series Launches With Tensor G6 and a Redesigned Camera Bar",
+        dek: "The Pixel 11, Pixel 11 Pro, and Pixel 11 Pro XL bring Google's first 2-nanometer chip, a 40% thinner camera bar, and deeper Gemini integration, starting at $899.",
+        excerpt:
+                "Google's Pixel 11 lineup debuts the Tensor G6 chip, upgraded cameras, and Pro-only HiLight notifications, with US pricing starting at $899.",
+        category: "News",
+        topic: "Phones",
+        author: "Emily Carter",
+        date: "2026-08-12",
+        readTime: "5 min read",
+        gradient: ["#4285f4", "#34a853"],
+        emoji: "📱",
+        images: [
+          {
+                    src: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pixel_11_Family_Shot.width-1200.format-webp.webp",
+                    alt: "The Google Pixel 11 family lineup shown together",
+                    credit: "Google",
+                    creditUrl: "https://blog.google/products-and-platforms/devices/pixel/google-pixel-11-pro-xl/",
+          },
+              ],
+        sources: [
+          {
+                    title: "Google introduces Pixel 11, Pixel 11 Pro and Pixel 11 Pro XL — Google Blog",
+                    url: "https://blog.google/products-and-platforms/devices/pixel/google-pixel-11-pro-xl/",
+          },
+          {
+                    title: "Introducing new Pixel 11 phones, Pixel Watch 5, and Pixel Tag — Google Blog",
+                    url: "https://blog.google/products-and-platforms/devices/pixel/new-pixel-devices-2026/",
+          },
+              ],
+        content: [
+          {
+                    body: [
+                                "Google used its Made by Google event on August 12, 2026 to introduce the Pixel 11 series: the standard Pixel 11, the Pixel 11 Pro, and the Pixel 11 Pro XL, alongside the Pixel Watch 5 and a new Pixel Tag item tracker. All three phones ship with Android 17 and are built, Google says, specifically 'for Gemini Intelligence' rather than treating on-device AI as an add-on feature bolted onto last year's hardware.",
+                              ],
+          },
+          {
+                    heading: "Tensor G6: Google's first 2-nanometer chip",
+                    image: {
+                                src: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/TensorChip.width-1200.format-webp.webp",
+                                alt: "Google Tensor G6 chip",
+                                credit: "Google",
+                                creditUrl: "https://blog.google/products-and-platforms/devices/pixel/google-pixel-11-pro-xl/",
+                    },
+                    body: [
+                                "The headline upgrade across all three phones is Tensor G6, which Google describes as the first 2-nanometer chip to ship in a smartphone. Google claims 25% faster web browsing and 15% quicker app launches than Tensor G5, alongside 50% more TPU compute for on-device Gemini Nano tasks — which Google says now run up to 3.5 times faster while using up to 3.5 times less energy. A new Titan M3 security chip handles on-device encryption, and the Pro models pair the chip with 12GB or 16GB of RAM depending on configuration.",
+                              ],
+          },
+          {
+                    heading: "Cameras and a slimmer camera bar",
+                    body: [
+                                "The standard Pixel 11 gets a new 48-megapixel main sensor Google says captures 56% more light than its predecessor, plus a 5x telephoto supporting 30x Super Res Zoom and a Night Sight mode that Google claims processes images four and a half times faster. The Pixel 11 Pro and Pro XL step up to what Google calls its best camera system yet, with an upgraded 48-megapixel telephoto (30% more light sensitivity), Portrait Mode at 5x zoom, and Pro Zoom reaching up to 120x.",
+                                "Visually, the most obvious change across the lineup is a camera bar that Google says is 40% thinner than before, paired with a satin metal frame and a polished glass back. All three phones carry an IP68 rating for dust and water resistance.",
+                              ],
+          },
+          {
+                    heading: "Gemini Nano and the Pro-only HiLight feature",
+                    body: [
+                                "Beyond raw specs, Google is leaning hard on Gemini as the differentiator. Gemini Nano now runs faster directly on the phone thanks to Tensor G6's added TPU headroom, and the Pro and Pro XL models add a feature called HiLight — small LED notifications built around the camera flash that surface calls, messages, and Gemini interactions without waking the full display. Every Pixel 11 model ships with seven years of guaranteed OS, security, and Pixel Drop feature updates, and Pro buyers get six months of Google AI Pro included, which bundles 5TB of cloud storage and Google Health Premium.",
+                              ],
+          },
+          {
+                    heading: "Price, colors, and availability",
+                    image: {
+                                src: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pixel-11ProXL_Family-Shot.width-1200.format-webp.webp",
+                                alt: "Google Pixel 11 Pro and Pixel 11 Pro XL shown in their launch colors",
+                                credit: "Google",
+                                creditUrl: "https://blog.google/products-and-platforms/devices/pixel/google-pixel-11-pro-xl/",
+                    },
+                    body: [
+                                "US pricing starts at $899 for the Pixel 11 (Pistachio, Hibiscus, Frost, or Obsidian), $1,099 for the Pixel 11 Pro, and $1,299 for the Pixel 11 Pro XL, with the Pro models offered in Canyon, Fog, Olive, or an all-matte Obsidian finish. Every model starts at 256GB of storage — Google has dropped the smaller base tier it offered on some past-generation Pixels. Pre-orders opened alongside the announcement, with retail availability following on August 20, 2026.",
+                                "Combined with the Pixel Watch 5's own new health-tracking and Gemini features, the Pixel 11 launch is Google's clearest statement yet that its hardware roadmap and its AI roadmap are now effectively the same roadmap — a bet that will only look smarter or shakier as Gemini's on-device capabilities keep shifting month to month.",
+                              ],
+          },
+              ],
+  },
+  {
+        slug: "anthropic-model-hardware-standard-news",
+        title: "Anthropic Opens a Research Preview Letting Claude Operate Lab Robots and Scientific Instruments",
+        dek: "The Model Hardware Standard gives AI agents a common way to talk to lab equipment, cutting integration time from weeks to minutes — with early results from Genentech, Carnegie Mellon, and other research partners.",
+        excerpt:
+                "Anthropic's Model Hardware Standard research preview lets Claude safely operate lab robots and scientific instruments, with early partners reporting dramatic speedups.",
+        category: "News",
+        topic: "AI Software",
+        author: "James Whitfield",
+        date: "2026-08-27",
+        readTime: "6 min read",
+        gradient: ["#cc785c", "#3d3929"],
+        emoji: "🦾",
+        images: [
+          {
+                    src: "https://cdn.sanity.io/images/4zrzovbb/website/5008271abbababe59f4fbb01998697f7dd0b5b60-1280x720.jpg",
+                    alt: "Anthropic Model Hardware Standard announcement",
+                    credit: "Anthropic",
+                    creditUrl: "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+          },
+              ],
+        sources: [
+          {
+                    title: "Model Hardware Standard: a research preview — Anthropic",
+                    url: "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+          },
+          {
+                    title: "Anthropic Unveils MHS to Let Claude AI Work With Robots, Lab Equipment — Bloomberg",
+                    url: "https://www.bloomberg.com/news/articles/2026-08-27/anthropic-tests-new-way-for-claude-to-work-with-robots-and-scientific-lab-tools",
+          },
+              ],
+        content: [
+          {
+                    body: [
+                                "Anthropic announced on August 27, 2026 that it's opening a research preview of the Model Hardware Standard, or MHS — a shared specification that lets AI agents like Claude safely operate physical lab and manufacturing equipment. The pitch is straightforward: most scientific instruments and industrial devices don't share a common software interface, so wiring an AI agent up to a liquid handler, a robotic arm, or a plate reader has historically meant weeks or months of bespoke, one-off integration work. MHS is Anthropic's attempt to turn that into a standardized, hours-or-minutes job.",
+                              ],
+          },
+          {
+                    heading: "How it works",
+                    image: {
+                                src: "https://www-cdn.anthropic.com/images/4zrzovbb/website/0aa7623ba0e545ce39e0de725583c0445ce6b76d-1999x1250.png",
+                                alt: "Diagram of the Model Hardware Standard connecting AI agents to lab hardware",
+                                credit: "Anthropic",
+                                creditUrl: "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+                    },
+                    body: [
+                                "MHS provides a standardized driver layer that translates between an operating system and a piece of hardware using simple 'read' and 'write' primitives, documented with natural-language metadata describing each device's characteristics, safety limits, and operational parameters. It's designed to be model-agnostic — any agent harness can reach it through the Model Context Protocol — and hardware-flexible, working with any device that exposes a programmable interface, whether that's through MCP itself, a command-line interface, or a code-level API.",
+                                "Anthropic is explicit about the limits here: 'Claude learns about the physical world through text and images, meaning its spatial and physical reasoning have limitations that still require expert oversight,' the company wrote, positioning MHS as a tool that still needs a human in the loop rather than a fully autonomous lab technician.",
+                              ],
+          },
+          {
+                    heading: "Early results from research partners",
+                    body: [
+                                "Anthropic is launching MHS with a first group of research organizations and manufacturers, including Genentech, the University of Washington's Baker and Pinglay Labs, Carnegie Mellon University, HHMI's Janelia Research Campus, QuEra Computing, and Tetsuwan Scientific, alongside hardware and software partners like Amazon Web Services, Universal Robots, Doosan Robotics, Tecan, QIAGEN, and Hugging Face's LeRobot project.",
+                                "The reported early results are striking. At QuEra Computing, an agent using MHS improved laser recovery success from 58% to 99.3% and cut recovery time from 150 seconds to roughly 6 seconds by autonomously tuning PID parameters. At Carnegie Mellon, dose-response experiments ran about three times faster, with the agent re-running trials on its own after spotting poor curve quality. HHMI Janelia used MHS to unify seven separate vendor programs into a single interface for real-time microscopy monitoring, and Genentech had Claude autonomously optimize flow rates across a liquid handler, robotic arm, and plate reader to run a protein assay with minimal manual intervention.",
+                              ],
+          },
+          {
+                    heading: "What comes next",
+                    image: {
+                                src: "https://www-cdn.anthropic.com/images/4zrzovbb/website/943af4b43644ab0d213ba362eabd609c98cd8887-1999x1125.jpg",
+                                alt: "A robotic arm working alongside lab instruments coordinated by an AI agent",
+                                credit: "Anthropic",
+                                creditUrl: "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+                    },
+                    body: [
+                                "For now, MHS access is limited to this initial cohort of labs and manufacturers, with interested organizations able to apply through modelhardwarestandard.com. Anthropic says it plans an open-source release once it has completed further safety evaluations and developed clearer best practices for physical-world agent deployment — a notably more cautious rollout than the company's typical software-only feature launches, reflecting the higher stakes of letting an AI model directly control physical machinery.",
+                                "If MHS holds up outside these initial partner labs, it could matter more for Anthropic's business than any single model release: a standard interface for AI-operated hardware is the kind of infrastructure bet that, if it sticks, becomes very hard for a competitor to dislodge later.",
+                              ],
+          },
+              ],
+  },
+  {
+        slug: "bose-quietcomfort-2nd-gen-launch",
+        title: "Bose Updates Its Iconic QuietComfort Headphones With Immersive Audio and Better ANC for Glasses Wearers",
+        dek: "The QuietComfort Headphones (2nd Gen) bring Bose's TrueSpatial Immersive Audio down from the Ultra line, a six-microphone adaptive noise-cancelling array, and a $359 price tag.",
+        excerpt:
+                "Bose's QuietComfort Headphones (2nd Gen) add TrueSpatial Immersive Audio, adaptive ANC tuned for glasses wearers, and 24-hour battery life at $359.",
+        category: "News",
+        topic: "Audio",
+        author: "James Whitfield",
+        date: "2026-08-06",
+        readTime: "5 min read",
+        gradient: ["#1f2937", "#4b5563"],
+        emoji: "🎧",
+        images: [
+          {
+                    src: "https://assets.bosecreative.com/transform/abac0bc0-a0d2-4c4e-ba2d-d273906304c3/Bose-QuietComfort_Headphones_2nd_Gen_Black_01?io=transform:crop,height:1280,width:1280,path:square,gravity:center&format=avif&quality=95",
+                    alt: "Bose QuietComfort Headphones (2nd Gen) in Black",
+                    credit: "Bose",
+                    creditUrl: "https://www.bose.com/pressroom/bose-updates-the-iconic-quietcomfort-headphones",
+          },
+              ],
+        sources: [
+          {
+                    title: "Bose Updates the Iconic QuietComfort Headphones — Bose Newsroom",
+                    url: "https://www.bose.com/pressroom/bose-updates-the-iconic-quietcomfort-headphones",
+          },
+          {
+                    title: "Bose Debuts Revamped QuietComfort Headphones With Better Noise-Cancellation — Bloomberg",
+                    url: "https://www.bloomberg.com/news/articles/2026-08-06/bose-debuts-revamped-quietcomfort-headphones-with-better-noise-cancellation",
+          },
+              ],
+        content: [
+          {
+                    body: [
+                                "Bose announced the second-generation QuietComfort Headphones on August 6, 2026, with preorders opening two days later and shipping beginning August 13. At $359, the new model sits well below Bose's flagship QuietComfort Ultra Headphones while borrowing several features that used to be exclusive to that top-tier model.",
+                              ],
+          },
+          {
+                    heading: "QuietControl noise cancellation, built for glasses wearers",
+                    image: {
+                                src: "https://assets.bosecreative.com/transform/3ff5d089-9fcc-4e74-88c8-08738bb012a8/Bose-QuietComfort_Headphones_2nd_Gen_Black_Expressive_01?io=transform:crop,height:1280,width:1280,path:square,gravity:center&format=avif&quality=95",
+                                alt: "Bose QuietComfort Headphones (2nd Gen) worn on-ear",
+                                credit: "Bose",
+                                creditUrl: "https://www.bose.com/pressroom/bose-updates-the-iconic-quietcomfort-headphones",
+                    },
+                    body: [
+                                "The new noise-cancellation system, which Bose calls QuietControl, uses a six-microphone array with adaptive feedforward controls specifically designed to compensate for gaps in the earcup seal — a detail Bose is pitching directly at glasses wearers and anyone who's struggled to get a consistent fit from over-ear headphones. Bose's proprietary SoundDesign digital signal processing handles the audio side, with support for lossless playback over wired USB-C audio at 24-bit/48kHz.",
+                              ],
+          },
+          {
+                    heading: "TrueSpatial Immersive Audio arrives from the Ultra line",
+                    body: [
+                                "The bigger news for anyone who's compared Bose's tiers in the past is TrueSpatial Technology, Bose's Immersive Audio system, which previously shipped only on the pricier QuietComfort Ultra Headphones. The 2nd Gen model gets three listening modes — Still, Motion, and Cinema — tuned for stationary listening, movement, and video respectively. Physical buttons on the earcups handle playback, volume, call management, listening-mode switching, and voice assistant activation, alongside an updated headband with smoother adjustable sliders and oval-shaped earcups.",
+                              ],
+          },
+          {
+                    heading: "Battery life and colors",
+                    image: {
+                                src: "https://assets.bosecreative.com/transform/a173d832-9d72-46bb-b4a7-6a219b03bf79/Bose-QuietComfort_Headphones_2nd_Gen_White_Smoke_01?io=transform:crop,height:1280,width:1280,path:square,gravity:center&format=avif&quality=95",
+                                alt: "Bose QuietComfort Headphones (2nd Gen) in White Smoke",
+                                credit: "Bose",
+                                creditUrl: "https://www.bose.com/pressroom/bose-updates-the-iconic-quietcomfort-headphones",
+                    },
+                    body: [
+                                "Bose rates the QuietComfort Headphones (2nd Gen) for up to 24 hours of standard listening, or 18 hours with Immersive Audio switched on, and a 15-minute quick charge adds roughly 2.5 hours of playback. Bluetooth Core 5.4 brings multipoint connectivity and Google Fast Pair support on Android, and an included USB-C-to-3.5mm adapter covers wired listening on devices without a headphone jack.",
+                                "The headphones ship in Black and White Smoke as standing colors, with Eucalyptus Green, Dewdrop Mint, and Rosewood Mauve available as limited-edition finishes. Bose's original QuietComfort Ultra Headphones remain on sale for buyers who want the top-tier model, but the 2nd Gen QuietComfort now makes most of that experience available for $90 less.",
+                              ],
+          },
+              ],
+  },
+  {
+        slug: "apple-mac-mini-m6-mac-studio-m5-ultra-news",
+        title: "Apple Surprise-Launches New Mac mini With M6 and M5 Pro, Refreshes Mac Studio",
+        dek: "Without a keynote, Apple quietly refreshed its desktop Macs — the Mac mini now starts at $899 with the new M6 chip, while the higher-end configuration steps up to M5 Pro with three Thunderbolt 5 ports.",
+        excerpt:
+                "Apple's new Mac mini ships with the M6 or M5 Pro chip starting at $899, alongside an updated Mac Studio, with Neural Accelerators built into every GPU core.",
+        category: "News",
+        topic: "Laptops",
+        author: "Ryan Bennett",
+        date: "2026-08-25",
+        readTime: "5 min read",
+        gradient: ["#71717a", "#18181b"],
+        emoji: "🖥️",
+        images: [
+          {
+                    src: "https://www.apple.com/newsroom/images/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/article/Apple-Mac-mini-hero-260825_big.jpg.large.jpg",
+                    alt: "The new Apple Mac mini with M6 and M5 Pro chips",
+                    credit: "Apple Newsroom",
+                    creditUrl:
+                                "https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/",
+          },
+              ],
+        sources: [
+          {
+                    title: "Apple unveils a more powerful Mac mini featuring the all-new M6 and M5 Pro — Apple Newsroom",
+                    url: "https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/",
+          },
+          {
+                    title: "Apple Unveils New Mac Mini, Mac Studio With Major Chip Upgrades — Bloomberg",
+                    url: "https://www.bloomberg.com/news/articles/2026-08-25/apple-unveils-new-mac-mini-mac-studio-with-major-chip-upgrades",
+          },
+              ],
+        content: [
+          {
+                    body: [
+                                "With no event and little advance warning, Apple announced a refreshed Mac mini and Mac Studio on August 25, 2026. It's the kind of surprise mid-cycle hardware drop Apple has increasingly leaned on for its desktop Macs, and this one centers on two new chips: M6 in the entry-level Mac mini, and M5 Pro in the step-up configuration, with a Mac Studio update following the same chip family.",
+                              ],
+          },
+          {
+                    heading: "M6 and M5 Pro, by the numbers",
+                    image: {
+                                src: "https://www.apple.com/newsroom/images/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/article/Apple-M6-chip-260825_big.jpg.large.jpg",
+                                alt: "Apple's M6 chip",
+                                credit: "Apple Newsroom",
+                                creditUrl:
+                                              "https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/",
+                    },
+                    body: [
+                                "The base Mac mini's M6 chip packs a 12-core CPU (two more cores than M4), a 12-core GPU with Neural Accelerators built into every core, and a dual 16-core Neural Engine, with 16GB of memory standard and configurable up to 32GB at 170GB/s of bandwidth. Apple says that adds up to 40% faster CPU performance, 4x faster AI workloads, and 2x faster graphics compared to M4, along with figures like 13.5x faster LLM processing than the original M1 chip.",
+                                "Stepping up to M5 Pro gets a CPU with up to 18 cores and a GPU with up to 20 cores, featuring an enhanced shader core and third-generation ray tracing, plus up to 64GB of unified memory at 307GB/s of bandwidth — nearly double the M6's throughput. The M5 Pro configuration also adds a third Thunderbolt 5 port, up from Thunderbolt 4 on the base M6 model.",
+                              ],
+          },
+          {
+                    heading: "Connectivity and software",
+                    body: [
+                                "Both new Mac mini configurations carry Wi-Fi 7, Bluetooth 6, and 2.5Gb Ethernet (with 10Gb available as an option), plus two front USB-C ports, a headphone jack with high-impedance support, and rear HDMI and Ethernet ports. A new Genlock feature over USB-C lets the Mac mini sync with displays and cameras for production workflows. On the software side, both models ship with macOS 27 'Golden Gate,' which brings a more context-aware Siri with Visual Intelligence and broader Apple Intelligence features across the OS.",
+                              ],
+          },
+          {
+                    heading: "Pricing and Apple's sustainability push",
+                    image: {
+                                src: "https://www.apple.com/newsroom/images/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/article/Apple-Mac-mini-front-ports-260825_big.jpg.large.jpg",
+                                alt: "Ports on the new Apple Mac mini",
+                                credit: "Apple Newsroom",
+                                creditUrl:
+                                              "https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/",
+                    },
+                    body: [
+                                "The M6 Mac mini starts at $899 ($799 for education buyers), while the M5 Pro configuration starts at $1,699 ($1,599 for education). Apple opened preorders the same day as the announcement, with units shipping September 22, 2026 across an initial 30 countries. Apple is also highlighting the enclosure's environmental profile: 50% recycled material overall, a fully recycled aluminum shell, 100% recycled rare-earth elements in the magnets, and manufacturing powered entirely by renewable electricity.",
+                                "\"Mac mini has always been our most versatile Mac,\" said Johny Srouji, Apple's chief hardware officer, in the announcement. \"Today, we're taking this versatility even further.\" For anyone who already has a monitor, keyboard, and mouse they're happy with, the refreshed Mac mini remains the cheapest way into current-generation Apple silicon — and with M5 Pro now on the table, it also reaches further up the performance ladder than the Mac mini line usually has.",
+                              ],
+          },
+              ],
+  },
+  {
+        slug: "samsung-galaxy-book6-launch",
+        title: "Samsung Expands the Galaxy Book6 Lineup With a More Affordable 14-inch Laptop",
+        dek: "Starting at $799.99, the new Galaxy Book6 pairs Intel's latest Core Series 3 chips with a 25-hour battery and Samsung's Galaxy AI features, aiming to make the Galaxy Book line accessible to more buyers.",
+        excerpt:
+                "Samsung's new Galaxy Book6 brings Intel Core Series 3 chips, a 25-hour battery, and Galaxy AI features to a $799.99 starting price, shipping October 5.",
+        category: "News",
+        topic: "Laptops",
+        author: "Ryan Bennett",
+        date: "2026-08-31",
+        readTime: "4 min read",
+        gradient: ["#6d28d9", "#a78bfa"],
+        emoji: "💻",
+        images: [
+          {
+                    src: "https://img.us.news.samsung.com/us/wp-content/uploads/2026/08/31155400/01-GalaxyBook6_-KV-664x374.png",
+                    alt: "The new Samsung Galaxy Book6 laptop",
+                    credit: "Samsung Newsroom",
+                    creditUrl: "https://news.samsung.com/us/samsung-expands-galaxy-book6-lineup-making-galaxy-book-more-accessible",
+          },
+              ],
+        sources: [
+          {
+                    title: "Samsung Expands the Galaxy Book6 Lineup, Making Galaxy Book More Accessible — Samsung Newsroom",
+                    url: "https://news.samsung.com/us/samsung-expands-galaxy-book6-lineup-making-galaxy-book-more-accessible",
+          },
+              ],
+        content: [
+          {
+                    body: [
+                                "Samsung announced a new, more affordable entry in its Galaxy Book6 lineup on August 31, 2026, aimed squarely at buyers who want the Galaxy Book design and ecosystem features without paying flagship-laptop prices. The new model joins the Galaxy Book6 family Samsung introduced earlier in the year, slotting in below the higher-end configurations on price while keeping most of the everyday experience intact.",
+                              ],
+          },
+          {
+                    heading: "What's inside",
+                    image: {
+                                src: "https://img.us.news.samsung.com/us/wp-content/uploads/2026/08/31181903/03-GalaxyBook6_Design.png",
+                                alt: "Design details of the Samsung Galaxy Book6",
+                                credit: "Samsung Newsroom",
+                                creditUrl: "https://news.samsung.com/us/samsung-expands-galaxy-book6-lineup-making-galaxy-book-more-accessible",
+                    },
+                    body: [
+                                "The new Galaxy Book6 is built around Intel's Core Series 3 and Core 5 processors, paired with 8GB or 16GB of LPDDR5X memory and 256GB or 512GB of PCIe storage. Its 14-inch WUXGA (1920x1200) LCD display runs at 350 nits with an anti-reflective coating and a 16:10 aspect ratio, and Samsung is quoting up to 25 hours of battery life from the 61.2Wh battery, with 45W USB-C charging that reaches about 33% in 30 minutes.",
+                              ],
+          },
+          {
+                    heading: "Galaxy AI features carry over",
+                    body: [
+                                "Despite the lower price, Samsung is keeping its Galaxy AI software features on board, including AI Select for pulling content out of what's on screen and Multi Control for working across a Galaxy phone and the laptop with a single mouse and keyboard. Those features, along with Samsung's broader Galaxy ecosystem integrations, have increasingly been the differentiator Samsung leans on to separate the Galaxy Book line from similarly priced Windows laptops running the same Intel silicon.",
+                              ],
+          },
+          {
+                    heading: "Price and availability",
+                    image: {
+                                src: "https://img.us.news.samsung.com/us/wp-content/uploads/2026/08/31155348/06-GalaxyBook6_AI-Select.png",
+                                alt: "Samsung Galaxy AI Select feature on the Galaxy Book6",
+                                credit: "Samsung Newsroom",
+                                creditUrl: "https://news.samsung.com/us/samsung-expands-galaxy-book6-lineup-making-galaxy-book-more-accessible",
+                    },
+                    body: [
+                                "The new Galaxy Book6 starts at $799.99, available in Violet Silver and Gray, and goes on sale on Samsung.com and Amazon starting October 5, 2026. \"With the new Galaxy Book6, we wanted to make the Galaxy Book experience available to more people,\" said Mincheol Lee, EVP and head of Samsung's Galaxy Ecosystems Business Team, in the announcement. \"At a more accessible price, it brings together everyday essentials including dependable performance, long-lasting battery life, connected Galaxy experiences, and Galaxy Book6's design DNA.\"",
+                                "For Samsung, the move reads as a straightforward attempt to widen the Galaxy Book funnel: rather than competing purely on premium specs, the company is betting that the ecosystem features already familiar to Galaxy phone owners are enough to pull budget-laptop shoppers toward a Samsung machine instead of a generically similar Windows PC from another OEM.",
+                              ],
+          },
+              ],
+  },
+  
+        ];
 
 export function getAllArticles(): Article[] {
   return [...articles].sort(
