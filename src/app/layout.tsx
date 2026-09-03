@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   },
   description:
     "Independent, hands-on reviews of laptops, phones, and audio gear, plus the tech news and buying guides that actually help you decide.",
+  other: { "fo-verify": "4779ac85-10a4-4dbd-9c59-c290a5887443" },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
