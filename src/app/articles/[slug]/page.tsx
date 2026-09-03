@@ -9,6 +9,7 @@ import ArticleGallery from "@/components/ArticleGallery";
 import CategoryPill from "@/components/CategoryPill";
 import RatingBadge from "@/components/RatingBadge";
 import ProsCons from "@/components/ProsCons";
+import ArticleCta from "@/components/ArticleCta";
 import Breadcrumb from "@/components/Breadcrumb";
 import { ArticleCard } from "@/components/ArticleCard";
 
@@ -131,6 +132,10 @@ export default async function ArticlePage({
           <ProsCons pros={article.pros} cons={article.cons} />
         </div>
       )}
+
+      {article.cta && (
+                <ArticleCta label={article.cta.label} url={article.cta.url} />
+              )}
 
       {article.sources.length > 0 && (
         <div className="mt-10 border-t border-border pt-6">
