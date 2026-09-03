@@ -1523,6 +1523,109 @@ export const articles: Article[] = [
           },
               ],
   },
+  {
+        slug: "novita-ai-review",
+        title: "Novita AI Review: One API for 200+ Models, GPUs, and Agent Sandboxes",
+        dek: "Novita AI bundles serverless model APIs, on-demand GPU cloud, and isolated agent sandboxes into a single developer platform — we break down what it actually offers, how it prices out, and who should consider it.",
+        excerpt:
+                "Novita AI positions itself as an AI-native cloud for builders and agents, combining 200+ model APIs, GPU instances, and sandboxed agent runtimes under one account. Here's what stands out, and where the trade-offs are.",
+        category: "Reviews",
+        topic: "AI Software",
+        author: "James Whitfield",
+        date: "2026-09-02",
+        readTime: "7 min read",
+        gradient: ["#0f172a", "#10b981"],
+        emoji: "☁️",
+        images: [
+          {
+                    src: "https://novita.ai/home/hero/unicon/16-3.png",
+                    alt: "Novita AI platform hero graphic",
+                    credit: "Novita AI",
+                    creditUrl: "https://novita.ai/",
+          },
+              ],
+        rating: 8.3,
+        pros: [
+                "Single API surface for 200+ LLM, image, audio, video, and vision models, billed by the token instead of by the hour",
+                "GPU Cloud spans three tiers — full-control instances, auto-scaling serverless jobs, and bare-metal H100/H200 clusters — under one account",
+                "Agent Sandbox gives coding agents an isolated, purpose-built runtime instead of a bare container or notebook",
+                "Pricing undercuts major hyperscalers on comparable GPU and inference workloads, with spot instances cutting costs further",
+                "New open-source models tend to land on the platform quickly after release",
+              ],
+        cons: [
+                "No published free-trial credit amount — costs start accruing as soon as you're making real calls",
+                "Three separate products (Model APIs, GPU Cloud, Agent Sandbox) means a learning curve before the platform feels unified",
+                "Dedicated endpoints and bare-metal clusters are clearly built for production teams, not hobbyists testing a side project",
+              ],
+        sources: [
+          {
+                    title: "Novita AI — AI & Agent Cloud for Developers",
+                    url: "https://novita.ai/",
+          },
+          {
+                    title: "Novita AI Pricing",
+                    url: "https://novita.ai/pricing",
+          },
+          {
+                    title: "Try Novita AI — Get Started (Affiliate Link)",
+                    url: "https://novita.ai/?ref=njewmze&utm_source=affiliate",
+          },
+              ],
+        content: [
+          {
+                    body: [
+                                "Novita AI markets itself as an \"AI-native cloud for builders and agents,\" and after spending time across its three core products, that framing holds up better than most cloud-platform taglines do. Rather than being primarily a GPU rental service that bolted on model APIs, or an inference API that later added compute, Novita treats serverless model access, raw GPU infrastructure, and agent execution environments as three faces of the same underlying platform — accessible from one account, one API key, and one billing relationship.",
+                              ],
+          },
+          {
+                    heading: "Serverless Model APIs: 200+ models behind one endpoint",
+                    body: [
+                                "The core of Novita AI is its Model API layer: a single REST endpoint that routes to more than 200 language, image, audio, video, and vision models, including fast-moving open-weight releases like DeepSeek V4, Qwen3.8, GLM 5.3, and Kimi K2.7, alongside proprietary options. Novita advertises around 200ms latency and 99.5% uptime on this layer, and billing is entirely usage-based — priced per million tokens for text models, per image for image generation, and per second or per character for video and audio.",
+                                "In practice, the appeal isn't any single model — it's not having to integrate a different SDK for every provider whose model you want to try. Swapping from one open-weight LLM to another is a matter of changing a model string in the request, not rewriting an integration, which matters most for teams that want to benchmark or fall back between models without re-architecting their stack.",
+                              ],
+          },
+          {
+                    heading: "Dedicated Endpoints and GPU Cloud",
+                    image: {
+                                src: "https://novita.ai/home/product/dedicated-endpoints.png",
+                                alt: "Novita AI Dedicated Endpoints product interface",
+                                credit: "Novita AI",
+                                creditUrl: "https://novita.ai/",
+                    },
+                    body: [
+                                "For workloads that outgrow shared serverless capacity, Novita offers Dedicated Endpoints — private, isolated compute for a specific model so throughput doesn't degrade because other customers are sharing the same pool. This sits alongside a broader GPU Cloud offering split into three tiers: on-demand GPU Instances for full control over the machine, Serverless GPU for jobs that should scale to zero when idle and bill per second of actual execution, and Bare Metal clusters built on NVIDIA H100 and H200 hardware — up to 141GB of HBM3e memory per GPU, connected with fourth-generation NVLink and 400Gb/s RDMA networking — for training runs and large-scale inference that need the hardware to themselves.",
+                                "That range is one of Novita's clearer differentiators: a solo developer prototyping against a serverless API and an enterprise team training on a multi-node H200 cluster are technically using the same platform, just at different tiers of the same GPU Cloud product.",
+                              ],
+          },
+          {
+                    heading: "Agent Sandbox for coding agents",
+                    image: {
+                                src: "https://novita.ai/home/product/agent-sandbox.png",
+                                alt: "Novita AI Agent Sandbox runtime interface",
+                                credit: "Novita AI",
+                                creditUrl: "https://novita.ai/",
+                    },
+                    body: [
+                                "The newest piece of the platform is Agent Sandbox, a purpose-built runtime for AI agents that need to execute code, call tools, and complete multi-step tasks in isolation rather than inside a shared notebook or a manually configured container. Novita quotes roughly 200ms startup time, full isolation per sandbox, and per-second billing, which is aimed squarely at the current wave of coding agents and automation tools that need to spin up disposable, secure execution environments on demand rather than persistent servers.",
+                                "Julien Chaumond, co-founder and CTO of Hugging Face, is quoted on Novita's site praising the speed of the team's model rollouts: \"I appreciate how fast Novita AI moves to deploy newly released models. Their team is often the first to get stable, production ready inference support online — often on Day One.\" That kind of endorsement from a company at the center of the open-model ecosystem is a reasonable signal for how seriously Novita treats day-one support for new releases.",
+                              ],
+          },
+          {
+                    heading: "Pricing: pay-as-you-go, no seat fees",
+                    body: [
+                                "Novita's pricing model is entirely consumption-based — there's no flat monthly seat license to unlock access. Language models are billed per million tokens, and the range is wide: budget-tier models like Llama 3.1 8B run around $0.02 per million input tokens and $0.05 output, while flagship models like DeepSeek V4 Pro sit closer to $1.60 input and $3.38 output per million tokens with a 1,048,576-token context window. Image generation and editing with Qwen-based models runs about $0.02 per image, text-to-speech is priced around $15 per million characters, and embeddings start as low as $0.01 per million tokens on smaller models. GPU Instances follow on-demand and spot pricing, with spot instances running at roughly half the on-demand rate for workloads that can tolerate interruption.",
+                                "Novita positions this pricing as up to 50% cheaper than major cloud providers for comparable GPU and inference workloads, and the per-model rate card is public and detailed enough to estimate costs before committing, which is more transparency than a lot of competing inference platforms offer.",
+                              ],
+          },
+          {
+                    heading: "Verdict",
+                    body: [
+                                "Novita AI's biggest strength is breadth without fragmentation: model APIs, GPU rental, and agent execution environments genuinely feel like one platform rather than three products stapled together under a shared login. For developers who want to test multiple open-weight models without juggling separate API keys, or teams that want a path from a serverless prototype to a dedicated GPU cluster without switching vendors, that consolidation is worth real money and engineering time saved.",
+                                "It's not the cheapest possible option for every single workload, and there's a real learning curve in understanding which of the three product lines — Model APIs, GPU Cloud, or Agent Sandbox — fits a given task. But for teams building production AI applications who are tired of managing separate accounts for inference, compute, and agent tooling, Novita AI is a legitimate one-stop option worth evaluating, and new accounts can get started directly through Novita's own sign-up flow.",
+                              ],
+          },
+              ],
+  },
   
         ];
 
