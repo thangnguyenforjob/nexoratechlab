@@ -33,4 +33,5 @@ export interface Article {
   sources: { title: string; url: string }[];
   content: Section[];
   featured?: boolean;
+    cta?: { label: string; url: string }; // optional call-to-action button rendered before Sources
 }
