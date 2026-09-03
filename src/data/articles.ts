@@ -1566,11 +1566,11 @@ export const articles: Article[] = [
                     title: "Novita AI Pricing",
                     url: "https://novita.ai/pricing",
           },
-          {
-                    title: "Try Novita AI — Get Started (Affiliate Link)",
-                    url: "https://novita.ai/?ref=njewmze&utm_source=affiliate",
-          },
               ],
+            cta: {
+                        label: "Try Novita AI — Get Started",
+                        url: "https://novita.ai/?ref=njewmze&utm_source=affiliate",
+            },
         content: [
           {
                     body: [
@@ -1600,10 +1600,10 @@ export const articles: Article[] = [
           {
                     heading: "Agent Sandbox for coding agents",
                     image: {
-                                src: "https://novita.ai/home/product/agent-sandbox.png",
-                                alt: "Novita AI Agent Sandbox runtime interface",
-                                credit: "Novita AI",
-                                creditUrl: "https://novita.ai/",
+                                src: "https://ajldkp7ny4bysrxe.public.blob.vercel-storage.com/uploads/2026/05/harbor.webp",
+                                alt: "Novita AI blog cover: Run Harbor Agent Evaluations on Novita Agent Sandbox",
+                                credit: "Novita AI Blog",
+                                creditUrl: "https://novita.ai/blog/run-harbor-agent-evaluations-novita-agent-sandbox/",
                     },
                     body: [
                                 "The newest piece of the platform is Agent Sandbox, a purpose-built runtime for AI agents that need to execute code, call tools, and complete multi-step tasks in isolation rather than inside a shared notebook or a manually configured container. Novita quotes roughly 200ms startup time, full isolation per sandbox, and per-second billing, which is aimed squarely at the current wave of coding agents and automation tools that need to spin up disposable, secure execution environments on demand rather than persistent servers.",
