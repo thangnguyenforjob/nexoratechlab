@@ -2080,6 +2080,103 @@ export const articles: Article[] = [
           },
               ],
   },
+  {
+        slug: "mannco-store-review",
+        title: "Mannco.store Review: Is This CS2, TF2, Dota 2 & Rust Skin Marketplace Worth It?",
+        dek: "Mannco.store lets you buy and sell CS2, TF2, Dota 2, and Rust skins at fixed, dynamically-priced tags instead of gambling for them. We dug into how checkout works, what fees actually cost, and what independent reviews say before recommending it.",
+        excerpt:
+                "An eight-year-old skins marketplace covering four Steam games, mannco.store skips the case-opening and roulette mechanics that plague a lot of competing sites. Here's how buying, selling, and cashing out actually work, and where the real friction is.",
+        category: "Reviews",
+        topic: "Gaming",
+        author: "James Whitfield",
+        date: "2026-09-03",
+        readTime: "7 min read",
+        gradient: ["#0f172a", "#059669"],
+        emoji: "🔫",
+        images: [
+          {
+                    src: "https://mannco.store/carousel/day.webp",
+                    alt: "Team Fortress 2 characters wearing rare cosmetic items on the Mannco.store homepage banner",
+                    credit: "Mannco.store",
+                    creditUrl: "https://mannco.store/",
+          },
+              ],
+        rating: 7.8,
+        pros: [
+                "Huge catalog across four games — CS2, TF2, Dota 2, and Rust — including genuinely rare items like a StatTrak M4A4 | Howl listed at $15,806.31 and a TF2 Golden Frying Pan at $8,130",
+                "No case-opening, roulette, or loot-box mechanics — every item is bought at a fixed, dynamically-priced tag rather than gambled for",
+                "Secure Steam OpenID login means mannco.store never sees your Steam password, and no KYC or ID upload is required to buy, sell, or trade",
+                "0% buyer fee and a comparatively low 5% seller fee keep costs down next to a lot of competing marketplaces",
+                "Fast fulfillment — trades are typically sent within minutes of checkout, and payouts land anywhere from 5 minutes to 24 hours depending on the method",
+              ],
+        cons: [
+                "Cashing out isn't free on the way out either — PayPal withdrawals run roughly 2.75% + $0.50 and international bank transfers around $26 flat, on top of the marketplace's own seller fee",
+                "New sellers can run into Steam's mandatory 7-8 day trade hold before an item is transferable, which isn't unique to mannco.store but is worth knowing before listing anything time-sensitive",
+                "Once an item is deposited into mannco.store's trade bots it's out of your hands until it sells — standard for this kind of marketplace, but a real custodial tradeoff worth understanding upfront",
+                "Independent reviews note the site's listed operating entity is inconsistent between its own Terms of Service and third-party write-ups — not evidence of wrongdoing, but a transparency gap worth knowing about, and the ToS is strictly 18+ with a handful of countries restricted",
+              ],
+        sources: [
+          {
+                    title: "Mannco.store — Official Site",
+                    url: "https://mannco.store/",
+          },
+          {
+                    title: "Is Mannco.Store Legit? — take.skin",
+                    url: "https://take.skin/blog/is-mannco-store-legit",
+          },
+              ],
+        content: [
+          {
+                    body: [
+                                "If the name Mannco.store sounds like it's borrowed from Team Fortress 2, that's because it is — Mann Co. is the fictional weapons manufacturer at the center of TF2's lore, and it's a common naming convention for skin-trading sites that grew out of that community. Eight years and a lot of expansion later, mannco.store now covers four Steam games — CS2, TF2, Dota 2, and Rust — as a straightforward marketplace where you buy a specific item at a listed price rather than gambling for a random one.",
+                              ],
+          },
+          {
+                    heading: "How buying and selling actually works",
+                    image: {
+                                src: "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot621FAR17P7NdTRH-t26q4SZlvD7PYTQgXtu5Mx2gv2PrdSijAWwqkVtN272JIGdJw46YVrYqVO3xLy-gJC9u5vByCBh6ygi7WGdwUKTYdRD8A/400fx400f",
+                                alt: "AWP | Dragon Lore (Factory New) item listing page on Mannco.store showing float value, price, and Add to Cart button",
+                                credit: "Mannco.store",
+                                creditUrl: "https://mannco.store/item/197945/730-awp-dragon-lore-factory-new",
+                    },
+                    body: [
+                                "The core flow is closer to ordinary e-commerce than a trading site: browse the Market by game, pick a specific item at a specific wear and float value — an AWP | Dragon Lore (Factory New) at $12,145.91, in one listing we checked — add it to cart, and pay with a card, PayPal, crypto, or Alipay. The item is delivered through an automated Steam trade offer almost immediately after checkout, and logging in itself goes through Steam's official OpenID system, so mannco.store never actually sees your Steam password.",
+                                "Selling works the other way through the site's Instant Sell and Deposit tools: you send items from your own Steam inventory to mannco.store's bots and get paid out once the trade completes. It's worth budgeting a little patience here — Steam enforces a mandatory trade hold of about 7-8 days on newly-added devices or API keys, which can catch first-time sellers off guard if they're expecting an instant cash-out on day one.",
+                              ],
+          },
+          {
+                    heading: "Selection and pricing",
+                    body: [
+                                "The catalog is deep enough to cover both everyday items and genuine trophy pieces. Beyond common CS2 skins, we found multiple listings for StatTrak M4A4 | Howl (Factory New) — one of CS2's most recognizable contraband skins — priced above $15,800, alongside several Dragon Lore AWPs in the $12,000-$12,500 range. Per mannco.store's own FAQ, prices are set dynamically by supply and demand rather than pinned to a fixed markup, and the site explicitly encourages shoppers to compare prices elsewhere before buying — a more transparent stance than most marketplaces bother to state outright.",
+                              ],
+          },
+          {
+                    heading: "Security, fees, and what to watch for",
+                    image: {
+                                src: "https://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZULUrsm1j-9xgEIUwEDRBLsvwdTicbZCv2ADN8Mmsgy4N5WjmRowwR-N7vkY2QxI13EU_lYBKJipVi-D34xu5E7DYTipukAL1m-qsKYZJbHZO-8/400fx400f",
+                                alt: "Strange Professional Killstreak Golden Frying Pan, a rare Team Fortress 2 item listed on Mannco.store",
+                                credit: "Mannco.store",
+                                creditUrl: "https://mannco.store/item/440-strange-professional-killstreak-golden-frying-pan",
+                    },
+                    body: [
+                                "Mannco.store doesn't require KYC or ID verification for normal buying, selling, or trading, and its FAQ is upfront that Steam account hijacking incidents reported online are typically caused by phishing links or fake lookalike sites rather than the platform itself — a fair point, though it's still worth double-checking the URL before logging in anywhere. On fees: buying is 0% on top of the listed price, while selling carries roughly a 5% cut, and payouts are quoted at 5 minutes to 24 hours depending on the method. Withdrawing your balance isn't entirely free, though — PayPal cash-outs run about 2.75% plus $0.50, and international bank transfers can run around $26 flat, so it's worth picking a payout method that matches how much you're actually cashing out.",
+                                "One thing worth flagging plainly: mannco.store's own Terms of Service name one operating entity while some independent reviews list a different one, an inconsistency that isn't proof of anything shady but is a legitimate transparency gap. And per the site's ToS, you have to be 18 or older to buy or sell, with a handful of countries — including Iran, Syria, and North Korea — restricted outright.",
+                              ],
+          },
+          {
+                    heading: "Verdict",
+                    body: [
+                                "Mannco.store gets the fundamentals right for what it is: a genuinely large, multi-game skins marketplace that skips the case-opening and roulette mechanics a lot of competitors lean on, doesn't demand ID verification to get started, and backs its login with Steam's own OpenID system rather than asking for a password. Trustpilot reviews put it in the high-3s to low-4-out-of-5 range across thousands of ratings, which lines up with a site that mostly delivers on what it promises.",
+                                "The tradeoffs are the ones that come with any skins marketplace rather than anything unique to mannco.store — payout fees that nibble at your proceeds, a Steam-mandated trade hold for new sellers, and the custodial reality that your item is out of your hands the moment you deposit it. None of that is a reason to skip the site, but it's worth going in with eyes open, treating any skin as a collectible rather than an investment, and confirming you meet the 18+ requirement before creating an account.",
+                                "Disclosure: the button below is our affiliate link. If you sign up through it, Nexoratech may earn a commission at no extra cost to you.",
+                              ],
+          },
+              ],
+        cta: {
+                label: "Browse Mannco.store →",
+                url: "https://mannco.store/?ref=oda2mdb",
+        },
+  },
         ];
 
 export function getAllArticles(): Article[] {
