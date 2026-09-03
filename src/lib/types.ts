@@ -1,5 +1,5 @@
 export type Category = "Reviews" | "News" | "Best Picks";
-export type Topic = "Laptops" | "Phones" | "Audio" | "AI Software";
+export type Topic = "Laptops" | "Phones" | "Audio" | "AI Software" | "Lifestyle";
 
 export interface ArticleImage {
   src: string;
