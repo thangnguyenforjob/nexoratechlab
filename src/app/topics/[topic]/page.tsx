@@ -17,7 +17,10 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: { topic: string } }) {
   const label = TOPIC_MAP[params.topic];
-  return { title: label ?? "Topic" };
+    return {
+          title: label ?? "Topic",
+          alternates: { canonical: `/topics/${params.topic}` },
+    };
 }
 
 export default async function TopicPage({
