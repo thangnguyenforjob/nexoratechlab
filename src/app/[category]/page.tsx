@@ -27,7 +27,11 @@ export function generateMetadata({
   params: { category: string };
 }) {
   const label = CATEGORY_MAP[params.category];
-  return { title: label ?? "Category" };
+    return {
+          title: label ?? "Category",
+          description: DESCRIPTIONS[params.category],
+          alternates: { canonical: `/${params.category}` },
+    };
 }
 
 export default async function CategoryPage({
