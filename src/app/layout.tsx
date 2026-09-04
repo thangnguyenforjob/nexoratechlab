@@ -35,6 +35,9 @@ export const metadata: Metadata = {
           index: true,
           follow: true,
     },
+    verification: {
+        google: "DhS3kXlAea1lMfnty4SNAv9Ik0U26cJDT6igc29c17Y",
+    },
     other: { "fo-verify": "4779ac85-10a4-4dbd-9c59-c290a5887443" },
 };
 
