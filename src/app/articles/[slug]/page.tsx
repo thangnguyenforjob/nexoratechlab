@@ -25,10 +25,29 @@ export async function generateMetadata({
   const { slug } = await params;
   const article = getArticleBySlug(slug);
   if (!article) return { title: "Article not found" };
-  return {
-    title: article.title,
-    description: article.excerpt,
-  };
+  const image = article.images?.[0]?.src;
+    return {
+          title: article.title,
+          description: article.excerpt,
+          alternates: {
+                  canonical: `/articles/${article.slug}`,
+          },
+          openGraph: {
+                  type: "article",
+                  title: article.title,
+                  description: article.excerpt,
+                  url: `/articles/${article.slug}`,
+                  publishedTime: article.date,
+                  authors: [article.author],
+                  images: image ? [{ url: image }] : undefined,
+          },
+          twitter: {
+                  card: "summary_large_image",
+                  title: article.title,
+                  description: article.excerpt,
+                  images: image ? [image] : undefined,
+          },
+    };
 }
 
 function formatDate(date: string) {
