@@ -2177,6 +2177,115 @@ export const articles: Article[] = [
           url: "https://mannco.store/?ref=oda2mdb",
         },
   },
+  {
+    slug: "tomtoc-review",
+    title: "tomtoc Review: Are Its Laptop Sleeves and Travel Backpacks Worth It?",
+    dek: "tomtoc has built a 10-million-user following on protective laptop sleeves and travel backpacks. We looked at what's actually inside the CornerArmor sleeves and TSA-ready backpacks, what tomtoc's warranty really covers, and where the brand falls short.",
+    excerpt:
+      "Ten million users, a Wirecutter pick, and a GRS sustainability certification — tomtoc has built a real following around protective tech bags. Here's what its sleeves and travel backpacks actually get right, and where the fine print matters.",
+    category: "Reviews",
+    topic: "Lifestyle",
+    author: "Emily Carter",
+    date: "2026-09-05",
+    readTime: "6 min read",
+    gradient: ["#0369a1", "#38bdf8"],
+    emoji: "🎒",
+    images: [
+      {
+        src: "https://www.tomtoc.com/cdn/shop/files/Banner_pc2.webp",
+        alt: "Flat lay of a tomtoc backpack, laptop sleeve, and everyday carry gear on a blue background",
+        credit: "tomtoc",
+        creditUrl: "https://www.tomtoc.com/",
+      },
+      ],
+    rating: 8.1,
+    pros: [
+      "A 10-million-user brand with real third-party recognition — the A13 sleeve line has been named a Wirecutter top pick, and tomtoc has also picked up nods from NBC and iMore",
+      "CornerArmor 360-degree protection on its laptop sleeves absorbs corner-first drops, the single most common way a laptop actually gets damaged inside a bag",
+      "GRS-certified recycled, PFAS-free fabrics run across the sleeve and backpack lines — tomtoc says its Recycled Collection had processed more than 1.6 million recycled plastic bottles as of August 2021",
+      "Travel backpacks like the Navigator-T66 are built to IATA carry-on dimensions with a suitcase-style clamshell opening, designed to clear airport security without a repack",
+      "Straightforward policies: 30-day returns on non-custom items, free shipping with no minimum, and a 1-year warranty that becomes 2 years for free just by registering the product",
+      ],
+    cons: [
+      "The official store at tomtoc.com currently ships only within the continental US (with a few state and territory exceptions) — shoppers outside the US have to buy through third-party retailers with their own separate return and warranty policies",
+      "The warranty explicitly excludes normal wear and tear, cosmetic-only damage, and anything caused by machine washing — worth reading before assuming a scuffed corner is covered",
+      "Delivery is quoted at 3-7 business days for standard orders, and custom tomtoc x U pieces can take about four weeks from order to tracking number",
+      "The design leans functional and tech-oriented rather than premium — this is a protection-and-organization brand, not a leather-goods brand, so don't expect luxury materials at these prices",
+      ],
+    sources: [
+      {
+        title: "tomtoc — Official Site",
+        url: "https://www.tomtoc.com/",
+      },
+      {
+        title: "About tomtoc",
+        url: "https://www.tomtoc.com/pages/about-tomtoc",
+      },
+      {
+        title: "tomtoc Warranty Policy",
+        url: "https://www.tomtoc.com/pages/warranty-policy",
+      },
+      ],
+    content: [
+      {
+        body: [
+          "tomtoc started in 2016 with a single problem to solve: laptop corners are the part of a bag that takes the most damage, and almost nobody was designing sleeves around that fact. Nine years later, the brand says it has more than 10 million users, a product catalog that has grown from laptop sleeves into travel backpacks, sling bags, iPad cases, and gaming console cases, and enough third-party recognition — including a Wirecutter pick — to back up the original pitch. We went through tomtoc's current lineup, its warranty terms, and its shipping policy to see how the brand actually holds up beyond the marketing copy.",
+          ],
+      },
+      {
+        heading: "The laptop sleeve that built the brand",
+        image: {
+          src: "https://www.tomtoc.com/cdn/shop/files/laptop_A13_b25441b7-c90d-4d12-9f83-2461c0fcd10a_1000x.jpg",
+          alt: "Defender-A13 Laptop Sleeve for 13 inch MacBook Air/Pro from tomtoc",
+          credit: "tomtoc",
+          creditUrl: "https://www.tomtoc.com/products/360-protective-sleeve-13-inch-macbook-air-pro",
+        },
+        body: [
+          "tomtoc's first product, the A13 series laptop sleeve, is still the clearest expression of what the brand is about. The current Defender-A13 Laptop Sleeve for 13-inch MacBook Air/Pro ($26.40, down from a $32.99 list price at the time we checked) wraps the four corners in tomtoc's CornerArmor system — curved, high-resilience padding engineered specifically to absorb corner-first drops, which is the single most common way a laptop gets damaged inside a bag. Wirecutter has named it among its picks for the best laptop sleeves and MacBook cases, and the shell itself is made from spill-resistant, recycled fabric with a water-repellent finish that tomtoc says is applied without added PFAS.",
+          "It's a genuinely small, well-considered design: a front accessory pocket, a strap for clipping on an AirTag or keys, and YKK zippers that still feel solid after repeated use. At under $30, it's priced like a commodity sleeve but engineered like something a little more serious.",
+          ],
+      },
+      {
+        heading: "Travel backpacks and everyday carry",
+        body: [
+          "The backpack side of the catalog is where tomtoc has grown the most since its early sleeve-only days. The Navigator-T66 Travel Laptop Backpack 40L ($79.20 at the time of writing) is built around a suitcase-style clamshell opening and IATA-compliant carry-on dimensions (20.47 x 13.39 x 9 inches), so it's designed to unzip flat at a TSA checkpoint instead of forcing you to dig through a top-loading main compartment. Inside, a padded tech compartment holds up to a 17.3-inch laptop plus a 13-inch iPad, and the same recycled, PFAS-free fabric and YKK hardware used on the sleeves carries over here.",
+          "Beyond the flagship travel bag, the current lineup spans smaller commuter backpacks like the UrbanEX-T77 and VintPack-TA1, sling bags and chest bags for lighter everyday carry, and a growing Gaming OTG collection of console and controller cases — a sign that tomtoc has expanded well past the single laptop sleeve that started the company.",
+          ],
+      },
+      {
+        heading: "Sustainability, scale, and where the company stands today",
+        body: [
+          "tomtoc's sustainability push isn't just a footnote. In 2020, the brand relaunched its A13 and A42 sleeve lines using RPET (recycled polyester made from plastic bottles), and by August 2021 it says that Recycled Collection had processed roughly 1.7 million plastic bottles and cut an estimated 427,000-plus tons of carbon emissions in production. In 2023, tomtoc earned Global Recycled Standard (GRS) certification, which independently verifies the recycled content and chain-of-custody claims a brand makes about its materials.",
+          "On scale, tomtoc says it has grown to a team of more than 100 people, sells in over 120 countries and regions through more than 10 e-commerce platforms including Amazon and eBay, and has passed 10 million users as of 2025. None of those figures are independently audited in what we reviewed, but they're consistent with a brand whose products show up reliably in \"best laptop sleeve\" roundups across the tech press.",
+          ],
+      },
+      {
+        heading: "Shipping, returns, and what the warranty actually covers",
+        image: {
+          src: "https://www.tomtoc.com/cdn/shop/files/20251212-102147_1000x.jpg",
+          alt: "Navigator-T66 Travel Laptop Backpack 40L from tomtoc, shown fully packed",
+          credit: "tomtoc",
+          creditUrl: "https://www.tomtoc.com/products/40l-travel-backpack-carry-on",
+        },
+        body: [
+          "Ordering directly from tomtoc.com comes with free shipping and no minimum order, non-custom items ship within 1-3 business days and typically arrive in 3-7 business days, and returns are accepted within 30 days as long as the item is unused and in its original packaging. One real limitation: the official US store currently only ships within the continental United States (a handful of states and territories are excluded), so international buyers need to go through tomtoc's listed third-party retailers instead, each with its own return and shipping terms.",
+          "The warranty is a genuine 1 year from purchase, extendable to 2 years for free by registering the product's serial number on tomtoc's site. Read the fine print before assuming everything's covered, though: tomtoc's policy explicitly excludes normal wear and tear, cosmetic-only issues that don't affect function, and any damage caused by machine washing — a warranty claim needs proof of purchase plus photos or video of the actual defect.",
+          ],
+      },
+      {
+        heading: "Verdict",
+        body: [
+          "tomtoc earns its reputation in the part of the business it started with: the laptop sleeve. CornerArmor protection, recycled and PFAS-free materials, and a genuine Wirecutter endorsement add up to a sleeve that outperforms its price point. The travel backpacks carry that same design discipline into a category where flight-ready dimensions and a clamshell opening actually matter at the airport.",
+          "Where to stay cautious is the fine print rather than the products themselves — direct shipping is US-only for now, and the warranty won't cover cosmetic wear or a trip through the washing machine. For US-based shoppers who want protective, well-reviewed gear for a laptop, tablet, or a weekend trip, tomtoc is a legitimately good, budget-conscious option.",
+          "Disclosure: the button below is our affiliate link. If you buy through it, Nexoratech may earn a commission at no extra cost to you.",
+          ],
+      },
+      ],
+    cta: {
+      label: "Shop tomtoc.com",
+      url: "https://www.tomtoc.com/?rfsn=8995671.5c20eeb&utm_source=refersion&utm_medium=affiliate&utm_campaign=8995671.5c20eeb",
+    },
+  },
         ];
 
 export function getAllArticles(): Article[] {
