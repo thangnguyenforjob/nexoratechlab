@@ -44,6 +44,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
     return (
           <html lang="en" className="h-full antialiased">
+              <meta
+                  {...({
+                      name: "impact-site-verification",
+                      value: "4ffb4a51-b060-4881-b970-48c0f6cf229f",
+                  } as any)}
+                  />
                 <body className="flex min-h-full flex-col bg-background text-foreground">
                         <Script
                                     src="https://www.googletagmanager.com/gtag/js?id=G-JGR2F3W8GV"
