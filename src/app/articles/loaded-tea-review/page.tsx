@@ -9,6 +9,19 @@ import { ArticleCard } from "@/components/ArticleCard";
 const SLUG = "loaded-tea-review";
 const CTA_URL = "https://www.theloadedteashop.com/PROFOLIMP58749";
 
+// Appends UTM tracking params to the affiliate link so outbound clicks show up
+// in GA4 (Engagement > Events > click, filtered by link_url) broken down by
+// which CTA on the page was clicked.
+function ctaUrl(content: string) {
+  const params = new URLSearchParams({
+    utm_source: "nexoratechlab",
+    utm_medium: "affiliate",
+    utm_campaign: "loaded-tea-review",
+    utm_content: content,
+  });
+  return `${CTA_URL}?${params.toString()}`;
+}
+
 export function generateMetadata(): Metadata {
   const article = getArticleBySlug(SLUG)!;
   const image = article.images?.[0]?.src;
@@ -465,7 +478,7 @@ export default function LoadedTeaReviewPage() {
           <div className="lta-cta-headline">Ready To Try It For Yourself?</div>
           <a
             className="lta-cta-btn"
-            href={CTA_URL}
+            href={ctaUrl("mid_page_cta")}
             target="_blank"
             rel="noopener sponsored"
           >
@@ -548,7 +561,7 @@ export default function LoadedTeaReviewPage() {
           </div>
           <div className="lta-promo-save">SAVE 50% TODAY</div>
           <br />
-          <a className="lta-cta-btn" href={CTA_URL} target="_blank" rel="noopener sponsored">
+          <a className="lta-cta-btn" href={ctaUrl("promo_box_cta")} target="_blank" rel="noopener sponsored">
             Get My Loaded Tea — 50% Off Today →
           </a>
           <div className="lta-cta-sub" style={{ color: "var(--lta-muted)", marginTop: 12 }}>
@@ -574,7 +587,7 @@ export default function LoadedTeaReviewPage() {
 
         <div className="lta-final-cta">
           <h2>Stop Driving Across Town For Your Loaded Tea Fix.</h2>
-          <a className="lta-cta-btn" href={CTA_URL} target="_blank" rel="noopener sponsored">
+          <a className="lta-cta-btn" href={ctaUrl("final_cta")} target="_blank" rel="noopener sponsored">
             Get The Loaded Tea Shop — 50% Off Today →
           </a>
           <div className="lta-cta-sub">
