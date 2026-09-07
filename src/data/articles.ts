@@ -2286,6 +2286,117 @@ export const articles: Article[] = [
       url: "https://www.tomtoc.com/?rfsn=8995671.5c20eeb&utm_source=refersion&utm_medium=affiliate&utm_campaign=8995671.5c20eeb",
     },
   },
+  {
+        slug: "loaded-tea-review",
+        title:
+                "The Loaded Tea Shop Review: Is At-Home Loaded Tea Worth Switching To?",
+        dek: "Nutrition-club loaded tea usually means a drive, a line, and an $8-$9 cup. The Loaded Tea Shop sells the same style of flavored, vitamin-and-caffeine drink as an at-home powder. We looked at what's actually in a packet, how it's made, and whether the math holds up.",
+        excerpt:
+                "Zero sugar, 200mg of green tea caffeine, and 5g of collagen and protein per packet, across 30 flavors — here's what The Loaded Tea Shop actually gets right, and where to stay cautious.",
+        category: "Reviews",
+        topic: "Lifestyle",
+        author: "Megan Ellis",
+        date: "2026-09-07",
+        readTime: "6 min read",
+        gradient: ["#be123c", "#fb923c"],
+        emoji: "🧋",
+        images: [
+          {
+                    src: "https://www.theloadedteashop.com/cdn/shop/files/hero_m_dekstop_affinity_export_middle.png",
+                    alt: "The Loaded Tea Shop flavored loaded tea packets and mixed drinks",
+                    credit: "The Loaded Tea Shop",
+                    creditUrl: "https://www.theloadedteashop.com/",
+          },
+          {
+                    src: "https://www.theloadedteashop.com/cdn/shop/files/tlts_grup_st_-_Copy.png",
+                    alt: "Assorted The Loaded Tea Shop flavor packets and mixed drinks lined up",
+                    credit: "The Loaded Tea Shop",
+                    creditUrl: "https://www.theloadedteashop.com/",
+          },
+          {
+                    src: "https://cdn.shopify.com/s/files/1/0592/3661/4237/files/slhero-3.png",
+                    alt: "The Loaded Tea Shop Strawberry Lemonade loaded tea",
+                    credit: "The Loaded Tea Shop",
+                    creditUrl: "https://www.theloadedteashop.com/products/strawberry-lemonade",
+          },
+              ],
+        rating: 8.0,
+        pros: [
+                "Every flavor is 0g sugar and 0g carbs with no artificial flavors or colors, built around 200mg of green tea caffeine plus a B-vitamin complex with K2 and D3 instead of a sugar-syrup base",
+                "Each packet also carries 5g of collagen and protein — more than a plain caffeine hit — and makes two full 16oz servings instead of one",
+                "Manufactured in a Mississippi facility and third-party tested, with gluten-free and non-GMO formulations across the entire lineup",
+                "A strong review base — 4.6 out of 5 stars across 340+ verified reviews on its best-selling flavors — plus a 20-flavor mystery box for buyers who can't pick just one",
+                "Backed by a \"Loaded Tea Promise\": if a flavor isn't the right fit, the team works with the buyer to make it right, and shipping is free on orders over $20",
+              ],
+        cons: [
+                "At full price ($8 per packet before promotions), it isn't automatically cheaper than a multipack of a mainstream energy drink, even though it clearly undercuts an $8-$9 nutrition-club loaded tea",
+                "200mg of green tea caffeine per packet is a real dose — comparable to or higher than a strong cup of coffee — so it's not a fit for anyone sensitive to caffeine or cutting back",
+                "Thirty flavors plus regular limited releases can mean decision paralysis for first-time buyers who skip the mystery box or a smaller sampler",
+                "As with most direct-to-consumer supplement brands, ingredient and manufacturing claims are self-reported by the company rather than published in an independent lab report",
+              ],
+        sources: [
+          {
+                    title: "The Loaded Tea Shop — Official Site",
+                    url: "https://www.theloadedteashop.com/",
+          },
+          {
+                    title: "Strawberry Lemonade — Product Page",
+                    url: "https://www.theloadedteashop.com/products/strawberry-lemonade",
+          },
+              ],
+        content: [
+          {
+                    body: [
+                                "Loaded tea started as a nutrition-club drink: a flavored, vitamin-and-caffeine cup you order at a counter, usually for $8-$9, made to order and gone the moment you leave the shop. The Loaded Tea Shop sells the same style of drink as a shelf-stable powder packet you mix with water at home instead. We went through the brand's ingredient claims, manufacturing standards, pricing, and review base to see whether the at-home version actually holds up against the tea-bar original.",
+                              ],
+          },
+          {
+                    heading: "What's actually in a packet",
+                    image: {
+                                src: "https://www.theloadedteashop.com/cdn/shop/files/tlts_grup_st_-_Copy.png",
+                                alt: "Assorted The Loaded Tea Shop flavor packets and mixed drinks lined up",
+                                credit: "The Loaded Tea Shop",
+                                creditUrl: "https://www.theloadedteashop.com/",
+                    },
+                    body: [
+                                "Every flavor in the lineup is built around 200mg of green tea caffeine and a B-vitamin complex that includes K2 and D3, with 0g sugar and 0g carbs across the board — a meaningfully different formula than the syrup-based drinks a tea bar typically pours, which lean on sugar for flavor and get much of their \"crash\" reputation from that same sugar spiking and dropping.",
+                                "Each packet also includes 5g of collagen and protein, which puts it closer to a wellness-shake ingredient list than a typical canned energy drink, and one packet makes two full 16oz servings rather than one. No artificial flavors or colors are used in any flavor, according to the brand's product labeling.",
+                              ],
+          },
+          {
+                    heading: "Flavor variety and quality control",
+                    body: [
+                                "The catalog runs to roughly 30 flavors — from Strawberry Lemonade and Bahama Mama to novelty options like Fruit Ribbon and Rocket Pop — plus a 20-flavor mystery box aimed at buyers who'd rather sample broadly than commit to one flavor sight unseen. That's a genuine strength for a category that can otherwise feel repetitive after a few orders.",
+                                "On the manufacturing side, The Loaded Tea Shop says its products are made in a Mississippi facility and third-party tested, with every flavor formulated to be gluten-free and non-GMO. As with most direct-to-consumer supplement brands, those are manufacturer claims rather than figures we could independently verify against a published lab report, which is worth keeping in mind before treating them as an audited standard.",
+                              ],
+          },
+          {
+                    heading: "Price, reviews, and how it compares to a tea bar",
+                    image: {
+                                src: "https://cdn.shopify.com/s/files/1/0592/3661/4237/files/slhero-3.png",
+                                alt: "The Loaded Tea Shop Strawberry Lemonade loaded tea",
+                                credit: "The Loaded Tea Shop",
+                                creditUrl: "https://www.theloadedteashop.com/products/strawberry-lemonade",
+                    },
+                    body: [
+                                "Packets list at $8 each and are frequently discounted to around $4, which — since one packet makes two servings — works out to roughly $2-$4 per cup at home, against $8-$9 for a single made-to-order tea-bar cup plus the drive to get one. Shipping is free on orders over $20. On its best-selling flavors, the brand shows a 4.6-out-of-5 average across more than 340 verified reviews, with a visible pattern of repeat buyers reordering rather than one-time purchases.",
+                                "If a flavor doesn't land, The Loaded Tea Shop backs orders with what it calls its Loaded Tea Promise, saying its team will work with a buyer to make it right rather than leaving them stuck with a box they won't finish — a meaningful risk-reducer given how many flavors there are to choose from.",
+                              ],
+          },
+          {
+                    heading: "Verdict",
+                    body: [
+                                "The Loaded Tea Shop delivers on the core pitch: a zero-sugar, vitamin-and-caffeine drink with real nutritional extras (collagen, protein, a B-vitamin complex) built into the same packet as the caffeine, at a fraction of what a tea-bar visit costs once you factor in the drive and the wait. The 30-flavor catalog and the mystery box make it easy to find a few favorites without getting bored.",
+                                "The caveats are the caffeine dose, which is substantial enough to matter for anyone sensitive to it, and the fact that ingredient and manufacturing claims come from the brand itself rather than an independent lab report. For anyone who already enjoys nutrition-club loaded tea and wants the same drink on their own schedule, it's a legitimately good, budget-friendly switch.",
+                                "Disclosure: the button below is our affiliate link. If you buy through it, Nexoratech may earn a commission at no extra cost to you.",
+                              ],
+          },
+              ],
+        cta: {
+                label: "Shop The Loaded Tea Shop",
+                url: "https://www.theloadedteashop.com/PROFOLIMP58749",
+        },
+  },
         ];
 
 export function getAllArticles(): Article[] {
