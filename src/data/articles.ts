@@ -2289,10 +2289,10 @@ export const articles: Article[] = [
   {
         slug: "loaded-tea-review",
         title:
-                "The Loaded Tea Shop Review: Is At-Home Loaded Tea Worth Switching To?",
-        dek: "Nutrition-club loaded tea usually means a drive, a line, and an $8-$9 cup. The Loaded Tea Shop sells the same style of flavored, vitamin-and-caffeine drink as an at-home powder. We looked at what's actually in a packet, how it's made, and whether the math holds up.",
+                "10 Reasons I Stopped Paying $9 For Loaded Tea — And Started Making It At Home",
+        dek: "For almost a year my afternoon treat was a $9 loaded tea from the nutrition club across town. Here's the full, unglamorous list of why I switched to making it at home with The Loaded Tea Shop — and why it actually stuck.",
         excerpt:
-                "Zero sugar, 200mg of green tea caffeine, and 5g of collagen and protein per packet, across 30 flavors — here's what The Loaded Tea Shop actually gets right, and where to stay cautious.",
+                "Zero sugar, 200mg of green tea caffeine, and 5g of collagen and protein per packet, across 30 flavors — here's why I stopped driving to the tea bar and started mixing mine at home.",
         category: "Reviews",
         topic: "Lifestyle",
         author: "Megan Ellis",
