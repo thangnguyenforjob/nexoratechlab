@@ -46,9 +46,7 @@ type Reason = {
   n: string;
   tag: string;
   side: "left" | "right";
-  icon?: string;
-  imgLabel?: string;
-  photo?: { src: string; alt: string };
+  photo: { src: string; alt: string };
   title: string;
   body: string[];
   highlightLabel: string;
@@ -60,8 +58,10 @@ const REASONS: Reason[] = [
     n: "01",
     tag: "The Real Problem",
     side: "left",
-    icon: "⚡",
-    imgLabel: "Energy Without The Crash",
+    photo: {
+      src: "https://www.theloadedteashop.com/cdn/shop/files/drink1.png",
+      alt: "The Loaded Tea Shop energy drink packet mixed into a glass",
+    },
     title: "The “Energy Crash” Usually Isn’t From Caffeine — It’s From Sugar",
     body: [
       "Most loaded teas and energy drinks lean on flavored syrups to make them taste good. That's where the 2 p.m. crash actually comes from: a fast sugar spike followed by an even faster drop, which feels a lot like “the caffeine wearing off” even though caffeine had very little to do with it.",
@@ -76,8 +76,10 @@ const REASONS: Reason[] = [
     n: "02",
     tag: "What I Tried First",
     side: "right",
-    icon: "🚗",
-    imgLabel: "No More Drive-Thru Lines",
+    photo: {
+      src: "https://www.theloadedteashop.com/cdn/shop/files/drink4.png",
+      alt: "The Loaded Tea Shop loaded tea served in a cup at home",
+    },
     title: "I Tried Energy Drinks, Coffee, and the $9 Tea Bar Cup. None Of Them Stuck.",
     body: [
       "Canned energy drinks gave me the jitters and left an aftertaste I never got used to. Coffee after 1 p.m. meant I'd be staring at the ceiling at midnight. And the nutrition club loaded tea, while genuinely delicious, meant a drive, a wait in line, and store hours that didn't always match mine.",
@@ -92,8 +94,10 @@ const REASONS: Reason[] = [
     n: "03",
     tag: "Social Proof",
     side: "left",
-    icon: "⭐",
-    imgLabel: "340+ Verified Reviews",
+    photo: {
+      src: "https://www.theloadedteashop.com/cdn/shop/files/Mermaid_Hero.png",
+      alt: "Mermaid flavor loaded tea from The Loaded Tea Shop's best-selling lineup",
+    },
     title: "Over 340 Reviews In, And The Average Still Sits At 4.6 Stars",
     body: [
       "I don't usually trust a product until I've scrolled past the first screen of five-star reviews looking for the complaints. On The Loaded Tea Shop's best-selling flavors, I had to scroll a while — the pattern that kept showing up wasn't “it's fine,” it was “I've reordered twice already.”",
@@ -108,8 +112,10 @@ const REASONS: Reason[] = [
     n: "04",
     tag: "Ease",
     side: "right",
-    icon: "🥤",
-    imgLabel: "Just Add Water",
+    photo: {
+      src: "https://www.theloadedteashop.com/cdn/shop/files/purple_drink.png",
+      alt: "Loaded tea packet mixed with water, no blender or shaker needed",
+    },
     title: "No Blender, No Shaker Bottle, No Clean-Up",
     body: [
       "I already own too many kitchen gadgets I don't use. The last thing I wanted was another routine that required a blender or a shaker ball rattling around in my bag.",
@@ -141,8 +147,10 @@ const REASONS: Reason[] = [
     n: "06",
     tag: "Variety",
     side: "right",
-    icon: "🍓",
-    imgLabel: "30 Flavors To Rotate",
+    photo: {
+      src: "https://www.theloadedteashop.com/cdn/shop/files/TLTSbundles8.28_2.png",
+      alt: "The Loaded Tea Shop flavor bundles showing a rotation of packets",
+    },
     title: "Thirty Flavors Means You're Never Stuck In A Rut",
     body: [
       "Part of what kept me driving to the tea bar was the ritual of picking a flavor off the board. I didn't expect an at-home powder to replicate that, but with thirty options — Strawberry Lemonade, Bahama Mama, Fruit Ribbon, Rocket Pop, and dozens more — rotating flavors became part of the fun again.",
@@ -157,8 +165,10 @@ const REASONS: Reason[] = [
     n: "07",
     tag: "More Than Caffeine",
     side: "left",
-    icon: "💊",
-    imgLabel: "Collagen + Protein + B-Vitamins",
+    photo: {
+      src: "https://www.theloadedteashop.com/cdn/shop/files/HawaiianTropics_Hero.png",
+      alt: "Hawaiian Tropics flavor loaded tea packed with collagen, protein, and B-vitamins",
+    },
     title: "It's Not Just Caffeine — It's Collagen, Protein, and Vitamins",
     body: [
       "A canned energy drink is, functionally, caffeine and flavoring. That's fine, but it's also all you get for your money.",
@@ -173,8 +183,10 @@ const REASONS: Reason[] = [
     n: "08",
     tag: "Quality Standards",
     side: "right",
-    icon: "✅",
-    imgLabel: "Third-Party Tested",
+    photo: {
+      src: "https://www.theloadedteashop.com/cdn/shop/files/CandyCrush_Hero.png",
+      alt: "Candy Crush flavor loaded tea, third-party tested and made in Mississippi",
+    },
     title: "Made In Mississippi. Third-Party Tested. No Guesswork.",
     body: [
       "Powders and supplements are an easy category to be skeptical of, because quality control varies wildly brand to brand — and you usually can't tell the difference just by looking at the packet.",
@@ -189,8 +201,10 @@ const REASONS: Reason[] = [
     n: "09",
     tag: "The Math",
     side: "left",
-    icon: "💰",
-    imgLabel: "Roughly $2 A Serving",
+    photo: {
+      src: "https://www.theloadedteashop.com/cdn/shop/files/SassySissy_Hero.png",
+      alt: "Sassy Sissy flavor loaded tea, roughly $2 a serving made at home",
+    },
     title: "The Math Stopped Making Sense At $9 A Cup",
     body: [
       "Three or four tea bar visits a week at around $9 each adds up to well over $100 a month — and that's before counting gas or the ten minutes each way.",
@@ -265,7 +279,7 @@ export default function LoadedTeaReviewPage() {
   return (
     <article className="lta-root mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
       <style>{`
-.lta-root{--lta-sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;--lta-serif:Georgia,'Times New Roman',serif;--lta-text:#1c2430;--lta-muted:#667085;--lta-accent:#1a3a6b;--lta-accent2:#0078d4;--lta-green:#1a7d44;--lta-red:#c0392b;--lta-light:#f0f5ff;--lta-border:#c8d8f0;--lta-dark-bg:#0f2544;color:var(--lta-text)}
+.lta-root{--lta-sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;--lta-serif:Georgia,'Times New Roman',serif;--lta-text:#1c2430;--lta-muted:#7a6a8c;--lta-accent:#3f0791;--lta-accent2:#f702ad;--lta-green:#16a34a;--lta-red:#c0392b;--lta-light:#f6ecff;--lta-border:#eccbf0;--lta-dark-bg:#2a0a5c;color:var(--lta-text)}
 .lta-wrap{font-family:var(--lta-sans)}
 .lta-article-tag{display:inline-block;background:var(--lta-accent);color:#fff;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 10px;border-radius:2px;margin-bottom:16px}
 .lta-hero h1{font-family:var(--lta-serif);line-height:1.25}
@@ -275,7 +289,7 @@ export default function LoadedTeaReviewPage() {
 .lta-intro-text{font-family:var(--lta-serif);font-size:17px;line-height:1.85;margin-bottom:16px}
 .lta-intro-text strong{color:var(--lta-accent)}
 .lta-note-box{background:#fffbea;border-left:4px solid #f5a623;padding:14px 18px;font-size:14px;margin-bottom:8px;border-radius:0 4px 4px 0}
-.lta-rainbow-bar{height:4px;background:linear-gradient(90deg,var(--lta-accent),var(--lta-accent2),var(--lta-green),#8c1a6a);margin:32px 0;border-radius:2px}
+.lta-rainbow-bar{height:4px;background:linear-gradient(90deg,#901afd,var(--lta-accent2),#ff8a3d,var(--lta-green));margin:32px 0;border-radius:2px}
 .lta-reason-section{margin:32px 0}
 .lta-reason-number-label{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--lta-accent2);margin-bottom:12px;display:flex;align-items:center;gap:10px}
 .lta-reason-number-label::before{content:'';display:inline-block;width:28px;height:2px;background:var(--lta-accent2)}
@@ -284,11 +298,8 @@ export default function LoadedTeaReviewPage() {
 .lta-reason-grid.lta-img-left .lta-reason-text{order:2}
 .lta-reason-grid.lta-img-right .lta-reason-text{order:1}
 .lta-reason-grid.lta-img-right .lta-reason-img{order:2}
-.lta-reason-img{background:#eaf0fb;min-height:260px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0;overflow:hidden;position:relative}
+.lta-reason-img{background:#f6ecff;min-height:260px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0;overflow:hidden;position:relative}
 .lta-reason-img.lta-has-photo img{width:100%;height:100%;min-height:260px;object-fit:cover}
-.lta-reason-img-placeholder{width:100%;min-height:220px;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(135deg,#d6e4fb,#c0d6f7);border-radius:6px;padding:20px;text-align:center;gap:10px;margin:20px}
-.lta-img-ph-icon{font-size:34px;opacity:.6}
-.lta-img-ph-label{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--lta-accent);opacity:.8}
 .lta-reason-text{padding:28px 26px;background:#fff;display:flex;flex-direction:column;justify-content:center}
 .lta-reason-title{font-family:var(--lta-serif);font-size:clamp(16px,2vw,20px);font-weight:700;line-height:1.3;color:#0f1b2d;margin-bottom:14px}
 .lta-reason-body-text{font-size:14.5px;line-height:1.78;color:#2a2a2a}
@@ -308,7 +319,7 @@ export default function LoadedTeaReviewPage() {
 .lta-section-heading{font-family:var(--lta-serif);font-size:24px;font-weight:700;text-align:center;margin:8px 0 24px;color:#0f1b2d}
 .lta-testimonial{background:var(--lta-light);border:1px solid var(--lta-border);border-radius:8px;padding:24px;margin-bottom:16px}
 .lta-t-top{display:flex;align-items:center;gap:12px;margin-bottom:14px}
-.lta-t-avatar{width:48px;height:48px;border-radius:50%;background:#c0d6f7;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px;color:var(--lta-accent);flex-shrink:0}
+.lta-t-avatar{width:48px;height:48px;border-radius:50%;background:#e3c6f5;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px;color:var(--lta-accent);flex-shrink:0}
 .lta-t-name{font-weight:700;font-size:15px}
 .lta-t-meta{font-size:12px;color:var(--lta-muted)}
 .lta-t-stars{color:#f5a623;font-size:13px;margin-top:2px}
@@ -320,7 +331,7 @@ export default function LoadedTeaReviewPage() {
 .lta-feature-item{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:6px;padding:16px 14px;display:flex;align-items:flex-start;gap:12px}
 .lta-feature-icon{font-size:20px;flex-shrink:0}
 .lta-feature-text-title{font-weight:700;font-size:13.5px;margin-bottom:3px}
-.lta-feature-text-desc{font-size:12.5px;color:#c8d8f0;line-height:1.5}
+.lta-feature-text-desc{font-size:12.5px;color:#e3c6f5;line-height:1.5}
 .lta-two-paths{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:32px 0}
 .lta-path{border-radius:8px;padding:22px 20px}
 .lta-path-bad{background:#fff5f5;border:1px solid #f0c0be}
@@ -340,6 +351,7 @@ export default function LoadedTeaReviewPage() {
 .lta-promo-save{display:inline-block;background:#fdecea;color:var(--lta-red);font-size:12px;font-weight:700;padding:4px 10px;border-radius:20px;margin-bottom:20px}
 .lta-guarantee-box{background:var(--lta-light);border:1px dashed var(--lta-accent2);border-radius:10px;padding:26px 24px;text-align:center;margin:28px 0}
 .lta-guarantee-icon{font-size:30px;margin-bottom:10px}
+.lta-guarantee-badge{width:84px;height:auto;margin:0 auto 12px;display:block}
 .lta-guarantee-title{font-family:var(--lta-serif);font-size:17px;font-weight:700;margin-bottom:8px;color:var(--lta-accent)}
 .lta-guarantee-text{font-size:13.5px;color:#3a3a3a;max-width:520px;margin:0 auto;line-height:1.6}
 .lta-final-cta{background:linear-gradient(135deg,var(--lta-dark-bg),var(--lta-accent));color:#fff;border-radius:10px;padding:40px 24px;text-align:center;margin:36px 0}
@@ -545,7 +557,13 @@ export default function LoadedTeaReviewPage() {
         </div>
 
         <div className="lta-guarantee-box">
-          <div className="lta-guarantee-icon">🤝</div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            className="lta-guarantee-badge"
+            src="https://www.theloadedteashop.com/cdn/shop/files/money_back_teashop.png"
+            alt="The Loaded Tea Shop money-back guarantee badge"
+            loading="lazy"
+          />
           <div className="lta-guarantee-title">The Loaded Tea Promise</div>
           <div className="lta-guarantee-text">
             If a flavor isn&rsquo;t the right fit for you, The Loaded Tea Shop&rsquo;s team will
@@ -615,17 +633,10 @@ export default function LoadedTeaReviewPage() {
 }
 
 function ReasonBlock({ reason }: { reason: Reason }) {
-  const imgBlock = reason.photo ? (
+  const imgBlock = (
     <div className="lta-reason-img lta-has-photo">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={reason.photo.src} alt={reason.photo.alt} loading="lazy" />
-    </div>
-  ) : (
-    <div className="lta-reason-img">
-      <div className="lta-reason-img-placeholder">
-        <div className="lta-img-ph-icon">{reason.icon}</div>
-        <div className="lta-img-ph-label">{reason.imgLabel}</div>
-      </div>
     </div>
   );
 
