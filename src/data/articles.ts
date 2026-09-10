@@ -2397,6 +2397,100 @@ export const articles: Article[] = [
                 url: "https://www.theloadedteashop.com/PROFOLIMP58749",
         },
   },
+  {
+    slug: "iphone-duo-review",
+    title: "iPhone Duo Review: Apple's First Foldable iPhone Arrives at $1,999",
+    dek: "Apple's first foldable phone pairs a 7.6-inch inner display with a 5.4-inch outer screen, a titanium hinge built from more than 100 parts, and a $1,999 starting price — here's everything confirmed at launch.",
+    excerpt:
+      "The iPhone Duo is Apple's first foldable iPhone, with a 7.6-inch inner display, an A20 Pro chip, a dual battery system, and a $1,999 starting price. Pre-orders open October 16, with shipping starting October 23.",
+    category: "Reviews",
+    topic: "Phones",
+    author: "Emily Carter",
+    date: "2026-09-10",
+    readTime: "8 min read",
+    gradient: ["#111827", "#8b5cf6"],
+    emoji: "🪭",
+    images: [
+      {
+        src: "https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-colors-260909_big.jpg.large.jpg",
+        alt: "Apple iPhone Duo shown folded and unfolded in Star White and Night Sky",
+        credit: "Apple Newsroom",
+        creditUrl: "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+      },
+    ],
+    pros: [
+      "7.6-inch inner display and 5.4-inch outer display both support ProMotion, Always-On, and up to 3,000 nits of peak brightness",
+      "Grade 5 titanium frame with Ceramic Shield back and a new, tougher Ceramic Shield 2 front, rated IP68",
+      "A20 Pro chip on a 2-nanometer process with a dual 16-core Neural Engine for on-device Apple Intelligence",
+      "Dual battery system rated for up to 44 hours of video playback when only the outer display is in use",
+    ],
+    cons: [
+      "Starts at $1,999 for 256GB, roughly $800 more than the iPhone 18 Pro",
+      "Touch ID on the side button replaces Face ID, a trade-off for fitting the folding hinge",
+      "Pre-orders don't open until October 16, with shipping starting October 23 in just over 70 countries at launch",
+    ],
+    sources: [
+      {
+        title: "Apple Unveils iPhone Duo — Apple Newsroom",
+        url: "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+      },
+      {
+        title:
+          "iPhone Duo is official — price, release date, specs, and everything you need to know — Tom's Guide",
+        url: "https://www.tomsguide.com/phones/iphones/iphone-duo-is-official-price-release-date-specs-and-everything-you-need-to-know",
+      },
+      {
+        title: "iPhone Fold / iPhone Duo: Everything We Know — MacRumors",
+        url: "https://www.macrumors.com/roundup/iphone-fold/",
+      },
+    ],
+    featured: true,
+    content: [
+      {
+        body: [
+          "Apple used a September 9 event, its first keynote under new CEO John Ternus, to introduce the iPhone Duo: the company's first foldable iPhone and the biggest structural change to the iPhone lineup since the original model shipped in 2007. Alongside the standard iPhone 18 and iPhone 18 Pro, the Duo opens a new, more expensive tier of the iPhone lineup aimed squarely at Samsung's Galaxy Z Fold series and the wider foldable phone market. Here's what Apple actually confirmed about the design, cameras, performance, and price.",
+        ],
+      },
+      {
+        heading: "Design and Displays",
+        image: {
+          src: "https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-display-sizes-260909_big.jpg.large.jpg",
+          alt: "iPhone Duo inner and outer display size comparison",
+          credit: "Apple Newsroom",
+        },
+        body: [
+          "The iPhone Duo folds along a book-style hinge, closing to reveal a 5.4-inch Super Retina XDR outer display and opening to a 7.6-inch Super Retina XDR inner display, sized so the outer screen still covers 90 percent of the iPhone 18 Pro's screen area for one-handed use. Both panels support ProMotion, an Always-On mode, and up to 3,000 nits of peak brightness, and the inner display adds a nano-texture finish designed to cut glare when the phone is opened flat like a small tablet.",
+          "The frame is machined from Grade 5 titanium with a mirror-polished finish, while a Ceramic Shield back and a new Ceramic Shield 2 front, rated three times more scratch-resistant than the standard Ceramic Shield, cover the outer screen. Apple also built the hinge itself from more than 100 individual components to keep the crease down the middle of the inner display as shallow as possible, and the whole device carries an IP68 rating for water and dust resistance, unusual for a folding phone at launch. It ships in two colors, Star White and Night Sky.",
+        ],
+      },
+      {
+        heading: "Cameras and Performance",
+        body: [
+          "On the camera side, the iPhone Duo uses a 48-megapixel Fusion main camera with a 2x optical-quality telephoto crop and zero shutter lag, paired with a 48-megapixel Ultra Wide lens, the same Ultra Wide sensor Apple put in the iPhone 18 Pro. Rather than a conventional selfie camera, Apple hid a Center Stage FaceTime camera underneath the inner display, letting video calls use the full screen without a notch or cutout. Video capture tops out at 4K at 120 frames per second in Dolby Vision, with Apple's Cinematic post-capture effects available up to 60fps.",
+          "Powering all of it is the new A20 Pro chip, built on a 2-nanometer process with a 6-core CPU that Apple rates 20 percent faster than the A19 Pro, a 7-core GPU up 40 percent, and a dual 16-core Neural Engine with twice the compute power of the previous generation for on-device Apple Intelligence tasks. Apple says sustained performance, the number that actually matters once a phone heats up during long tasks, is 35 percent better than the iPhone 17 Pro, credited largely to a custom vapor chamber cooling system that a folding chassis has more room to fit than a slab phone does.",
+        ],
+      },
+      {
+        heading: "Battery, Software, and Multitasking",
+        body: [
+          "The Duo runs a dual battery system, with one battery on each side of the hinge, rated for up to 31 hours of video playback using the inner display alone, 44 hours on the outer display alone, or 24 hours with even use of both. Wired charging reaches 50 percent in about 20 minutes, while wireless MagSafe and Qi2 charging reach the same mark in roughly 30 minutes.",
+          "Software runs iOS 27.1, tuned specifically around the folding form factor. The headline addition is Split View, Apple's first native side-by-side multitasking mode for the iPhone, alongside a handful of Duo-specific features Apple is branding as Smart Take, Duo Preview, Kid Cue, Duo FaceTime, and Call Context, plus an upgraded StandBy mode with new Calendar and Weather faces for when the phone is propped open on a desk. One trade-off: with no room left for a Face ID sensor array, the Duo authenticates through a Touch ID sensor built into the side power button instead.",
+        ],
+      },
+      {
+        heading: "Price, Availability, and Early Verdict",
+        image: {
+          src: "https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-Folio-taupe-260909_big.jpg.large.jpg",
+          alt: "iPhone Duo shown with Apple's Folio case accessory",
+          credit: "Apple Newsroom",
+        },
+        body: [
+          "The iPhone Duo starts at $1,999 for 256GB, or $83.29 a month over 24 months, and climbs from there through 512GB, 1TB, and 2TB configurations. Apple CEO John Ternus called it \"the most transformational change to iPhone since the original,\" though how that holds up will depend on real-world use rather than a keynote.",
+          "Pre-orders open October 16, with the iPhone Duo shipping October 23 in more than 70 countries and reaching additional markets on October 30. At roughly $800 more than the iPhone 18 Pro, it's priced as a category of its own rather than a mainstream upgrade, a phone for people who specifically want the bigger inner screen and are willing to pay Apple's premium for a first-generation folding design. We'll publish a full review once we've spent real time with the hinge, the battery, and Split View under daily use.",
+        ],
+      },
+    ],
+  },
         ];
 
 export function getAllArticles(): Article[] {
