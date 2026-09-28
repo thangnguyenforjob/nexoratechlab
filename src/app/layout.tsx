@@ -38,7 +38,10 @@ export const metadata: Metadata = {
     verification: {
         google: "DhS3kXlAea1lMfnty4SNAv9Ik0U26cJDT6igc29c17Y",
     },
-    other: { "fo-verify": "4779ac85-10a4-4dbd-9c59-c290a5887443" },
+    other: {
+    "fo-verify": "4779ac85-10a4-4dbd-9c59-c290a5887443",
+    partnerboostverifycode: "32dc01246faccb7f5b3cad5016dd5033",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
