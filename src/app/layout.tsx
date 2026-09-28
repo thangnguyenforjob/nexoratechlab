@@ -41,6 +41,7 @@ export const metadata: Metadata = {
     other: {
     "fo-verify": "4779ac85-10a4-4dbd-9c59-c290a5887443",
     partnerboostverifycode: "32dc01246faccb7f5b3cad5016dd5033",
+    "p:domain_verify": "35e0b629e839bd8736a8726109303ba9",
   },
 };
 
