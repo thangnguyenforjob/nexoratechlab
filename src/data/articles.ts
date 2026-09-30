@@ -2491,6 +2491,112 @@ export const articles: Article[] = [
       },
     ],
   },
+  {
+    slug: "insta360-x6-review",
+    title: "Insta360 X6 Review: The Sharpest 360 Camera Yet, at a Steep $699 Price",
+    dek: "Insta360's flagship 360 camera pairs dual 1-inch-equivalent sensors with 8K50fps capture, a triple AI chip, and IP68 waterproofing to 20 meters — here's whether the $699.99 price is worth it.",
+    excerpt:
+      "The Insta360 X6 brings dual 1/1.1-inch sensors, 8K50fps 360 video, and a triple AI chip that edits your footage for you. We break down the specs, the image quality, and whether it's worth $699.99.",
+    category: "Reviews",
+    topic: "Lifestyle",
+    author: "Ryan Bennett",
+    date: "2026-09-29",
+    readTime: "7 min read",
+    gradient: ["#0c0c0c", "#ff5b04"],
+    emoji: "📷",
+    images: [
+      {
+        src: "https://wassets.insta360.com/common/b12b6e9b3f46462aacb3e0d88d6a8797/1680.jpg",
+        alt: "Insta360 X6 360-degree camera shown in hand",
+        credit: "Insta360",
+        creditUrl: "https://www.insta360.com/product/insta360-x6",
+      },
+    ],
+    rating: 8.7,
+    pros: [
+      "Dual 1/1.1-inch Sony sensors deliver noticeably sharper, less blurry edges than the GoPro Max 2 in side-by-side testing",
+      "Triple AI chip system automates highlight reels with AI Director and delivers curated Auto Edit 2.0 cuts within 24 hours",
+      "IP68 waterproof to 20 meters without a case, and to 60 meters with the optional Invisible Dive Case Pro",
+      "2,600mAh Xtreme Battery runs about 140 minutes at 8K30fps and keeps working down to -20°C",
+      "Replaceable Lenses 2.0 means a scratched or cracked lens dome doesn't retire the whole camera",
+    ],
+    cons: [
+      "At $699.99, it's the most expensive mainstream action camera on the market, GoPro and DJI included",
+      "Wide-angle 360 modes still show visible stitch lines when a subject crosses the overlap zone between the two lenses",
+      "Just 47GB of usable onboard storage before you need a microSD card, tight for sustained 8K shooting",
+    ],
+    sources: [
+      {
+        title: "Insta360 Unveils X6: The Biggest Leap in 360 Capture Yet — Insta360",
+        url: "https://www.insta360.com/blog/insta360-x6-launch.html",
+      },
+      {
+        title:
+          "Insta360 X6 review: A 360 camera with a little something for everyone — Engadget",
+        url: "https://www.engadget.com/2234775/insta360-x6-review/",
+      },
+      {
+        title:
+          "Insta360 X6 Review: A near-perfect 360° camera with a wild price tag — Notebookcheck",
+        url: "https://www.notebookcheck.net/Insta360-X6-Review-A-near-perfect-360-camera-with-a-wild-price-tag.1395004.0.html",
+      },
+    ],
+    content: [
+      {
+        body: [
+          "Insta360 launched the X6 on August 12, 2026, positioning it as the biggest jump in 360-degree capture since the X5 landed two years earlier. The camera keeps the familiar candy-bar shape that's defined the X-series for five generations, but almost everything underneath it is new: bigger sensors, a faster chip, deeper waterproofing, and an editing system built to cut a full highlight reel without ever opening a timeline. At $699.99, it's also the most expensive camera Insta360 has ever shipped, so we went through the specs, the hardware, and the early reviews to see whether the jump justifies the price.",
+        ],
+      },
+      {
+        heading: "Bigger Sensors, Familiar Shape",
+        image: {
+          src: "https://wassets.insta360.com/common/33af52bf27294924bcfc42da04658e25/ultra-flagship-8k-1-inch-panorama.jpg",
+          alt: "Insta360 X6 dual 1-inch-equivalent sensor and 8K panorama capability",
+          credit: "Insta360",
+          creditUrl: "https://www.insta360.com/product/insta360-x6",
+        },
+        body: [
+          "The core upgrade sits behind the two lenses: dual Sony 1/1.1-inch square sensors that combine into a 1-inch-equivalent image circle, up from the smaller sensors in the X5. That extra surface area is what lets the X6 shoot 8K video at 50 frames per second in full 360 mode, or switch to a single lens for 5K at 60fps, 4K at 120fps for slow motion, or 120-megapixel spherical stills. Reviewers who've shot side-by-side with the GoPro Max 2 report the X6 pulling noticeably more detail and less blur toward the edge of the frame, where 360 cameras traditionally struggle most.",
+          "The body itself measures 99 x 50.8 x 60.6mm and weighs 196 grams, and it carries an IP68 rating good for 20 meters without a case, extending to 60 meters with the optional Invisible Dive Case Pro. A 2.32-inch OLED display on the back, rated to 1,200 nits of peak brightness, makes framing shots in direct sunlight far easier than on earlier X-series screens.",
+        ],
+      },
+      {
+        heading: "A Triple AI Chip Doing the Editing",
+        body: [
+          "Insta360 built the X6 around what it calls a triple AI chip system: an 8-core, 3.3GHz processor on a 4-nanometer process, paired with two dedicated imaging chips that handle stitching and stabilization in real time. That hardware is what powers AI Director, a fully automated edit mode, and Auto Edit 2.0, which runs raw 360 footage through Insta360's PanoMind model and hands back a curated cut within 24 hours. InstaFrame 2.0 adds subject tracking in single-lens mode while still recording the full 360 sphere in the background, so a shot framed wrong in the moment can be reframed later without losing anything.",
+          "Insta360 is marketing the X6 as three cameras in one — a 360 camera, a subject-tracking flat camera, and an action cam — and on paper, the feature set backs that up more convincingly than past X-series models managed.",
+        ],
+      },
+      {
+        heading: "Stabilization and Real-World Image Quality",
+        body: [
+          "FlowState stabilization and 360 Horizon Lock keep footage level through drops, spins, and handoffs between hands, a core X-series strength that carries over unchanged. Native Dolby Vision recording, with 10-bit color captured in-camera, and support for Insta360's i-Log color profile give the X6 more room to grade footage after the fact than most action cameras allow.",
+          "Image quality isn't flawless: reviewers note that wide-angle 360 modes can still produce visibly warped perspective, and stitch lines between the two lenses remain visible when a subject passes directly through the overlap zone — a limitation built into the two-lens format itself, not something software alone can fully solve. Switching to Linear mode largely cleans up the distortion, at the cost of the full spherical view. Notebookcheck's review called the X6 \"the finest 360° camera the company has ever made,\" while flagging that upgrading from the X5 specifically is a harder sell than upgrading from an X3 or X4.",
+        ],
+      },
+      {
+        heading: "Battery, Storage, and a Real Accessory Ecosystem",
+        image: {
+          src: "https://wassets.insta360.com/common/c8c898ed6ef54959a469829dc834dd37/swappable-lens-2.0.jpg",
+          alt: "Insta360 X6 Replaceable Lenses 2.0 system for swapping a scratched lens dome",
+          credit: "Insta360",
+          creditUrl: "https://www.insta360.com/product/insta360-x6",
+        },
+        body: [
+          "The 2,600mAh Xtreme Battery is rated for about 140 minutes of continuous 8K30fps 360 recording, reaches 80 percent charge in 24 minutes on the included fast-charge case, and keeps working down to -20°C, useful for anyone shooting in genuinely cold conditions rather than a mild winter day. Storage is 64GB built in, 47GB of which is usable, a number that fills up fast at 8K and makes the microSD expansion slot less of a nice-to-have and more of a requirement for longer shoots.",
+          "Insta360's Replaceable Lenses 2.0 system lets a scratched or cracked lens dome be swapped out rather than sending the whole camera in for repair, and the accessory lineup extends further: a Power Selfie Stick, a foldable remote kit, a Bullet Time Selfie Stick 2.0 for the spinning-shot effect, and a motorcycle mount with a built-in speed dashboard overlay all ship as add-ons rather than being bundled in.",
+        ],
+      },
+      {
+        heading: "Verdict",
+        body: [
+          "$699.99 puts the X6 above every mainstream action camera on the market, GoPro and DJI included, and that price is the one real obstacle standing between this camera and an easy recommendation. If you're shooting on an X3 or an X4, the sensor jump alone makes a strong case to upgrade. Coming from an X5, the case is thinner: you're paying a premium for sharper edges, a faster chip, and an editing system that does more of the work for you, not for a fundamentally different camera.",
+          "For anyone shooting 360 video seriously enough to care about sensor size and stitch quality, the X6 is the best version of Insta360's format yet. For anyone shooting casually, the X5 remains the smarter buy at a lower price, and that trade-off is really the whole review in one sentence.",
+        ],
+      },
+    ],
+  },
+
         ];
 
 export function getAllArticles(): Article[] {
